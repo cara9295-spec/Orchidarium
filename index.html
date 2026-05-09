@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Orchidarium">
+<title>Orchidarium · Orquídeas del mundo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf6ee; --bg-2: #f1ead8; --ink: #1c1d18; --ink-2: #45463f;
+  --moss: #2d5a3d; --moss-2: #3d7a52; --bloom: #b13652; --bloom-2: #d6627c;
+  --gold: #c9a961; --paper: #fffdf6; --line: rgba(28,29,24,.12);
+  --serif: 'Fraunces', 'Times New Roman', serif;
+  --sans: 'DM Sans', -apple-system, system-ui, sans-serif;
+  --mono: 'DM Mono', monospace;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--sans); color: var(--ink); background: var(--bg); min-height: 100vh;
+  background-image:
+    radial-gradient(800px 400px at 100% -100px, rgba(177,54,82,0.08), transparent 60%),
+    radial-gradient(700px 500px at -100px 30%, rgba(45,90,61,0.07), transparent 60%);
+  -webkit-font-smoothing: antialiased;
+}
+button { font-family: inherit; cursor: pointer; }
+input { font-family: inherit; -webkit-appearance: none; }
+
+/* ––––– header ––––– */
+.oa-header {
+display: flex; justify-content: space-between; align-items: center;
+padding: 16px 20px; position: sticky; top: 0; z-index: 50;
+-webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+background: rgba(250,246,238,.85); border-bottom: 1px solid var(–line);
+}
+.oa-logo { display: flex; gap: 8px; align-items: center; background: none; border: 0; padding: 0; }
+.oa-logo-mark {
+font-family: var(–serif); font-size: 26px; color: var(–bloom);
+transform: rotate(-12deg) translateY(-1px);
+text-shadow: 0 0 20px rgba(177,54,82,0.35);
+}
+.oa-logo-text { font-family: var(–serif); font-weight: 600; font-size: 19px; letter-spacing: -.01em; color: var(–ink); }
+.oa-nav { display: flex; gap: 14px; align-items: center; font-size: 12px; }
+.oa-pill {
+padding: 4px 9px; border-radius: 99px;
+background: rgba(45,90,61,.12); color: var(–moss);
+font-family: var(–mono); font-size: 10px; letter-spacing: .05em; text-transform: uppercase;
+}
+
+/* ––––– hero ––––– */
+.oa-hero { position: relative; overflow: hidden; padding: 40px 20px 50px; }
+.oa-hero-orbs { position: absolute; inset: 0; pointer-events: none; }
+.oa-orb { position: absolute; border-radius: 50%; filter: blur(60px); opacity: .4; animation: drift 14s ease-in-out infinite alternate; }
+.oa-orb-1 { width: 280px; height: 280px; background: radial-gradient(circle, var(–bloom-2), transparent 70%); top: -70px; right: -50px; }
+.oa-orb-2 { width: 380px; height: 380px; background: radial-gradient(circle, var(–moss-2), transparent 65%); bottom: -180px; left: -100px; animation-delay: -5s; }
+@keyframes drift { 0% { transform: translate(0,0); } 100% { transform: translate(20px,-15px); } }
+.oa-hero-inner { max-width: 720px; margin: 0 auto; position: relative; z-index: 1; }
+.oa-eyebrow {
+font-family: var(–mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+color: var(–moss); margin: 0 0 18px; animation: fadeUp .8s .1s both;
+}
+.oa-title {
+font-family: var(–serif); font-weight: 500; font-size: clamp(36px, 9vw, 64px);
+line-height: .98; letter-spacing: -0.025em; margin: 0 0 22px; color: var(–ink);
+animation: fadeUp .9s .15s both;
+}
+.oa-title em { font-style: italic; color: var(–bloom); font-weight: 500; }
+.oa-lede { font-size: 16px; line-height: 1.6; color: var(–ink-2); margin: 0 0 28px; animation: fadeUp .9s .25s both; }
+.oa-search {
+display: flex; align-items: center; gap: 6px;
+background: var(–paper); border: 1px solid var(–line); border-radius: 99px;
+padding: 5px 5px 5px 18px;
+box-shadow: 0 1px 0 rgba(255,255,255,1) inset, 0 18px 40px -22px rgba(28,29,24,.18);
+animation: fadeUp .9s .3s both;
+}
+.oa-search input {
+flex: 1; border: 0; outline: 0; font-size: 16px;
+background: transparent; color: var(–ink); padding: 12px 4px; min-width: 0;
+}
+.oa-search input::placeholder { color: rgba(28,29,24,.4); }
+.oa-search-icon { color: var(–moss); flex-shrink: 0; }
+.oa-search-btn {
+background: var(–ink); color: var(–paper); border: 0; padding: 11px 18px;
+border-radius: 99px; font-weight: 500; font-size: 14px;
+transition: all .2s; flex-shrink: 0;
+}
+.oa-search-btn:active { background: var(–bloom); }
+.oa-suggestions { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 18px; animation: fadeUp .9s .4s both; }
+.oa-chip {
+font-size: 13px; padding: 6px 12px;
+border-radius: 99px; background: rgba(45,90,61,.08); color: var(–moss);
+border: 1px solid rgba(45,90,61,.2); transition: all .2s;
+}
+.oa-chip:active { background: var(–moss); color: var(–paper); }
+
+/* ––––– sections ––––– */
+.oa-section-head {
+max-width: 720px; margin: 0 auto 22px; padding: 0 20px;
+}
+.oa-section-head h2 { font-family: var(–serif); font-weight: 500; font-size: 32px; margin: 0 0 6px; letter-spacing: -.02em; }
+.oa-section-head p { color: var(–ink-2); margin: 0; font-size: 14px; }
+.oa-curated, .oa-sources { padding: 40px 0 50px; }
+
+/* ––––– grid ––––– */
+.oa-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+gap: 14px; max-width: 720px; margin: 0 auto; padding: 0 20px;
+}
+.oa-card {
+background: var(–paper); border-radius: 16px; overflow: hidden;
+border: 1px solid var(–line); animation: cardIn .6s cubic-bezier(.2,.8,.2,1) both;
+transition: transform .3s, box-shadow .3s;
+}
+.oa-card:active { transform: scale(0.98); box-shadow: 0 10px 30px -15px rgba(28,29,24,.3); }
+.oa-card-img { position: relative; aspect-ratio: 4/5; overflow: hidden; background: var(–bg-2); }
+.oa-card-img svg { width: 100%; height: 100%; display: block; }
+.oa-card-body { padding: 12px 14px 14px; }
+.oa-card-body h3 {
+margin: 0 0 4px; font-family: var(–serif); font-weight: 500;
+font-size: 16px; line-height: 1.2; letter-spacing: -.005em;
+}
+.oa-card-body em { font-style: italic; }
+.oa-card-common { color: var(–ink-2); font-size: 12px; margin: 0 0 6px; }
+.oa-card-region {
+color: var(–moss); font-size: 11px; margin: 0;
+display: flex; align-items: center; gap: 4px;
+white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.oa-card-tags { display: flex; gap: 4px; margin-top: 8px; flex-wrap: wrap; }
+.oa-tag {
+font-family: var(–mono); font-size: 9px; letter-spacing: .08em;
+padding: 2px 7px; border-radius: 4px; background: rgba(0,0,0,.05);
+color: var(–ink-2); display: inline-flex; align-items: center; gap: 3px;
+}
+.oa-iucn-LC { background: rgba(45,90,61,.18); color: var(–moss); }
+.oa-iucn-NT { background: rgba(201,169,97,.25); color: #856326; }
+.oa-iucn-VU { background: rgba(214,98,124,.18); color: var(–bloom); }
+.oa-iucn-EN { background: rgba(177,54,82,.2); color: var(–bloom); }
+.oa-iucn-CR { background: var(–bloom); color: var(–paper); }
+.oa-cites { background: rgba(28,29,24,.85); color: var(–paper); }
+
+/* ––––– detail ––––– */
+.oa-detail { max-width: 720px; margin: 0 auto; padding: 16px 20px 50px; }
+.oa-back {
+background: none; border: 0; color: var(–moss);
+font-size: 14px; padding: 8px 0; margin-bottom: 16px;
+display: inline-flex; align-items: center; gap: 4px;
+}
+.oa-detail-image {
+aspect-ratio: 4/5; overflow: hidden; border-radius: 18px;
+border: 1px solid var(–line); background: var(–bg-2);
+box-shadow: 0 30px 60px -30px rgba(28,29,24,.4); margin-bottom: 24px;
+}
+.oa-detail-image svg { width: 100%; height: 100%; display: block; }
+.oa-detail-meta h1 {
+font-family: var(–serif); font-weight: 500; font-size: 36px;
+line-height: 1.05; margin: 8px 0 6px; letter-spacing: -.025em;
+}
+.oa-detail-meta h1 em { font-style: italic; }
+.oa-authority { font-size: 14px; color: var(–ink-2); margin: 0 0 14px; }
+.oa-detail-common {
+font-size: 19px; color: var(–bloom); margin: 0 0 16px;
+font-family: var(–serif); font-style: italic;
+}
+.oa-detail-desc { font-size: 15px; line-height: 1.6; color: var(–ink-2); margin: 0 0 18px; }
+.oa-detail-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 24px; }
+.oa-detail-grid {
+display: grid; grid-template-columns: 1fr 1fr;
+gap: 10px; margin-bottom: 30px;
+}
+.oa-stat {
+display: flex; gap: 10px; align-items: center; padding: 12px 14px;
+border-radius: 12px; background: var(–paper); border: 1px solid var(–line);
+}
+.oa-stat-ico {
+width: 32px; height: 32px; border-radius: 8px;
+background: rgba(45,90,61,.12); color: var(–moss);
+display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+font-size: 16px;
+}
+.oa-stat span { display: block; font-size: 9px; text-transform: uppercase; letter-spacing: .08em; color: var(–ink-2); margin-bottom: 2px; }
+.oa-stat strong { display: block; font-size: 12px; line-height: 1.3; }
+.oa-external { padding: 22px; background: var(–paper); border: 1px solid var(–line); border-radius: 18px; }
+.oa-external h3 { font-family: var(–serif); font-weight: 500; font-size: 18px; margin: 0 0 14px; }
+.oa-external-links { display: flex; flex-direction: column; gap: 6px; }
+.oa-external-links a {
+display: flex; justify-content: space-between; align-items: center;
+padding: 12px 14px; border-radius: 10px; background: var(–bg);
+color: var(–ink); text-decoration: none; font-size: 13px; transition: all .2s;
+}
+.oa-external-links a:active { background: var(–moss); color: var(–paper); }
+
+/* ––––– results ––––– */
+.oa-results { padding: 0 0 50px; }
+.oa-result-count { padding: 16px 20px 0; color: var(–ink-2); font-size: 14px; margin: 0 0 14px; max-width: 720px; margin-left: auto; margin-right: auto; }
+.oa-empty { text-align: center; padding: 50px 20px; color: var(–ink-2); }
+
+/* ––––– sources ––––– */
+.oa-sources { max-width: 720px; margin: 0 auto; padding: 30px 20px 50px; }
+.oa-sources h2 { font-size: 26px; margin: 0 0 6px; font-family: var(–serif); font-weight: 500; }
+.oa-sources > p { color: var(–ink-2); margin: 0 0 20px; font-size: 14px; }
+.oa-sources-grid { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.oa-source {
+display: block; padding: 14px 16px; background: var(–paper);
+border: 1px solid var(–line); border-radius: 12px;
+text-decoration: none; color: var(–ink); transition: all .2s;
+}
+.oa-source:active { border-color: var(–moss); }
+.oa-source strong { display: block; font-family: var(–mono); font-size: 11px; color: var(–moss); letter-spacing: .08em; margin-bottom: 3px; }
+.oa-source span { display: block; font-family: var(–serif); font-size: 15px; font-weight: 500; margin-bottom: 4px; }
+.oa-source em { display: block; font-style: normal; font-size: 11px; color: var(–ink-2); }
+
+/* ––––– footer ––––– */
+.oa-footer {
+text-align: center; padding: 24px 20px; border-top: 1px solid var(–line);
+color: var(–ink-2); font-size: 12px;
+}
+.oa-footer p { margin: 4px 0; }
+
+/* ––––– animations ––––– */
+@keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes cardIn { from { opacity: 0; transform: translateY(20px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes shimmer { 0% { background-position: -100% 0; } 100% { background-position: 100% 0; } }
+
+.hidden { display: none !important; }
+</style>
+
+</head>
+<body>
+
+<header class="oa-header">
+  <button class="oa-logo" id="logoBtn">
+    <span class="oa-logo-mark">❋</span>
+    <span class="oa-logo-text">Orchidarium</span>
+  </button>
+  <nav class="oa-nav">
+    <span class="oa-pill">Supabase live</span>
+  </nav>
+</header>
+
+<div id="appView"></div>
+
+<footer class="oa-footer">
+  <p>Datos taxonómicos: Kew/POWO · GBIF · World Flora Online · iNaturalist</p>
+  <p>Cada flor es un dibujo SVG generativo (forma típica de su género + paleta cromática real).</p>
+</footer>
+
+<script>
+// ============================================================================
+// CONFIGURACIÓN DE SUPABASE  ← tus llaves del proyecto
+// ============================================================================
+const SUPABASE_URL = 'https://gnmhfsurjieoafxbarow.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_GlHrKPElQC4F98USYVEVGA_eIZz3ULC';
+
+// ============================================================================
+// PALETAS Y FORMAS SVG por género (para que cada flor tenga su dibujo)
+// ============================================================================
+const GENUS_STYLES = {
+  Cattleya:       { palette: ['#f5c6dc', '#d6627c', '#8a2845', '#f4d76e', '#3d7a52'], shape: 'cattleya' },
+  Phalaenopsis:   { palette: ['#ffffff', '#fff5f0', '#fdc7d6', '#f4d76e', '#3d7a52'], shape: 'phalaenopsis' },
+  Vanilla:        { palette: ['#f4e9b8', '#d8c054', '#a8731c', '#5a3a1b', '#3d7a52'], shape: 'vanilla' },
+  Dendrobium:     { palette: ['#fde0ed', '#e8a3c4', '#b13652', '#5a1b3d', '#3d7a52'], shape: 'dendrobium' },
+  Paphiopedilum:  { palette: ['#f4e9b8', '#a89243', '#5a3a1b', '#2d1810', '#3d7a52'], shape: 'paphiopedilum' },
+  Phragmipedium:  { palette: ['#ff8a5b', '#e8412c', '#9c1f10', '#5a1b3d', '#3d7a52'], shape: 'paphiopedilum' },
+  Masdevallia:    { palette: ['#ff8c42', '#e8412c', '#b13652', '#7a2856', '#3d7a52'], shape: 'masdevallia' },
+  Vanda:          { palette: ['#c8d4f0', '#8aa3d8', '#4a5f9e', '#2d3f70', '#3d7a52'], shape: 'vanda' },
+  Cymbidium:      { palette: ['#f4e9b8', '#c9a961', '#856326', '#5a3a1b', '#3d7a52'], shape: 'cymbidium' },
+  Dracula:        { palette: ['#fce8d4', '#c9a961', '#856326', '#3d2818', '#3d7a52'], shape: 'dracula' },
+  Bulbophyllum:   { palette: ['#fde0ed', '#d68a9c', '#8a2845', '#4d1228', '#3d7a52'], shape: 'bulbophyllum' },
+  Oncidium:       { palette: ['#ffd95c', '#e8b942', '#a8731c', '#5a3a1b', '#3d7a52'], shape: 'oncidium' }
+};
+const DEFAULT_STYLE = { palette: ['#e8a3c4', '#d6627c', '#b13652', '#f4d76e', '#3d7a52'], shape: 'cattleya' };
+
+// Enriquece una orquídea de Supabase con su paleta y forma SVG
+function enrichOrchid(o) {
+  const style = GENUS_STYLES[o.genus_name] || DEFAULT_STYLE;
+  // emojis de bandera por país principal
+  const flagMap = { CO:'🇨🇴', MX:'🇲🇽', PE:'🇵🇪', EC:'🇪🇨', ID:'🇮🇩', IN:'🇮🇳', CN:'🇨🇳', MY:'🇲🇾', TH:'🇹🇭', PH:'🇵🇭', JP:'🇯🇵', VN:'🇻🇳', BR:'🇧🇷', VE:'🇻🇪' };
+  const firstCountry = (o.countries && o.countries[0]) || '';
+  return {
+    ...o,
+    full_name: o.full_name || (o.genus_name + ' ' + o.specific_epithet),
+    common_es: (o.common_names && o.common_names.es) || '',
+    common_en: (o.common_names && o.common_names.en) || '',
+    emoji: flagMap[firstCountry] || '',
+    palette: style.palette,
+    shape: style.shape
+  };
+}
+
+// Conversión de códigos ISO a nombres completos
+const COUNTRY_NAMES = {
+  CO: 'Colombia', ID: 'Indonesia', PH: 'Filipinas', MY: 'Malasia', AU: 'Australia',
+  MX: 'México', GT: 'Guatemala', BZ: 'Belice', CR: 'Costa Rica',
+  IN: 'India', NP: 'Nepal', BT: 'Bután', CN: 'China', MM: 'Birmania',
+  TH: 'Tailandia', VN: 'Vietnam', EC: 'Ecuador', PE: 'Perú',
+  JP: 'Japón', HN: 'Honduras', SV: 'El Salvador', NI: 'Nicaragua',
+  BR: 'Brasil', VE: 'Venezuela', BO: 'Bolivia', CL: 'Chile', AR: 'Argentina'
+};
+function countryFullNames(o) {
+  return (o.countries || []).map(c => COUNTRY_NAMES[c] || c);
+}
+
+// ============================================================================
+// LLAMADAS A SUPABASE (versión robusta para iOS Chrome)
+// ============================================================================
+async function supabaseFetch(path, options = {}) {
+  const url = `${SUPABASE_URL}/rest/v1/${path}`;
+  const headers = {
+    'apikey': SUPABASE_KEY,
+    'Authorization': `Bearer ${SUPABASE_KEY}`
+  };
+  if (options.method === 'POST') {
+    headers['Content-Type'] = 'application/json';
+  }
+  const r = await fetch(url, { ...options, headers });
+  const text = await r.text();
+  if (!r.ok) {
+    throw new Error(`HTTP ${r.status}: ${text.slice(0, 200)}`);
+  }
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    throw new Error('Respuesta no es JSON válido: ' + text.slice(0, 200));
+  }
+}
+
+// Lista todas las orquídeas (para la galería del inicio)
+async function fetchAllOrchids() {
+  const data = await supabaseFetch('species?select=*&order=genus_name.asc&limit=200');
+  return data.map(enrichOrchid);
+}
+
+// Búsqueda por texto. Si la función RPC falla, hace búsqueda directa en la tabla.
+async function searchOrchidsRemote(q) {
+  // Primero intenta la función RPC (búsqueda inteligente con similitud)
+  try {
+    const data = await supabaseFetch('rpc/search_orchids', {
+      method: 'POST',
+      body: JSON.stringify({ q: q, max_results: 30 })
+    });
+    return data.map(enrichOrchid);
+  } catch (e) {
+    console.warn('RPC falló, usando búsqueda directa:', e.message);
+    // Fallback: búsqueda con LIKE sobre full_name (PostgREST acepta filtros)
+    const encoded = encodeURIComponent('%' + q + '%');
+    const data = await supabaseFetch(
+      `species?select=*&or=(full_name.ilike.${encoded},region.ilike.${encoded},description.ilike.${encoded})&limit=30`
+    );
+    return data.map(enrichOrchid);
+  }
+}
+
+// Variable global con todas las orquídeas (se llena al inicio)
+let ORCHIDS = [];
+
+const SOURCES = [
+  { code:'POWO', name:'Plants of the World Online (Kew)', url:'https://powo.science.kew.org', notes:'Taxonomía aceptada · 30.000 spp · WGSRPD' },
+  { code:'GBIF', name:'Global Biodiversity Information Facility', url:'https://www.gbif.org', notes:'Ocurrencias geo · imágenes · API REST' },
+  { code:'iNaturalist', name:'iNaturalist', url:'https://www.inaturalist.org/taxa/47217-Orchidaceae', notes:'Fotos research-grade · 1M+ observaciones' },
+  { code:'WFO', name:'World Flora Online', url:'https://www.worldfloraonline.org', notes:'Backbone CC0 · descarga semestral en Zenodo' },
+  { code:'IOSPE', name:'Internet Orchid Species Photo Encyclopedia', url:'http://www.orchidspecies.com', notes:'23.000 spp ilustradas (Jay Pfahl)' },
+  { code:'AOS', name:'American Orchid Society', url:'https://www.aos.org', notes:'100.000+ fotos premiadas' },
+  { code:'RHS', name:'International Orchid Register', url:'https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchidregister.asp', notes:'Autoridad mundial de híbridos' },
+  { code:'Wikidata', name:'Wikidata SPARQL', url:'https://query.wikidata.org', notes:'Nombres comunes en 200+ idiomas · CC0' }
+];
+
+// ============================================================================
+// DIBUJO SVG GENERATIVO
+// ============================================================================
+function orchidArt(o) {
+  const [c1, c2, c3, c4, leaf] = o.palette;
+  const id = o.id;
+  const seed = parseInt(id, 10) || 1;
+  const rot = (seed * 23) % 30 - 15;
+  const inner = renderShape(o.shape, id, c1, c2, c3, c4);
+
+  return `<svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice"
+    style="background: radial-gradient(circle at 30% 20%, ${c1}55, ${c4}22 40%, #f1ead8 90%);">
+    <defs>
+      <radialGradient id="pet-${id}" cx="50%" cy="40%" r="65%">
+        <stop offset="0%" stop-color="${c1}" />
+        <stop offset="55%" stop-color="${c2}" />
+        <stop offset="100%" stop-color="${c3}" />
+      </radialGradient>
+      <radialGradient id="lip-${id}" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="${c4}" />
+        <stop offset="55%" stop-color="${c2}" />
+        <stop offset="100%" stop-color="${c3}" />
+      </radialGradient>
+      <filter id="soft-${id}">
+        <feGaussianBlur stdDeviation="2" result="b" />
+        <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter>
+    </defs>
+    <g opacity="0.55">
+      <path d="M 30 480 Q 80 380 130 320 Q 100 400 50 490 Z" fill="${leaf}" />
+      <path d="M 380 480 Q 320 380 270 320 Q 310 400 360 490 Z" fill="${leaf}" opacity="0.7" />
+    </g>
+    <g transform="translate(200,240) rotate(${rot})" filter="url(#soft-${id})">
+      ${inner}
+    </g>
+    <text x="20" y="478" font-family="Fraunces, serif" font-style="italic" font-size="13"
+          fill="#1c1d1899" letter-spacing="0.02em">
+      ${o.full_name}
+    </text>
+  </svg>`;
+}
+
+function renderShape(shape, id, c1, c2, c3, c4) {
+  switch (shape) {
+    case 'cattleya':
+      return `
+        ${[-50,0,50].map(a => `<ellipse cx="0" cy="-95" rx="42" ry="80" fill="url(#pet-${id})" opacity="0.92" transform="rotate(${a})" />`).join('')}
+        <ellipse cx="-110" cy="0" rx="80" ry="55" fill="url(#pet-${id})" transform="rotate(-15)" />
+        <ellipse cx="110" cy="0" rx="80" ry="55" fill="url(#pet-${id})" transform="rotate(15)" />
+        <path d="M -65 25 Q -85 95 -35 120 Q 0 140 35 120 Q 85 95 65 25 Q 35 50 0 50 Q -35 50 -65 25 Z" fill="url(#lip-${id})" />
+        <ellipse cx="0" cy="80" rx="28" ry="18" fill="${c4}" opacity="0.9" />
+        <ellipse cx="0" cy="80" rx="14" ry="9" fill="${c2}" opacity="0.6" />
+        <ellipse cx="0" cy="20" rx="9" ry="16" fill="${c4}" />`;
+    case 'phalaenopsis':
+      return `
+        <ellipse cx="-95" cy="-30" rx="90" ry="72" fill="url(#pet-${id})" transform="rotate(-20)" />
+        <ellipse cx="95" cy="-30" rx="90" ry="72" fill="url(#pet-${id})" transform="rotate(20)" />
+        <ellipse cx="0" cy="-95" rx="58" ry="42" fill="url(#pet-${id})" />
+        <ellipse cx="-55" cy="60" rx="48" ry="38" fill="url(#pet-${id})" transform="rotate(-25)" />
+        <ellipse cx="55" cy="60" rx="48" ry="38" fill="url(#pet-${id})" transform="rotate(25)" />
+        <path d="M -28 32 Q -38 75 0 85 Q 38 75 28 32 Q 0 42 -28 32 Z" fill="url(#lip-${id})" />
+        <circle cx="0" cy="22" r="9" fill="${c4}" />
+        <path d="M -8 28 Q -20 5 -25 -8" stroke="${c3}" stroke-width="2.5" fill="none" />
+        <path d="M 8 28 Q 20 5 25 -8" stroke="${c3}" stroke-width="2.5" fill="none" />`;
+    case 'vanilla':
+      return `
+        ${[0,72,144,216,288].map(a => `<ellipse cx="0" cy="-72" rx="24" ry="58" fill="url(#pet-${id})" transform="rotate(${a})" opacity="0.92" />`).join('')}
+        <path d="M -32 0 Q -38 55 0 65 Q 38 55 32 0 Q 0 18 -32 0 Z" fill="url(#lip-${id})" />
+        <circle cx="0" cy="0" r="11" fill="${c4}" />
+        <path d="M 0 65 Q 30 130 -10 200" stroke="${c3}" stroke-width="3" fill="none" opacity="0.55" />`;
+    case 'dendrobium':
+      return `
+        ${[0,72,144,216,288].map(a => `<ellipse cx="0" cy="-68" rx="34" ry="58" fill="url(#pet-${id})" transform="rotate(${a})" />`).join('')}
+        <ellipse cx="0" cy="22" rx="38" ry="32" fill="${c3}" />
+        <circle cx="0" cy="22" r="15" fill="${c4}" />`;
+    case 'paphiopedilum':
+      return `
+        <ellipse cx="0" cy="-90" rx="62" ry="85" fill="url(#pet-${id})" />
+        ${[-40,-20,0,20,40].map(x => `<path d="M ${x} -160 Q ${x*1.1} -100 ${x*1.3} -55" stroke="${c3}" stroke-width="1.5" fill="none" opacity="0.55" />`).join('')}
+        <ellipse cx="-110" cy="5" rx="28" ry="105" fill="${c2}" transform="rotate(-22)" />
+        <ellipse cx="110" cy="5" rx="28" ry="105" fill="${c2}" transform="rotate(22)" />
+        <path d="M -50 30 Q -55 110 0 130 Q 55 110 50 30 Q 25 50 0 50 Q -25 50 -50 30 Z" fill="url(#lip-${id})" />
+        <ellipse cx="0" cy="60" rx="32" ry="18" fill="${c3}" opacity="0.45" />`;
+    case 'masdevallia':
+      return `
+        <path d="M 0 -25 L -15 -110 L -55 -195 L -28 -100 L 28 -100 L 55 -195 L 15 -110 Z" fill="url(#pet-${id})" />
+        <path d="M 0 -25 L -90 -8 L -135 30 L -85 5 L -10 0 Z" fill="url(#pet-${id})" />
+        <path d="M 0 -25 L 90 -8 L 135 30 L 85 5 L 10 0 Z" fill="url(#pet-${id})" />
+        <ellipse cx="0" cy="-25" rx="16" ry="22" fill="${c4}" />`;
+    case 'vanda':
+      let teselado = '';
+      for (let x = -60; x <= 60; x += 30)
+        for (let y = -90; y <= 30; y += 30)
+          teselado += `<circle cx="${x}" cy="${y}" r="3" fill="${c3}" opacity="0.35" />`;
+      return `
+        ${[-72,0,72].map(a => `<ellipse cx="0" cy="-78" rx="44" ry="58" fill="url(#pet-${id})" transform="rotate(${a})" />`).join('')}
+        <ellipse cx="-95" cy="22" rx="52" ry="42" fill="url(#pet-${id})" />
+        <ellipse cx="95" cy="22" rx="52" ry="42" fill="url(#pet-${id})" />
+        ${teselado}
+        <ellipse cx="0" cy="42" rx="22" ry="15" fill="url(#lip-${id})" />`;
+    case 'cymbidium':
+      return `
+        ${[-60,0,60].map(a => `<ellipse cx="0" cy="-72" rx="34" ry="68" fill="url(#pet-${id})" transform="rotate(${a})" />`).join('')}
+        <ellipse cx="-68" cy="22" rx="62" ry="42" fill="url(#pet-${id})" transform="rotate(-15)" />
+        <ellipse cx="68" cy="22" rx="62" ry="42" fill="url(#pet-${id})" transform="rotate(15)" />
+        <path d="M -28 38 Q -32 85 0 90 Q 32 85 28 38 Q 0 50 -28 38 Z" fill="url(#lip-${id})" />
+        ${[-15,0,15].map(x => `<line x1="${x}" y1="42" x2="${x*1.4}" y2="85" stroke="${c3}" stroke-width="2" />`).join('')}`;
+    case 'dracula':
+      return `
+        <path d="M 0 -25 L -55 -150 L -105 -100 L -42 -38 Z" fill="url(#pet-${id})" />
+        <path d="M 0 -25 L 55 -150 L 105 -100 L 42 -38 Z" fill="url(#pet-${id})" />
+        <path d="M 0 -25 L -10 -160 L 10 -160 L 0 -25 Z" fill="url(#pet-${id})" />
+        <ellipse cx="0" cy="0" rx="38" ry="32" fill="${c4}" />
+        <circle cx="-13" cy="-5" r="5" fill="#1c1d18" />
+        <circle cx="13" cy="-5" r="5" fill="#1c1d18" />
+        <circle cx="-13" cy="-6" r="1.5" fill="#fff" />
+        <circle cx="13" cy="-6" r="1.5" fill="#fff" />
+        <ellipse cx="0" cy="12" rx="7" ry="3" fill="#1c1d1899" />
+        <ellipse cx="-22" cy="2" rx="6" ry="9" fill="${c3}" opacity="0.5" />
+        <ellipse cx="22" cy="2" rx="6" ry="9" fill="${c3}" opacity="0.5" />
+        <path d="M -55 -150 L -60 -215" stroke="${c3}" stroke-width="2.5" fill="none" />
+        <path d="M 55 -150 L 60 -215" stroke="${c3}" stroke-width="2.5" fill="none" />`;
+    case 'bulbophyllum':
+      let cilios = '';
+      for (let y = 0; y <= 150; y += 30)
+        cilios += `<line x1="${-58 + y/12}" y1="${60 + y}" x2="${-70 + y/12}" y2="${66 + y}" stroke="${c3}" stroke-width="1.5" />
+                   <line x1="${58 - y/12}" y1="${60 + y}" x2="${70 - y/12}" y2="${66 + y}" stroke="${c3}" stroke-width="1.5" />`;
+      return `
+        <ellipse cx="0" cy="-50" rx="32" ry="42" fill="url(#pet-${id})" />
+        <path d="M -10 -90 Q 0 -100 10 -90" stroke="${c3}" stroke-width="2.5" fill="none" />
+        <path d="M -25 -18 Q -52 60 -58 210 Q -45 60 -10 -8 Z" fill="url(#pet-${id})" />
+        <path d="M 25 -18 Q 52 60 58 210 Q 45 60 10 -8 Z" fill="url(#pet-${id})" />
+        ${cilios}
+        <ellipse cx="0" cy="-30" rx="12" ry="16" fill="${c4}" />`;
+    case 'oncidium':
+      const positions = [
+        [-90,-110],[-55,-140],[-15,-110],[25,-140],[60,-110],[95,-140],
+        [-115,-55],[-65,-35],[-20,-55],[25,-35],[70,-55],[115,-35],
+        [-80,35],[-30,55],[15,35],[60,55],[105,35],
+        [-55,110],[0,130],[55,110]
+      ];
+      return positions.map(([x,y], i) => `
+        <g transform="translate(${x},${y}) scale(0.32) rotate(${(i * 17) % 50})">
+          <path d="M -22 -22 L 0 -52 L 22 -22 Z" fill="url(#pet-${id})" />
+          <ellipse cx="-30" cy="0" rx="22" ry="16" fill="url(#pet-${id})" />
+          <ellipse cx="30" cy="0" rx="22" ry="16" fill="url(#pet-${id})" />
+          <path d="M -28 12 Q -32 52 0 56 Q 32 52 28 12 Z" fill="url(#lip-${id})" />
+          <circle cx="0" cy="-8" r="6" fill="${c3}" />
+        </g>`).join('');
+    default:
+      return `<circle cx="0" cy="0" r="80" fill="url(#pet-${id})" />`;
+  }
+}
+
+// ============================================================================
+// VISTAS
+// ============================================================================
+let currentView = 'home';
+let currentQuery = '';
+let currentResults = [];
+let currentSelected = null;
+
+const app = document.getElementById('appView');
+const logoBtn = document.getElementById('logoBtn');
+logoBtn.addEventListener('click', () => { goHome(); });
+
+function goHome() {
+  currentView = 'home';
+  currentQuery = '';
+  render();
+  window.scrollTo(0,0);
+}
+
+async function doSearch(q) {
+  if (!q || !q.trim()) return;
+  currentQuery = q;
+  currentView = 'results';
+  currentResults = [];
+  render(); // muestra estado "Buscando..."
+  window.scrollTo(0,0);
+
+  try {
+    currentResults = await searchOrchidsRemote(q);
+  } catch (err) {
+    console.error('Búsqueda en Supabase falló, usando filtro local:', err);
+    // fallback: filtrar lo que ya tenemos en memoria
+    const norm = q.toLowerCase();
+    currentResults = ORCHIDS.filter(o => {
+      const fullCountryNames = countryFullNames(o).map(c => c.toLowerCase());
+      return o.full_name.toLowerCase().includes(norm) ||
+        o.genus_name.toLowerCase().includes(norm) ||
+        o.specific_epithet.toLowerCase().includes(norm) ||
+        (o.common_es || '').toLowerCase().includes(norm) ||
+        (o.common_en || '').toLowerCase().includes(norm) ||
+        (o.region || '').toLowerCase().includes(norm) ||
+        (o.description || '').toLowerCase().includes(norm) ||
+        fullCountryNames.some(c => c.includes(norm));
+    });
+  }
+  render();
+}
+
+function showDetail(id) {
+  currentSelected = ORCHIDS.find(o => o.id === id);
+  currentView = 'detail';
+  render();
+  window.scrollTo(0,0);
+}
+
+function render() {
+  if (currentView === 'home') {
+    app.innerHTML = renderHome();
+  } else if (currentView === 'results') {
+    app.innerHTML = renderResults();
+  } else if (currentView === 'detail') {
+    app.innerHTML = renderDetail();
+  }
+  bindEvents();
+}
+
+function bindEvents() {
+  // formulario de búsqueda
+  document.querySelectorAll('.oa-search').forEach(form => {
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const input = form.querySelector('input');
+      doSearch(input.value);
+    });
+  });
+  // chips de sugerencias
+  document.querySelectorAll('.oa-chip').forEach(chip => {
+    chip.addEventListener('click', () => doSearch(chip.dataset.q));
+  });
+  // tarjetas
+  document.querySelectorAll('.oa-card').forEach(card => {
+    card.addEventListener('click', () => showDetail(card.dataset.id));
+  });
+  // back
+  const back = document.getElementById('backBtn');
+  if (back) back.addEventListener('click', () => {
+    if (currentView === 'detail' && currentResults.length) {
+      currentView = 'results';
+      render();
+      window.scrollTo(0,0);
+    } else {
+      goHome();
+    }
+  });
+}
+
+function cardHTML(o) {
+  return `
+    <article class="oa-card" data-id="${o.id}">
+      <div class="oa-card-img">${orchidArt(o)}</div>
+      <div class="oa-card-body">
+        <h3><em>${o.full_name}</em></h3>
+        ${o.common_es ? `<p class="oa-card-common">${o.common_es}</p>` : ''}
+        ${o.region ? `<p class="oa-card-region">📍 ${o.region}</p>` : ''}
+        <div class="oa-card-tags">
+          ${o.iucn_status ? `<span class="oa-tag oa-iucn-${o.iucn_status}">${o.iucn_status}</span>` : ''}
+          ${o.cites_appendix ? `<span class="oa-tag oa-cites">CITES ${o.cites_appendix}</span>` : ''}
+        </div>
+      </div>
+    </article>`;
+}
+
+function renderHome() {
+  return `
+    <main>
+      <section class="oa-hero">
+        <div class="oa-hero-orbs">
+          <div class="oa-orb oa-orb-1"></div>
+          <div class="oa-orb oa-orb-2"></div>
+        </div>
+        <div class="oa-hero-inner">
+          <p class="oa-eyebrow">Orchidaceae · ~30.000 especies · 880 géneros</p>
+          <h1 class="oa-title">La memoria botánica<br><em>de las orquídeas</em><br>del mundo.</h1>
+          <p class="oa-lede">Busca cualquier especie por nombre científico, sinónimo, nombre común o región del mundo.</p>
+          <form class="oa-search">
+            <span class="oa-search-icon">🔍</span>
+            <input type="text" placeholder="Cattleya, vainilla, Colombia, Borneo…" autocapitalize="off" autocorrect="off" />
+            <button type="submit" class="oa-search-btn">Buscar</button>
+          </form>
+          <div class="oa-suggestions">
+            ${['Colombia','México','Perú','Cattleya','Vainilla','Andes'].map(t => `<button class="oa-chip" data-q="${t}">${t}</button>`).join('')}
+          </div>
+        </div>
+      </section>
+
+      <section class="oa-curated">
+        <div class="oa-section-head">
+          <h2>Especies en la base</h2>
+          <p>${ORCHIDS.length === 0 ? 'Cargando desde Supabase…' : ORCHIDS.length + ' orquídeas disponibles. Toca cualquiera para ver el detalle.'}</p>
+        </div>
+        ${ORCHIDS.length === 0
+          ? '<div class="oa-grid">' + Array(8).fill(0).map(() => '<div style="aspect-ratio:4/5;border-radius:16px;background:linear-gradient(110deg, #f1ead8, rgba(0,0,0,.04), #f1ead8);background-size:400% 100%;animation:shimmer 1.5s infinite;"></div>').join('') + '</div>'
+          : '<div class="oa-grid">' + ORCHIDS.map(cardHTML).join('') + '</div>'}
+      </section>
+
+      <section class="oa-sources">
+        <h2>Fuentes</h2>
+        <p>Las grandes bases de datos botánicas del mundo:</p>
+        <div class="oa-sources-grid">
+          ${SOURCES.map(s => `
+            <a href="${s.url}" target="_blank" rel="noreferrer" class="oa-source">
+              <strong>${s.code}</strong>
+              <span>${s.name}</span>
+              <em>${s.notes}</em>
+            </a>`).join('')}
+        </div>
+      </section>
+    </main>`;
+}
+
+function renderResults() {
+  return `
+    <main class="oa-results">
+      <div style="padding: 16px 20px 0; max-width: 720px; margin: 0 auto;">
+        <button id="backBtn" class="oa-back">← Volver al inicio</button>
+      </div>
+      <form class="oa-search" style="margin: 0 20px 8px; max-width:none;">
+        <span class="oa-search-icon">🔍</span>
+        <input type="text" value="${escapeHtml(currentQuery)}" autocapitalize="off" autocorrect="off" />
+        <button type="submit" class="oa-search-btn">Buscar</button>
+      </form>
+      <p class="oa-result-count"><strong>${currentResults.length}</strong> resultado${currentResults.length !== 1 ? 's' : ''} para <em>"${escapeHtml(currentQuery)}"</em></p>
+      ${currentResults.length === 0
+        ? `<div class="oa-empty"><p>Sin coincidencias. Prueba con un género (<em>Cattleya</em>) o un país (<em>Ecuador</em>, <em>México</em>).</p></div>`
+        : `<div class="oa-grid">${currentResults.map(cardHTML).join('')}</div>`
+      }
+    </main>`;
+}
+
+function renderDetail() {
+  const o = currentSelected;
+  return `
+    <main class="oa-detail">
+      <button id="backBtn" class="oa-back">← ${currentResults.length ? 'Volver a resultados' : 'Volver al inicio'}</button>
+      <div class="oa-detail-image">${orchidArt(o)}</div>
+      <div class="oa-detail-meta">
+        <p class="oa-eyebrow">${o.genus_name} · ${o.region || '—'}</p>
+        <h1><em>${o.full_name}</em></h1>
+        <p class="oa-authority">${o.authority}</p>
+        ${o.common_es ? `<p class="oa-detail-common">${o.common_es}${o.emoji ? ' '+o.emoji : ''}</p>` : ''}
+        <p class="oa-detail-desc">${o.description}</p>
+        <div class="oa-detail-tags">
+          ${o.iucn_status ? `<span class="oa-tag oa-iucn-${o.iucn_status}">🛡️ IUCN ${o.iucn_status}</span>` : ''}
+          ${o.cites_appendix ? `<span class="oa-tag oa-cites">CITES ${o.cites_appendix}</span>` : ''}
+          ${o.habit ? `<span class="oa-tag">🌿 ${o.habit}</span>` : ''}
+        </div>
+      </div>
+      <div class="oa-detail-grid">
+        ${stat('☀️', 'Luz', o.light)}
+        ${stat('🌡️', 'Temperatura', o.temperature)}
+        ${stat('💧', 'Humedad', o.humidity)}
+        ${stat('⛰️', 'Altitud', o.altitude_min_m != null ? `${o.altitude_min_m}–${o.altitude_max_m} m` : null)}
+        ${stat('📅', 'Floración', o.blooming_season)}
+        ${stat('🌍', 'Distribución', countryFullNames(o).join(', '))}
+      </div>
+      <section class="oa-external">
+        <h3>Profundizar en otras fuentes</h3>
+        <div class="oa-external-links">
+          <a href="https://powo.science.kew.org/?q=${encodeURIComponent(o.full_name)}" target="_blank" rel="noreferrer">Plants of the World Online (Kew) →</a>
+          <a href="https://www.gbif.org/species/search?q=${encodeURIComponent(o.full_name)}" target="_blank" rel="noreferrer">GBIF — Mapa de ocurrencias →</a>
+          <a href="https://www.inaturalist.org/taxa/search?q=${encodeURIComponent(o.full_name)}" target="_blank" rel="noreferrer">iNaturalist — Observaciones →</a>
+          <a href="http://www.orchidspecies.com/indexb.htm" target="_blank" rel="noreferrer">IOSPE (Jay Pfahl) →</a>
+          <a href="https://www.worldfloraonline.org/search?query=${encodeURIComponent(o.full_name)}" target="_blank" rel="noreferrer">World Flora Online →</a>
+          <a href="https://es.wikipedia.org/wiki/${encodeURIComponent(o.full_name.replace(' ', '_'))}" target="_blank" rel="noreferrer">Wikipedia →</a>
+        </div>
+      </section>
+    </main>`;
+}
+
+function stat(emoji, label, value) {
+  if (!value) return '';
+  return `
+    <div class="oa-stat">
+      <div class="oa-stat-ico">${emoji}</div>
+      <div>
+        <span>${label}</span>
+        <strong>${value}</strong>
+      </div>
+    </div>`;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, m => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[m]));
+}
+
+// arranque
+async function init() {
+  render();
+  try {
+    ORCHIDS = await fetchAllOrchids();
+    render();
+  } catch (err) {
+    console.error('No se pudo conectar a Supabase:', err);
+    document.getElementById('appView').innerHTML = `
+      <main style="max-width:720px;margin:40px auto;padding:0 20px;text-align:center;">
+        <h2 style="font-family:Fraunces,serif;font-weight:500;color:#b13652;font-size:32px;margin:0 0 12px;">Conexión interrumpida</h2>
+        <p style="color:#45463f;margin:0 0 24px;">No se pudo cargar la base de datos. Esto puede pasar si:</p>
+        <ul style="text-align:left;color:#45463f;font-size:14px;line-height:1.6;max-width:500px;margin:0 auto 24px;padding-left:20px;">
+          <li>No hay internet en este momento.</li>
+          <li>El proyecto Supabase está pausado (ocurre tras 7 días sin uso — entra al panel y reactívalo).</li>
+          <li>La llave del API cambió.</li>
+        </ul>
+        <button onclick="init()" style="background:#1c1d18;color:#fffdf6;border:0;padding:12px 24px;border-radius:99px;font-family:'DM Sans',sans-serif;font-size:14px;cursor:pointer;">Reintentar</button>
+        <details style="margin-top:24px;color:#888;font-size:12px;text-align:left;max-width:500px;margin-left:auto;margin-right:auto;">
+          <summary style="cursor:pointer;">Detalles técnicos</summary>
+          <pre style="white-space:pre-wrap;background:#f1ead8;padding:12px;border-radius:8px;font-size:11px;margin-top:8px;">${String(err.message || err).slice(0,500)}</pre>
+
+```
+    </details>
+  </main>`;
+```
+
+}
+}
+init();
+</script>
+
+</body>
+</html>
