@@ -1,1 +1,25 @@
-placeholder
+{
+  "genera": [
+    {"name": "Phalaenopsis", "enabled": true},
+    {"name": "Dendrobium", "enabled": true},
+    {"name": "Oncidium", "enabled": true},
+    {"name": "Paphiopedilum", "enabled": true},
+    {"name": "Phragmipedium", "enabled": true},
+    {"name": "Vanda", "enabled": true},
+    {"name": "Cymbidium", "enabled": true},
+    {"name": "Epidendrum", "enabled": true},
+    {"name": "Masdevallia", "enabled": true},
+    {"name": "Dracula", "enabled": true},
+    {"name": "Bulbophyllum", "enabled": true},
+    {"name": "Coelogyne", "enabled": true},
+    {"name": "Stanhopea", "enabled": true},
+    {"name": "Gongora", "enabled": true},
+    {"name": "Maxillaria", "enabled": true},
+    {"name": "Miltonia", "enabled": true},
+    {"name": "Miltoniopsis", "enabled": true},
+    {"name": "Zygopetalum", "enabled": true},
+    {"name": "Aerangis", "enabled": true},
+    {"name": "Angraecum", "enabled": true}
+  ],
+  "notes": "Segunda fase de géneros prioritarios por diversidad, horticultura, conservación y relevancia en híbridos."
+}
