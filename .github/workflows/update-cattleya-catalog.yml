@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "20 8 1 * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_cattleya_catalog.py"
+      - ".github/workflows/update-cattleya-catalog.yml"
 
 permissions:
   contents: write
@@ -34,8 +39,18 @@ jobs:
           assert count == len(data['taxa'])
           assert count >= 80, f'Unexpectedly low Cattleya count: {count}'
           assert all(t['canonicalName'].startswith('Cattleya ') for t in data['taxa'])
+          assert all(t.get('gbifKey') for t in data['taxa'])
           print(f'Validated {count} Cattleya records')
           PY
+
+      - name: Upload catalogue artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cattleya-catalogue
+          path: |
+            data/cattleya_catalog.json
+            data/cattleya_catalog.csv
+          retention-days: 30
 
       - name: Commit updated catalogue
         run: |
