@@ -1,0 +1,13 @@
+{
+  "genera": [
+    {"name": "Cattleya", "enabled": true},
+    {"name": "Brassavola", "enabled": true},
+    {"name": "Rhyncholaelia", "enabled": true},
+    {"name": "Guarianthe", "enabled": true},
+    {"name": "Laelia", "enabled": true},
+    {"name": "Encyclia", "enabled": true},
+    {"name": "Myrmecophila", "enabled": true},
+    {"name": "Prosthechea", "enabled": true}
+  ],
+  "notes": "Primera familia de géneros relacionados con Cattleya e importantes en híbridos. La lista puede ampliarse sin modificar el pipeline."
+}
