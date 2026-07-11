@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Orchidarium · Motor de búsqueda</title>
+<style>
+:root{--bg:#f7f3ea;--paper:#fffdf8;--ink:#22231f;--muted:#66685f;--green:#2e5d42;--pink:#ad3d5b;--line:#d9d2c5}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}header,.toolbar,.summary,.grid{max-width:1050px;margin-left:auto;margin-right:auto}header{padding:30px 20px 12px}h1{font:500 clamp(34px,6vw,58px)/1 Georgia,serif;margin:0 0 10px}header p{color:var(--muted);line-height:1.5}.toolbar{padding:16px 20px;display:grid;grid-template-columns:1fr 190px;gap:10px}.toolbar input,.toolbar select{padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--paper);font-size:16px}.summary{padding:0 20px 14px;color:var(--muted)}.grid{padding:0 20px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px}.card h2{font:500 24px Georgia,serif;margin:0 0 5px}.authority,.validation{font-size:12px;color:var(--muted)}.pill{display:inline-block;padding:5px 9px;margin:8px 5px 4px 0;border-radius:999px;background:#e6efe8;color:var(--green);font-size:12px}.description{font-size:14px;line-height:1.5;margin-top:10px}.synonyms{font-size:13px;color:var(--muted);margin-top:10px}.links{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}.links a{color:var(--pink);font-size:13px;font-weight:600;text-decoration:none}.empty{grid-column:1/-1;text-align:center;padding:40px;color:var(--muted)}@media(max-width:650px){.toolbar{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><h1>Motor Orchidarium</h1><p>Primera base operativa. Busca por especie, sinónimo, país, nombre común o texto descriptivo.</p></header>
+<div class="toolbar"><input id="q" type="search" placeholder="Ej. trianae, gigas, Colombia, Venezuela…"><select id="country"><option value="">Todos los países</option></select></div>
+<div class="summary" id="summary">Cargando…</div><main class="grid" id="grid"></main>
+<script>
+const countryNames={CO:'Colombia',VE:'Venezuela',BR:'Brasil',CR:'Costa Rica',EC:'Ecuador',PE:'Perú',GY:'Guyana'};
+const state={records:[]};
+const norm=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function haystack(r){return norm([r.fullName,r.acceptedName,r.authorship,r.region,r.description,...r.synonyms,...r.searchTerms,...Object.values(r.commonNames).flat(),...r.countries.map(c=>countryNames[c]||c)].join(' '));}
+function render(){const q=norm(document.querySelector('#q').value);const country=document.querySelector('#country').value;const rows=state.records.filter(r=>(!q||haystack(r).includes(q))&&(!country||r.countries.includes(country)));document.querySelector('#summary').textContent=`${rows.length} de ${state.records.length} registros en la base`;document.querySelector('#grid').innerHTML=rows.length?rows.map(r=>`<article class="card"><h2><em>${esc(r.fullName)}</em></h2><div class="authority">${esc(r.authorship)}</div><div>${r.countries.map(c=>`<span class="pill">${esc(countryNames[c]||c)}</span>`).join('')}</div><div class="description">${esc(r.description)}</div>${r.synonyms.length?`<div class="synonyms"><strong>Sinónimos:</strong> ${r.synonyms.map(esc).join('; ')}</div>`:''}<div class="validation">Estado: ${esc(r.validation.level)}</div><div class="links"><a href="${esc(r.links.powo)}" target="_blank">POWO ↗</a><a href="${esc(r.links.gbif)}" target="_blank">GBIF ↗</a><a href="${esc(r.links.ipni)}" target="_blank">IPNI ↗</a></div></article>`).join(''):'<div class="empty">No se encontraron coincidencias.</div>';}
+fetch('./data/orchid_core.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{state.records=data.records||[];const cs=[...new Set(state.records.flatMap(r=>r.countries))].sort();document.querySelector('#country').innerHTML='<option value="">Todos los países</option>'+cs.map(c=>`<option value="${c}">${esc(countryNames[c]||c)}</option>`).join('');render();}).catch(e=>{document.querySelector('#summary').textContent='No fue posible cargar la base';document.querySelector('#grid').innerHTML=`<div class="empty">${esc(e.message)}</div>`});
+document.querySelector('#q').addEventListener('input',render);document.querySelector('#country').addEventListener('change',render);
+</script>
+</body></html>
