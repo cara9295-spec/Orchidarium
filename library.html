@@ -5,17 +5,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Orchidarium · Biblioteca consultable</title>
 <style>
-:root{--bg:#f7f3ea;--paper:#fffdf8;--ink:#22231f;--muted:#66685f;--green:#2e5d42;--pink:#ad3d5b;--line:#d9d2c5}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}header{padding:28px 20px 12px;max-width:1080px;margin:auto}h1{margin:0 0 8px;font-family:Georgia,serif;font-size:clamp(32px,6vw,56px);font-weight:500}header p{margin:0;color:var(--muted);line-height:1.5}.toolbar{max-width:1080px;margin:20px auto;padding:0 20px;display:grid;grid-template-columns:1fr 180px 170px;gap:10px}.toolbar input,.toolbar select{width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:var(--paper);font-size:16px}.summary{max-width:1080px;margin:0 auto 14px;padding:0 20px;color:var(--muted);font-size:14px}.grid{max-width:1080px;margin:auto;padding:0 20px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:14px}.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.035)}.card h2{font:500 23px/1.1 Georgia,serif;margin:0 0 6px}.authority{color:var(--muted);font-size:13px}.meta{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.pill{display:inline-block;background:#e6efe8;color:var(--green);padding:5px 9px;border-radius:999px;font-size:12px}.pill.rank{background:#f1e6eb;color:var(--pink)}.notes{color:#484a44;line-height:1.45;font-size:14px}.synonyms{font-size:13px;color:var(--muted);margin-top:10px}.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.links a{color:var(--pink);text-decoration:none;font-size:13px;font-weight:600}.notice{max-width:1080px;margin:0 auto 20px;padding:0 20px}.notice div{background:#fff4d9;border:1px solid #e4cf95;border-radius:14px;padding:12px 14px;color:#67551d;font-size:13px;line-height:1.4}.empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--muted)}@media(max-width:760px){.toolbar{grid-template-columns:1fr}}
+:root{--bg:#f7f3ea;--paper:#fffdf8;--ink:#22231f;--muted:#66685f;--green:#2e5d42;--pink:#ad3d5b;--line:#d9d2c5}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}header{padding:28px 20px 12px;max-width:1120px;margin:auto}h1{margin:0 0 8px;font-family:Georgia,serif;font-size:clamp(32px,6vw,56px);font-weight:500}header p{margin:0;color:var(--muted);line-height:1.5}.toolbar{max-width:1120px;margin:20px auto;padding:0 20px;display:grid;grid-template-columns:1fr 170px 180px 160px;gap:10px}.toolbar input,.toolbar select{width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:var(--paper);font-size:16px}.summary{max-width:1120px;margin:0 auto 14px;padding:0 20px;color:var(--muted);font-size:14px}.grid{max-width:1120px;margin:auto;padding:0 20px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:14px}.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.035)}.card h2{font:500 23px/1.1 Georgia,serif;margin:0 0 6px}.authority{color:var(--muted);font-size:13px}.meta{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.pill{display:inline-block;background:#e6efe8;color:var(--green);padding:5px 9px;border-radius:999px;font-size:12px}.pill.rank{background:#f1e6eb;color:var(--pink)}.pill.genus{background:#ece8d8;color:#665c2f}.notes{color:#484a44;line-height:1.45;font-size:14px}.synonyms{font-size:13px;color:var(--muted);margin-top:10px}.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.links a{color:var(--pink);text-decoration:none;font-size:13px;font-weight:600}.notice{max-width:1120px;margin:0 auto 20px;padding:0 20px}.notice div{background:#fff4d9;border:1px solid #e4cf95;border-radius:14px;padding:12px 14px;color:#67551d;font-size:13px;line-height:1.4}.empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--muted)}@media(max-width:900px){.toolbar{grid-template-columns:1fr 1fr}}@media(max-width:580px){.toolbar{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header>
   <h1>Biblioteca Orchidarium</h1>
-  <p>Catálogo consultable de <em>Cattleya</em>. Busca por nombre, sinónimo, país, rango taxonómico o nombre común.</p>
+  <p>Catálogo consultable de especies y rangos infraespecíficos. Busca por género, nombre, sinónimo, país, rango taxonómico o nombre común.</p>
 </header>
 <div class="notice"><div id="notice">Cargando catálogo…</div></div>
 <div class="toolbar">
-  <input id="q" type="search" placeholder="Ej. trianae, Colombia, labiata, Laelia…" autocomplete="off">
+  <input id="q" type="search" placeholder="Ej. trianae, Brassavola, Colombia, Laelia…" autocomplete="off">
+  <select id="genus"><option value="">Todos los géneros</option></select>
   <select id="country"><option value="">Todos los países</option></select>
   <select id="rank"><option value="">Todos los rangos</option></select>
 </div>
@@ -25,21 +26,23 @@
 const state={records:[],filtered:[],mode:'seed'};
 const normalize=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function searchable(r){return normalize([r.canonicalName,r.scientificName,r.authorship,r.acceptedName,r.rank,...(r.synonyms||[]),...(r.vernacularNames||r.commonNames||[]),...(r.countries||[]),...(r.searchTerms||[]),r.notes].join(' '));}
+function searchable(r){return normalize([r.genus,r.canonicalName,r.scientificName,r.authorship,r.acceptedName,r.rank,...(r.synonyms||[]),...(r.vernacularNames||r.commonNames||[]),...(r.countries||[]),...(r.searchTerms||[]),r.notes].join(' '));}
 function render(){
  const q=normalize(document.querySelector('#q').value.trim());
+ const genus=document.querySelector('#genus').value;
  const country=document.querySelector('#country').value;
  const rank=document.querySelector('#rank').value;
- state.filtered=state.records.filter(r=>(!q||searchable(r).includes(q))&&(!country||(r.countries||[]).includes(country))&&(!rank||(r.rank||'').toUpperCase()===rank));
- document.querySelector('#summary').textContent=`${state.filtered.length} de ${state.records.length} registros · ${state.mode==='live'?'catálogo automático GBIF':'catálogo semilla de respaldo'}`;
+ state.filtered=state.records.filter(r=>(!q||searchable(r).includes(q))&&(!genus||(r.genus||'')===genus)&&(!country||(r.countries||[]).includes(country))&&(!rank||(r.rank||'').toUpperCase()===rank));
+ document.querySelector('#summary').textContent=`${state.filtered.length} de ${state.records.length} registros · ${state.mode==='master'?'catálogo maestro automático':'catálogo de respaldo'}`;
  const grid=document.querySelector('#grid');
  if(!state.filtered.length){grid.innerHTML='<div class="empty">No se encontraron coincidencias.</div>';return;}
  grid.innerHTML=state.filtered.map(r=>`<article class="card">
    <h2><em>${esc(r.canonicalName||r.scientificName)}</em></h2>
    <div class="authority">${esc(r.authorship||'')}</div>
    <div class="meta">
+     ${r.genus?`<span class="pill genus">${esc(r.genus)}</span>`:''}
      ${r.rank?`<span class="pill rank">${esc(r.rank)}</span>`:''}
-     ${(r.countries||[]).slice(0,8).map(c=>`<span class="pill">${esc(c)}</span>`).join('')}
+     ${(r.countries||[]).slice(0,6).map(c=>`<span class="pill">${esc(c)}</span>`).join('')}
    </div>
    ${r.occurrenceCount!=null?`<div class="notes"><strong>${Number(r.occurrenceCount).toLocaleString('es-CO')}</strong> registros de ocurrencia en GBIF.</div>`:`<div class="notes">${esc(r.notes||'')}</div>`}
    ${(r.synonyms||[]).length?`<div class="synonyms"><strong>Sinónimos:</strong> ${r.synonyms.slice(0,6).map(esc).join('; ')}${r.synonyms.length>6?'…':''}</div>`:''}
@@ -51,31 +54,38 @@ function render(){
  </article>`).join('');
 }
 function populateFilters(){
+ const genera=[...new Set(state.records.map(r=>r.genus).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es'));
  const countries=[...new Set(state.records.flatMap(r=>r.countries||[]))].sort((a,b)=>a.localeCompare(b,'es'));
  const ranks=[...new Set(state.records.map(r=>(r.rank||'').toUpperCase()).filter(Boolean))].sort();
+ document.querySelector('#genus').innerHTML='<option value="">Todos los géneros</option>'+genera.map(g=>`<option>${esc(g)}</option>`).join('');
  document.querySelector('#country').innerHTML='<option value="">Todos los países</option>'+countries.map(c=>`<option>${esc(c)}</option>`).join('');
  document.querySelector('#rank').innerHTML='<option value="">Todos los rangos</option>'+ranks.map(r=>`<option value="${esc(r)}">${esc(r)}</option>`).join('');
 }
 async function load(){
  try{
-  const live=await fetch('./data/cattleya_catalog.json',{cache:'no-store'});
-  if(!live.ok)throw new Error('Catálogo automático aún no generado');
-  const data=await live.json();
-  state.records=data.taxa||[]; state.mode='live';
-  document.querySelector('#notice').textContent=`Catálogo generado automáticamente desde GBIF el ${new Date(data.metadata.generatedAt).toLocaleString('es-CO')}. Debe contrastarse editorialmente con POWO/WCVP.`;
+  const master=await fetch('./data/orchid_master_catalog.json',{cache:'no-store'});
+  if(!master.ok)throw new Error('Catálogo maestro aún no generado');
+  const data=await master.json();
+  state.records=data.taxa||[]; state.mode='master';
+  document.querySelector('#notice').textContent=`Catálogo automático con ${data.metadata.genusCount||0} géneros, generado desde GBIF el ${new Date(data.metadata.generatedAt).toLocaleString('es-CO')}. Debe contrastarse editorialmente con POWO/WCVP.`;
  }catch(_){
-  const seed=await fetch('./data/cattleya_seed.json',{cache:'no-store'});
-  if(!seed.ok)throw new Error('No se pudo abrir ningún catálogo');
-  const data=await seed.json();
-  state.records=(data.records||[]).map(r=>({...r,canonicalName:r.scientificName,vernacularNames:r.commonNames||[],rank:r.rank||'SPECIES'})); state.mode='seed';
-  document.querySelector('#notice').textContent='El catálogo automático todavía no ha sido generado; se muestra temporalmente el catálogo semilla.';
+  try{
+   const live=await fetch('./data/cattleya_catalog.json',{cache:'no-store'});
+   if(!live.ok)throw new Error('Catálogo Cattleya aún no generado');
+   const data=await live.json(); state.records=data.taxa||[]; state.mode='live';
+   document.querySelector('#notice').textContent='El catálogo maestro aún no existe; se muestra temporalmente el catálogo automático de Cattleya.';
+  }catch(__){
+   const seed=await fetch('./data/cattleya_seed.json',{cache:'no-store'});
+   if(!seed.ok)throw new Error('No se pudo abrir ningún catálogo');
+   const data=await seed.json();
+   state.records=(data.records||[]).map(r=>({...r,canonicalName:r.scientificName,vernacularNames:r.commonNames||[],rank:r.rank||'SPECIES',genus:r.genus||'Cattleya'})); state.mode='seed';
+   document.querySelector('#notice').textContent='Los catálogos automáticos todavía no han sido generados; se muestra temporalmente el catálogo semilla.';
+  }
  }
  populateFilters(); render();
 }
 load().catch(err=>{document.querySelector('#notice').textContent=err.message;document.querySelector('#grid').innerHTML='<div class="empty">No fue posible cargar los datos.</div>'});
-document.querySelector('#q').addEventListener('input',render);
-document.querySelector('#country').addEventListener('change',render);
-document.querySelector('#rank').addEventListener('change',render);
+['q','genus','country','rank'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='q'?'input':'change',render));
 </script>
 </body>
 </html>
