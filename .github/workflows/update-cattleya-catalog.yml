@@ -1,0 +1,50 @@
+name: Update Cattleya catalogue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 8 1 * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build-catalogue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build catalogue
+        run: python scripts/build_cattleya_catalog.py
+
+      - name: Validate generated files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path('data/cattleya_catalog.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          count = data['metadata']['recordCount']
+          assert count == len(data['taxa'])
+          assert count >= 80, f'Unexpectedly low Cattleya count: {count}'
+          assert all(t['canonicalName'].startswith('Cattleya ') for t in data['taxa'])
+          print(f'Validated {count} Cattleya records')
+          PY
+
+      - name: Commit updated catalogue
+        run: |
+          if git diff --quiet -- data/cattleya_catalog.json data/cattleya_catalog.csv; then
+            echo "No catalogue changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/cattleya_catalog.json data/cattleya_catalog.csv
+          git commit -m "Update Cattleya catalogue"
+          git push

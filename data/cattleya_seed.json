@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "title": "Cattleya seed catalogue",
+    "version": "0.1.0",
+    "status": "seed-not-comprehensive",
+    "updated": "2026-07-11",
+    "notice": "Catálogo inicial para pruebas. Los nombres, sinónimos y distribuciones deben validarse periódicamente contra Kew POWO, IPNI, GBIF y CITES.",
+    "sources": [
+      {"name":"Kew Plants of the World Online","url":"https://powo.science.kew.org/"},
+      {"name":"International Plant Names Index","url":"https://www.ipni.org/"},
+      {"name":"GBIF","url":"https://www.gbif.org/"},
+      {"name":"CITES Checklist","url":"https://checklist.cites.org/"}
+    ]
+  },
+  "records": [
+    {
+      "id":"cattleya-trianae",
+      "scientificName":"Cattleya trianae",
+      "authorship":"Linden & Rchb.f.",
+      "type":"species",
+      "commonNames":["Flor de mayo","Orquídea de Navidad"],
+      "countries":["Colombia"],
+      "notes":"Especie emblemática colombiana. Registro incluido como punto de partida para validación taxonómica y documental.",
+      "searchTerms":["trianae","flor de mayo","colombia"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20trianae","gbif":"https://www.gbif.org/species/search?q=Cattleya%20trianae","ipni":"https://www.ipni.org/?q=Cattleya%20trianae"}
+    },
+    {
+      "id":"cattleya-mossiae",
+      "scientificName":"Cattleya mossiae",
+      "authorship":"C.Parker ex Hook.",
+      "type":"species",
+      "commonNames":["Flor de mayo venezolana"],
+      "countries":["Venezuela"],
+      "notes":"Cattleya unifoliada de flores grandes, muy importante en la historia de la hibridación.",
+      "searchTerms":["mossiae","venezuela"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20mossiae","gbif":"https://www.gbif.org/species/search?q=Cattleya%20mossiae","ipni":"https://www.ipni.org/?q=Cattleya%20mossiae"}
+    },
+    {
+      "id":"cattleya-warscewiczii",
+      "scientificName":"Cattleya warscewiczii",
+      "authorship":"Rchb.f.",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Colombia"],
+      "notes":"Especie colombiana de gran tamaño y fuerte influencia en híbridos clásicos.",
+      "searchTerms":["warscewiczii","gigas","colombia"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20warscewiczii","gbif":"https://www.gbif.org/species/search?q=Cattleya%20warscewiczii","ipni":"https://www.ipni.org/?q=Cattleya%20warscewiczii"}
+    },
+    {
+      "id":"cattleya-labiata",
+      "scientificName":"Cattleya labiata",
+      "authorship":"Lindl.",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Brazil"],
+      "notes":"Especie histórica asociada al origen del cultivo moderno de las cattleyas.",
+      "searchTerms":["labiata","brazil","brasil"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20labiata","gbif":"https://www.gbif.org/species/search?q=Cattleya%20labiata","ipni":"https://www.ipni.org/?q=Cattleya%20labiata"}
+    },
+    {
+      "id":"cattleya-dowiana",
+      "scientificName":"Cattleya dowiana",
+      "authorship":"Bateman & Rchb.f.",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Costa Rica","Colombia"],
+      "notes":"Reconocida por su labelo amarillo y carmesí; requiere revisión infraespecífica y de distribución por fuente.",
+      "searchTerms":["dowiana","aurea","costa rica","colombia"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20dowiana","gbif":"https://www.gbif.org/species/search?q=Cattleya%20dowiana","ipni":"https://www.ipni.org/?q=Cattleya%20dowiana"}
+    },
+    {
+      "id":"cattleya-maxima",
+      "scientificName":"Cattleya maxima",
+      "authorship":"Lindl.",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Ecuador","Peru"],
+      "notes":"Cattleya andina y costera con amplia variación geográfica y hortícola.",
+      "searchTerms":["maxima","ecuador","peru","perú"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20maxima","gbif":"https://www.gbif.org/species/search?q=Cattleya%20maxima","ipni":"https://www.ipni.org/?q=Cattleya%20maxima"}
+    },
+    {
+      "id":"cattleya-rex",
+      "scientificName":"Cattleya rex",
+      "authorship":"O'Brien",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Peru"],
+      "notes":"Especie peruana de flores grandes, blanca y amarilla, muy apreciada en cultivo.",
+      "searchTerms":["rex","peru","perú"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20rex","gbif":"https://www.gbif.org/species/search?q=Cattleya%20rex","ipni":"https://www.ipni.org/?q=Cattleya%20rex"}
+    },
+    {
+      "id":"cattleya-lueddemanniana",
+      "scientificName":"Cattleya lueddemanniana",
+      "authorship":"Rchb.f.",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Venezuela"],
+      "notes":"Especie venezolana clásica, importante en programas de mejoramiento.",
+      "searchTerms":["lueddemanniana","lueddemann","venezuela"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20lueddemanniana","gbif":"https://www.gbif.org/species/search?q=Cattleya%20lueddemanniana","ipni":"https://www.ipni.org/?q=Cattleya%20lueddemanniana"}
+    },
+    {
+      "id":"cattleya-gaskelliana",
+      "scientificName":"Cattleya gaskelliana",
+      "authorship":"(N.E.Br.) B.S.Williams",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Venezuela"],
+      "notes":"Cattleya venezolana unifoliada con numerosas formas de color en cultivo.",
+      "searchTerms":["gaskelliana","venezuela"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20gaskelliana","gbif":"https://www.gbif.org/species/search?q=Cattleya%20gaskelliana","ipni":"https://www.ipni.org/?q=Cattleya%20gaskelliana"}
+    },
+    {
+      "id":"cattleya-schroederae",
+      "scientificName":"Cattleya schroederae",
+      "authorship":"Sander",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Colombia"],
+      "notes":"Especie colombiana de floración perfumada, tradicionalmente asociada a la temporada de comienzos de año.",
+      "searchTerms":["schroederae","colombia"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20schroederae","gbif":"https://www.gbif.org/species/search?q=Cattleya%20schroederae","ipni":"https://www.ipni.org/?q=Cattleya%20schroederae"}
+    },
+    {
+      "id":"cattleya-percivaliana",
+      "scientificName":"Cattleya percivaliana",
+      "authorship":"Rchb.f.",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Venezuela","Colombia"],
+      "notes":"Especie clásica de floración invernal; la distribución exacta debe mantenerse vinculada a las fuentes.",
+      "searchTerms":["percivaliana","venezuela","colombia"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20percivaliana","gbif":"https://www.gbif.org/species/search?q=Cattleya%20percivaliana","ipni":"https://www.ipni.org/?q=Cattleya%20percivaliana"}
+    },
+    {
+      "id":"cattleya-jenmanii",
+      "scientificName":"Cattleya jenmanii",
+      "authorship":"Rolfe",
+      "type":"species",
+      "commonNames":[],
+      "countries":["Venezuela","Guyana"],
+      "notes":"Especie de la región guayanesa con presencia documentada que debe verificarse por dataset.",
+      "searchTerms":["jenmanii","venezuela","guyana"],
+      "links":{"powo":"https://powo.science.kew.org/results?q=Cattleya%20jenmanii","gbif":"https://www.gbif.org/species/search?q=Cattleya%20jenmanii","ipni":"https://www.ipni.org/?q=Cattleya%20jenmanii"}
+    }
+  ]
+}
