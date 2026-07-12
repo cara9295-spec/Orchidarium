@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Orchidarium · Fichas completas</title>
+<style>
+:root{--bg:#f7f3ea;--paper:#fffdf8;--ink:#22231f;--muted:#66685f;--green:#2e5d42;--pink:#ad3d5b;--line:#d9d2c5}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,sans-serif}header,.toolbar,.content{max-width:1120px;margin:auto}header{padding:30px 20px 10px}h1{font:500 clamp(36px,6vw,60px)/1 Georgia,serif;margin:0 0 10px}header p{color:var(--muted);line-height:1.5}.toolbar{padding:16px 20px}.toolbar input{width:100%;padding:15px 17px;border:1px solid var(--line);border-radius:15px;background:var(--paper);font-size:16px}.content{padding:0 20px 50px;display:grid;gap:18px}.profile{background:var(--paper);border:1px solid var(--line);border-radius:22px;overflow:hidden}.hero{padding:22px;border-bottom:1px solid var(--line)}.hero h2{font:500 32px Georgia,serif;margin:0 0 5px}.authority{color:var(--muted);font-size:13px}.common{color:var(--pink);margin-top:8px}.badge{display:inline-block;padding:5px 9px;border-radius:999px;background:#e6efe8;color:var(--green);font-size:12px;margin:10px 6px 0 0}.sections{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:0}.section{padding:20px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.section h3{font:600 14px/1.2 system-ui;margin:0 0 12px;text-transform:uppercase;letter-spacing:.06em;color:var(--green)}dl{margin:0;display:grid;grid-template-columns:120px 1fr;gap:8px 12px;font-size:14px}dt{color:var(--muted)}dd{margin:0;line-height:1.45}.media-empty{padding:16px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);font-size:13px}.links{display:flex;gap:10px;flex-wrap:wrap}.links a{color:var(--pink);text-decoration:none;font-weight:600;font-size:13px}.sources{font-size:12px;color:var(--muted);line-height:1.5}.empty{text-align:center;padding:40px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header><h1>Fichas completas</h1><p>Taxonomía, distribución, mapa, morfología, cultivo, fotografías licenciadas e hibridajes documentados.</p></header>
+<div class="toolbar"><input id="q" type="search" placeholder="Buscar por nombre, país, color, grupo o característica…"></div>
+<main class="content" id="content"><div class="empty">Cargando fichas…</div></main>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+let rows=[];
+function kv(label,value){return value?`<dt>${esc(label)}</dt><dd>${Array.isArray(value)?value.map(esc).join(', '):esc(value)}</dd>`:''}
+function render(){const q=norm(document.querySelector('#q').value);const data=rows.filter(r=>!q||norm(JSON.stringify(r)).includes(q));document.querySelector('#content').innerHTML=data.length?data.map(r=>{
+ const t=r.taxonomy,d=r.distribution,m=r.morphology,c=r.cultivation,h=r.hybridization;
+ return `<article class="profile"><div class="hero"><h2><em>${esc(t.scientificName)}</em></h2><div class="authority">${esc(t.authorship||'')}</div><div class="common">${esc([...(t.commonNames?.es||[]),...(t.commonNames?.en||[])].join(' · '))}</div><span class="badge">${esc(t.horticulturalGroup||'')}</span><span class="badge">${esc(m.group||'')}</span></div><div class="sections">
+ <section class="section"><h3>Taxonomía</h3><dl>${kv('Género',t.genus)}${kv('Especie',t.species)}${kv('Subespecie',t.subspecies)}${kv('Variedad',t.variety)}${kv('Sección',t.section)}${kv('Sinónimos',t.synonyms)}</dl></section>
+ <section class="section"><h3>Ubicación y mapa</h3><dl>${kv('Países',d.countries)}${kv('Regiones',d.regions)}${kv('Rango nativo',d.nativeRange)}${kv('Altitud',d.altitudeMinM!=null||d.altitudeMaxM!=null?`${d.altitudeMinM??'?'}–${d.altitudeMaxM??'?'} m`:'')}${kv('Hábitat',d.habitat)}</dl><div class="links" style="margin-top:12px"><a href="${esc(d.map.url)}" target="_blank" rel="noopener">Ver mapa GBIF ↗</a></div></section>
+ <section class="section"><h3>Características</h3><dl>${kv('Hábito',m.growthHabit)}${kv('Grupo',m.group)}${kv('Colores',m.dominantColors)}${kv('Forma',m.flowerShape)}${kv('Labelo',m.labellum)}${kv('Pétalos',m.petals)}${kv('Sépalos',m.sepals)}${kv('Hojas',m.leaves)}${kv('Pseudobulbos',m.pseudobulbs)}${kv('Inflorescencia',m.inflorescence)}${kv('Fragancia',m.fragrance)}${kv('Floración',m.bloomingSeason)}</dl></section>
+ <section class="section"><h3>Cuidados</h3><dl>${kv('Dificultad',c.difficulty)}${kv('Luz',c.light)}${kv('Riego',c.watering)}${kv('Humedad',c.humidity)}${kv('Temperatura',c.temperature)}${kv('Abono',c.fertilizer)}${kv('Sustrato',c.substrate)}${kv('Reposo',c.restPeriod)}${kv('Trasplante',c.repotting)}${kv('Notas',c.notes)}</dl></section>
+ <section class="section"><h3>Fotografías</h3>${r.media?.length?r.media.map(x=>`<a href="${esc(x.sourceUrl)}" target="_blank"><img src="${esc(x.thumbnailUrl||x.url)}" alt="${esc(x.caption||t.scientificName)}" style="max-width:100%;border-radius:12px"></a>`).join(''):'<div class="media-empty">Pendiente de incorporar fotografías con autor y licencia verificables.</div>'}</section>
+ <section class="section"><h3>Hibridajes</h3><p style="font-size:14px;line-height:1.5">${esc(h.importance||'')}</p>${h.principalHybrids?.length?h.principalHybrids.map(x=>`<div>${esc(x.name)} — ${esc(x.seedParent)} × ${esc(x.pollenParent)}</div>`).join(''):'<div class="media-empty">Pendiente de cargar híbridos principales desde una fuente autorizada.</div>'}</section>
+ <section class="section"><h3>Fuentes</h3><div class="sources">${r.sources.map(s=>`<div><strong>${esc(s.field)}</strong>: <a href="${esc(s.url)}" target="_blank">${esc(s.name)}</a> · ${esc(s.confidence)}</div>`).join('')}</div></section>
+ </div></article>`}).join(''):'<div class="empty">No se encontraron coincidencias.</div>'}
+fetch('./data/cattleya_rich_profiles.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{rows=d.records||[];render()}).catch(e=>document.querySelector('#content').innerHTML=`<div class="empty">${esc(e.message)}</div>`);
+document.querySelector('#q').addEventListener('input',render);
+</script>
+</body></html>
