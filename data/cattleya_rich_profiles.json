@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Orchidarium rich profiles — Cattleya",
+    "version": "0.1.0",
+    "updated": "2026-07-11",
+    "recordCount": 3,
+    "notice": "Primera capa enriquecida. Los campos vacíos o marcados como pendientes no se completan por inferencia. Fotografías e hibridajes solo se incorporan con licencia y fuente verificable."
+  },
+  "records": [
+    {
+      "id": "cattleya-trianae",
+      "taxonomy": {
+        "scientificName": "Cattleya trianae",
+        "commonNames": {"es": ["Flor de mayo", "Orquídea de Navidad"], "en": ["Christmas orchid"]},
+        "genus": "Cattleya", "species": "trianae", "subspecies": null, "variety": null,
+        "section": "Cattleya", "horticulturalGroup": "Cattleya unifoliada de flor grande",
+        "authorship": "Linden & Rchb.f.", "acceptedName": "Cattleya trianae",
+        "synonyms": ["Cattleya bogotensis", "Cattleya kimballiana", "Epidendrum labiatum var. trianae"]
+      },
+      "media": [],
+      "distribution": {
+        "countries": ["CO"], "regions": ["Andes de Colombia"],
+        "nativeRange": "Colombia; epífita de bosques montanos y nublados.",
+        "altitudeMinM": 1500, "altitudeMaxM": 2000,
+        "habitat": "Bosques nublados y montanos, sobre árboles con buena ventilación y luz filtrada.",
+        "map": {"provider": "GBIF", "url": "https://www.gbif.org/species/search?q=Cattleya%20trianae", "taxonKey": null}
+      },
+      "morphology": {
+        "growthHabit": "Epífita", "group": "Unifoliada",
+        "dominantColors": ["rosado", "lila", "blanco", "amarillo", "magenta"],
+        "flowerShape": "Flor grande, abierta y redondeada, con pétalos amplios y ondulados.",
+        "flowerDiameterCm": {"min": null, "max": null},
+        "labellum": "Grande y tubular-abierto, con garganta amarilla y zona frontal magenta o púrpura.",
+        "sepals": "Alargados, relativamente estrechos frente a los pétalos.",
+        "petals": "Anchos, ondulados y frecuentemente de tono lila o rosado.",
+        "leaves": "Una hoja apical, coriácea y carnosa por pseudobulbo.",
+        "pseudobulbs": "Alargados, engrosados y unifoliados.",
+        "inflorescence": "Terminal, normalmente desde espata.",
+        "fragrance": "Generalmente fragante.",
+        "bloomingSeason": "Variable según procedencia y cultivo; frecuentemente entre finales de año y primeros meses del siguiente."
+      },
+      "cultivation": {
+        "difficulty": "Intermedia", "light": "Luz brillante filtrada; evitar sol fuerte del mediodía.",
+        "watering": "Riego abundante durante crecimiento activo, dejando secar parcialmente el sustrato entre riegos.",
+        "humidity": "Moderada a alta con circulación constante de aire.",
+        "temperature": "Intermedia; noches frescas favorecen maduración y floración.",
+        "fertilizer": "Fertilización balanceada y diluida durante crecimiento; reducir en reposo.",
+        "substrate": "Corteza gruesa o montaje con drenaje y aireación altos.",
+        "restPeriod": "Reducir riego después de madurar pseudobulbos, sin deshidratar completamente.",
+        "repotting": "Al iniciar raíces nuevas o cuando el sustrato se degrade.",
+        "notes": "Evitar agua estancada en raíces y mantener buena ventilación."
+      },
+      "hybridization": {"importance": "Especie histórica importante en híbridos de Cattleya de flor grande.", "principalHybrids": []},
+      "sources": [
+        {"field":"taxonomy","name":"Kew POWO search","url":"https://powo.science.kew.org/results?q=Cattleya%20trianae","retrievedAt":"2026-07-11","confidence":"high"},
+        {"field":"distribution-map","name":"GBIF","url":"https://www.gbif.org/species/search?q=Cattleya%20trianae","retrievedAt":"2026-07-11","confidence":"high"},
+        {"field":"morphology-habitat","name":"Published species summaries and historical literature","url":"https://es.wikipedia.org/wiki/Cattleya_trianae","retrievedAt":"2026-07-11","confidence":"medium"}
+      ]
+    },
+    {
+      "id": "cattleya-mossiae",
+      "taxonomy": {
+        "scientificName": "Cattleya mossiae", "commonNames": {"es": ["Flor de mayo"], "en": []},
+        "genus": "Cattleya", "species": "mossiae", "subspecies": null, "variety": null,
+        "section": "Cattleya", "horticulturalGroup": "Cattleya unifoliada de flor grande",
+        "authorship": "C.Parker ex Hook.", "acceptedName": "Cattleya mossiae", "synonyms": []
+      },
+      "media": [],
+      "distribution": {
+        "countries": ["VE"], "regions": ["Cordillera de la Costa", "Andes venezolanos"],
+        "nativeRange": "Venezuela, principalmente en sistemas montañosos del norte y piedemonte andino.",
+        "altitudeMinM": null, "altitudeMaxM": null,
+        "habitat": "Bosques nublados, montanos húmedos y algunos bosques estacionales; epífita y ocasionalmente litófita.",
+        "map": {"provider":"GBIF","url":"https://www.gbif.org/species/search?q=Cattleya%20mossiae","taxonKey":null}
+      },
+      "morphology": {
+        "growthHabit":"Epífita o litófita", "group":"Unifoliada",
+        "dominantColors":["lila","rosado","blanco","púrpura","amarillo"],
+        "flowerShape":"Flor grande, redondeada y vistosa, con pétalos anchos.",
+        "flowerDiameterCm":{"min":null,"max":null},
+        "labellum":"Amplio, tubular en la base y expandido al frente, con garganta amarilla y tonos púrpura.",
+        "sepals":"Más estrechos que los pétalos.", "petals":"Anchos y ondulados.",
+        "leaves":"Una hoja coriácea por pseudobulbo.", "pseudobulbs":"Unifoliados, alargados y robustos.",
+        "inflorescence":"Terminal, desde espata verde o seca.", "fragrance":"Fragante.",
+        "bloomingSeason":"Principalmente asociada al ciclo anual de maduración y reposo; varía con localidad y cultivo."
+      },
+      "cultivation": {
+        "difficulty":"Intermedia", "light":"Alta luminosidad filtrada, con protección del sol intenso.",
+        "watering":"Riego regular en crecimiento y reducción marcada al madurar brotes.",
+        "humidity":"Preferiblemente 60–80%, con buena circulación.",
+        "temperature":"Intermedia a cálida; evitar frío prolongado.",
+        "fertilizer":"Balanceado y diluido durante crecimiento activo.",
+        "substrate":"Muy aireado y drenante; corteza gruesa o montaje.",
+        "restPeriod":"Importante después de madurar pseudobulbos.",
+        "repotting":"Cuando aparezcan raíces nuevas.",
+        "notes":"Tolera cierta estacionalidad, pero no raíces permanentemente secas durante crecimiento."
+      },
+      "hybridization":{"importance":"Padre histórico de numerosos híbridos complejos de Cattleya de flor grande.","principalHybrids":[]},
+      "sources":[
+        {"field":"taxonomy","name":"Kew POWO search","url":"https://powo.science.kew.org/results?q=Cattleya%20mossiae","retrievedAt":"2026-07-11","confidence":"high"},
+        {"field":"distribution-map","name":"GBIF","url":"https://www.gbif.org/species/search?q=Cattleya%20mossiae","retrievedAt":"2026-07-11","confidence":"high"},
+        {"field":"habitat-morphology","name":"Species summary","url":"https://es.wikipedia.org/wiki/Cattleya_mossiae","retrievedAt":"2026-07-11","confidence":"medium"}
+      ]
+    },
+    {
+      "id":"cattleya-warscewiczii",
+      "taxonomy":{"scientificName":"Cattleya warscewiczii","commonNames":{"es":[],"en":[]},"genus":"Cattleya","species":"warscewiczii","subspecies":null,"variety":null,"section":"Cattleya","horticulturalGroup":"Cattleya unifoliada de flor grande","authorship":"Rchb.f.","acceptedName":"Cattleya warscewiczii","synonyms":["Cattleya gigas"]},
+      "media":[],
+      "distribution":{"countries":["CO"],"regions":["Andes de Colombia"],"nativeRange":"Colombia.","altitudeMinM":null,"altitudeMaxM":null,"habitat":"Bosques montanos, creciendo como epífita con abundante luz filtrada.","map":{"provider":"GBIF","url":"https://www.gbif.org/species/search?q=Cattleya%20warscewiczii","taxonKey":null}},
+      "morphology":{"growthHabit":"Epífita","group":"Unifoliada","dominantColors":["rosado","lila","magenta","amarillo"],"flowerShape":"Flores muy grandes, abiertas y de pétalos amplios.","flowerDiameterCm":{"min":null,"max":null},"labellum":"Grande, intensamente coloreado, con garganta amarilla y zona frontal púrpura o magenta.","sepals":"Alargados.","petals":"Muy anchos y ondulados.","leaves":"Una hoja apical coriácea.","pseudobulbs":"Altos, robustos y unifoliados.","inflorescence":"Terminal y multiflora según vigor.","fragrance":"Frecuentemente fragante.","bloomingSeason":"Variable según procedencia y manejo."},
+      "cultivation":{"difficulty":"Intermedia","light":"Luz alta filtrada.","watering":"Abundante en crecimiento, con secado parcial entre riegos.","humidity":"Moderada a alta y ventilación fuerte.","temperature":"Intermedia a cálida.","fertilizer":"Diluido durante crecimiento activo.","substrate":"Grueso, aireado y de rápido drenaje.","restPeriod":"Reducir agua después de maduración.","repotting":"Al iniciar raíces nuevas.","notes":"Necesita espacio y buena luz para desarrollar pseudobulbos vigorosos."},
+      "hybridization":{"importance":"Muy influyente en híbridos por tamaño floral y porte.","principalHybrids":[]},
+      "sources":[{"field":"taxonomy","name":"Kew POWO search","url":"https://powo.science.kew.org/results?q=Cattleya%20warscewiczii","retrievedAt":"2026-07-11","confidence":"high"},{"field":"distribution-map","name":"GBIF","url":"https://www.gbif.org/species/search?q=Cattleya%20warscewiczii","retrievedAt":"2026-07-11","confidence":"high"}]
+    }
+  ]
+}
