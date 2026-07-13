@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "title": "Orchidarium rich profiles · Colombian Cattleya batch 2",
+    "version": "0.3.0",
+    "updated": "2026-07-12",
+    "status": "editorial-working-set",
+    "sourceBasis": "Guia_Cattleya_Colombia_Cuidados_Final_sin_paginas_vacias.pdf",
+    "recordCount": 4,
+    "notes": "Fichas enriquecidas para especies colombianas o fuertemente asociadas a Colombia. Fotografias e hibridajes quedan como referencias/licencias pendientes cuando no existe fuente verificable incorporada."
+  },
+  "records": [
+    {
+      "id": "cattleya-mendelii-rich",
+      "scientificName": "Cattleya mendelii",
+      "commonNames": {"es": ["Cattleya de Santander", "Flor de mayo de montaña"], "en": []},
+      "taxonomy": {"genus": "Cattleya", "species": "mendelii", "subspecies": null, "variety": null, "form": null, "section": null, "group": "Cattleya unifoliada colombiana de clima intermedio-fresco", "status": "working-accepted", "needsPOWOCheck": true},
+      "distribution": {"countries": ["CO"], "regions": ["Santander", "Norte de Santander", "Cordillera Oriental"], "altitudeMeters": {"min": 1300, "max": 1800}, "habitat": "Epifita o litofita en rocas, acantilados y ambientes montanos del nororiente colombiano.", "map": {"type": "gbif-search", "url": "https://www.gbif.org/species/search?q=Cattleya%20mendelii"}},
+      "photos": [],
+      "morphology": {"flowerColors": ["blanco", "rosado palido", "purpura en labelo", "amarillo en garganta"], "flowerShape": "Flor grande de Cattleya unifoliada, generalmente clara, con labelo contrastante.", "labellum": "Labelo prominente con area purpura y garganta amarilla; variacion horticola pendiente de documentar.", "flowerSizeCm": null, "leaves": "Una hoja por pseudobulbo maduro; hojas firmes de verde claro cuando la luz es adecuada.", "pseudobulbs": "Pseudobulbos gruesos, erectos, con necesidad de buen secado y aireacion.", "fragrance": null, "bloomingSeason": null},
+      "care": {"temperature": "Intermedio-fresco: dias 18-26 °C, noches 12-18 °C; evitar calor nocturno permanente.", "light": "Alta filtrada, incluso muy luminosa si hay aire; debe verse verde claro, no verde oscuro.", "humidity": "50-70% con gran ventilacion.", "watering": "Riego en crecimiento y secado completo entre riegos. Reposo mas marcado despues de madurar pseudobulbo.", "substrate": "Mas mineral: pomice/lava 35-45%, corteza media-gruesa 30-40%, carbon 15-20%, icopor 5-10%.", "container": "Matera de barro, canasta pequeña o montaje en piedra/tronco con musgo minimo cerca de raices nuevas.", "fertilizer": "Moderada: 40-50 ppm N en crecimiento; Ca/Mg constantes. Evitar exceso de nitrogeno.", "rest": "Reposo mas claro despues de madurar pseudobulbo; evitar frio con raices mojadas.", "criticalNote": "Ideal para climas tipo Eje Cafetero alto, Bogota templada protegida o vivero con noches frescas."},
+      "hybridization": {"importance": "Especie colombiana valiosa por forma clara, elegancia y clima fresco; hibridajes principales pendientes de carga desde RHS u otra fuente autorizada.", "primaryHybrids": [], "famousHybrids": [], "pendingSource": true},
+      "sources": [{"name": "Guia_Cattleya_Colombia_Cuidados_Final_sin_paginas_vacias.pdf", "type": "user-provided-guide", "confidence": "editorial", "fields": ["distribution", "altitude", "care", "group"]}]
+    },
+    {
+      "id": "cattleya-quadricolor-rich",
+      "scientificName": "Cattleya quadricolor",
+      "commonNames": {"es": ["Cattleya de cuatro colores"], "en": []},
+      "taxonomy": {"genus": "Cattleya", "species": "quadricolor", "subspecies": null, "variety": null, "form": null, "section": null, "group": "Cattleya colombiana de bosque seco interandino", "status": "working-accepted", "needsPOWOCheck": true},
+      "distribution": {"countries": ["CO"], "regions": ["Valle del Cauca", "Quindio", "Risaralda", "Valle alto del rio Cauca"], "altitudeMeters": {"min": 900, "max": 1500}, "habitat": "Remanentes de bosque seco tropical del valle alto del rio Cauca.", "map": {"type": "gbif-search", "url": "https://www.gbif.org/species/search?q=Cattleya%20quadricolor"}},
+      "photos": [],
+      "morphology": {"flowerColors": ["blanco", "lila", "purpura", "amarillo"], "flowerShape": "Flor clara con labelo marcado; la ficha de detalle morfologico queda pendiente de fuente fotografica/licenciada.", "labellum": "Labelo contrastante con tonos purpura y amarillos; variacion horticola pendiente.", "flowerSizeCm": null, "leaves": "Cattleya unifoliada, hojas firmes, verde claro en cultivo luminoso.", "pseudobulbs": "Pseudobulbos firmes; requiere aireacion marcada en raices.", "fragrance": null, "bloomingSeason": null},
+      "care": {"temperature": "Calido-intermedio con estacion seca: dias 20-31 °C, noches 15-21 °C.", "light": "Alta filtrada; puede cultivarse con mas claridad que C. trianae, protegida del sol vertical.", "humidity": "50-70%; tolera temporada seca, pero no deshidratacion severa prolongada.", "watering": "Riegos generosos en crecimiento y floracion; descanso mas seco despues de madurar. No mantener humeda en frio.", "substrate": "Muy drenante: corteza gruesa 40%, pomice/lava 30%, carbon 20%, icopor 10%. En ambientes secos, hasta 10% coco chip.", "container": "Canasta o matera de barro/plastico muy ranurado. Evitar recipientes grandes; prefiere ir apretada.", "fertilizer": "40-60 ppm N en crecimiento; reducir a 20-30 ppm o suspender 4-6 semanas si entra en reposo seco.", "rest": "Reposo seco moderado despues de madurar pseudobulbo.", "criticalNote": "Como especie de bosque seco, la clave es luz y aire, no humedad constante en la raiz."},
+      "hybridization": {"importance": "Aporta rasgos de Cattleya colombiana de bosque seco; hibridajes principales pendientes de validacion.", "primaryHybrids": [], "famousHybrids": [], "pendingSource": true},
+      "sources": [{"name": "Guia_Cattleya_Colombia_Cuidados_Final_sin_paginas_vacias.pdf", "type": "user-provided-guide", "confidence": "editorial", "fields": ["distribution", "altitude", "care", "group"]}]
+    },
+    {
+      "id": "cattleya-schroederae-rich",
+      "scientificName": "Cattleya schroederae",
+      "commonNames": {"es": ["Cattleya llanera"], "en": []},
+      "taxonomy": {"genus": "Cattleya", "species": "schroederae", "subspecies": null, "variety": null, "form": null, "section": null, "group": "Cattleya colombiana calido-intermedia humeda", "status": "working-accepted", "needsPOWOCheck": true},
+      "distribution": {"countries": ["CO"], "regions": ["Boyaca", "Casanare", "Meta", "piedemonte andino-orinocense"], "altitudeMeters": {"min": 700, "max": 1600}, "habitat": "Piedemonte andino-orinocense, con humedad ambiental estable y ventilacion.", "map": {"type": "gbif-search", "url": "https://www.gbif.org/species/search?q=Cattleya%20schroederae"}},
+      "photos": [],
+      "morphology": {"flowerColors": ["blanco", "rosado palido", "purpura", "amarillo"], "flowerShape": "Cattleya de flores claras y fragancia reportada en cultivo; ficha de detalle pendiente de fuente especifica.", "labellum": "Labelo contrastante; detalle morfologico pendiente de documentacion fotografica.", "flowerSizeCm": null, "leaves": "Unifoliada; hojas firmes con luz media-alta filtrada.", "pseudobulbs": "Pseudobulbos gruesos, sensibles a sustrato viejo y falta de aire.", "fragrance": "reportada en cultivo, pendiente de fuente estructurada", "bloomingSeason": null},
+      "care": {"temperature": "Calido-intermedio humedo: dias 22-30 °C, noches 16-21 °C.", "light": "Media-alta filtrada, algo menos sol directo que C. warscewiczii o C. quadricolor.", "humidity": "60-80% con ventilacion continua; requiere agua disponible gran parte del año.", "watering": "Mantener ciclos humedo-seco, pero no hacer reposo seco severo. Regar cuando el medio este casi seco.", "substrate": "Corteza media 50%, pomice 20%, carbon 15%, coco chip 10%, icopor 5%. En canasta, subir corteza gruesa y carbon.", "container": "Canasta o matera ranurada. Buena candidata para tronco rugoso si el ambiente mantiene humedad.", "fertilizer": "Crecimiento casi continuo: fertilizacion suave y regular, 40-50 ppm N; Ca/Mg y microelementos constantes.", "rest": "No aplicar reposo seco severo.", "criticalNote": "El error comun es tratarla como de reposo seco fuerte; prefiere humedad ambiental estable y aire."},
+      "hybridization": {"importance": "Especie colombiana importante por delicadeza, fragancia y coloracion clara; hibridajes principales pendientes de fuente autorizada.", "primaryHybrids": [], "famousHybrids": [], "pendingSource": true},
+      "sources": [{"name": "Guia_Cattleya_Colombia_Cuidados_Final_sin_paginas_vacias.pdf", "type": "user-provided-guide", "confidence": "editorial", "fields": ["distribution", "altitude", "care", "group"]}]
+    },
+    {
+      "id": "cattleya-aurea-complex-rich",
+      "scientificName": "Cattleya x aurea",
+      "labelNames": ["Cattleya dowiana var. aurea", "Cattleya aurea", "Cattleya x aurea"],
+      "commonNames": {"es": ["Cattleya dorada colombiana", "Dowiana aurea"], "en": []},
+      "taxonomy": {"genus": "Cattleya", "species": "aurea", "subspecies": null, "variety": null, "form": null, "section": null, "group": "Complejo hortícola dowiana/aurea; híbrido natural o tratamiento taxonómico pendiente", "status": "horticultural-name-with-taxonomic-warning", "acceptedFormula": "Cattleya dowiana x Cattleya warscewiczii", "needsPOWOCheck": true},
+      "distribution": {"countries": ["PA", "CO"], "regions": ["Sur de Panama", "Occidente de Colombia", "Risaralda", "Antioquia", "Choco"], "altitudeMeters": {"min": 300, "max": 1200}, "habitat": "Zonas calidas y humedas de occidente; requiere ambiente calido con raices muy aireadas.", "map": {"type": "gbif-search", "url": "https://www.gbif.org/species/search?q=Cattleya%20aurea"}},
+      "photos": [],
+      "morphology": {"flowerColors": ["amarillo", "dorado", "purpura", "carmesi"], "flowerShape": "Flor amarilla/dorada con labelo intensamente coloreado, dentro del complejo dowiana/aurea.", "labellum": "Labelo llamativo con tonos carmesi/purpura; uno de los rasgos horticoles mas valorados.", "flowerSizeCm": null, "leaves": "Cattleya unifoliada de crecimiento calido; hojas verde claro si la luz es correcta.", "pseudobulbs": "Pseudobulbos firmes; raices extremadamente sensibles a frio y humedad estancada.", "fragrance": null, "bloomingSeason": null},
+      "care": {"temperature": "Calido: dias 24-32 °C, noches 18-23 °C. Muy sensible a frio + humedad en raices.", "light": "Alta filtrada, con proteccion de sol fuerte. Hojas verde claro, pseudobulbos firmes.", "humidity": "55-75%; humedad ambiental si, sustrato encharcado no.", "watering": "Riegos fuertes en crecimiento activo; al madurar pseudobulbo, descanso mas seco. Nunca fria y mojada de noche.", "substrate": "Ultra drenante: pomice/lava 35%, corteza gruesa 30%, carbon 25%, icopor 10%. Poco o nada de coco/musgo en adultos.", "container": "Canasta, barro o montaje. Evitar matera plastica cerrada si el clima es humedo.", "fertilizer": "Moderada en crecimiento: 40-60 ppm N; calcio y magnesio constantes.", "rest": "Descanso mas seco tras madurar pseudobulbo.", "criticalNote": "La guia advierte diferencia entre nombre hortícola y tratamiento taxonomico; registrar nombre de etiqueta y nombre aceptado probable."},
+      "hybridization": {"importance": "Rasgos amarillos/dorados y labelo carmesi muy importantes en hibridacion; relacion taxonomica/hibrida con C. dowiana y C. warscewiczii pendiente de carga desde RHS/POWO.", "primaryHybrids": [{"name": "Cattleya x aurea", "seedParent": "Cattleya dowiana", "pollenParent": "Cattleya warscewiczii", "status": "formula-from-guide-needs-authority-check"}], "famousHybrids": [], "pendingSource": true},
+      "sources": [{"name": "Guia_Cattleya_Colombia_Cuidados_Final_sin_paginas_vacias.pdf", "type": "user-provided-guide", "confidence": "editorial", "fields": ["taxonomy-warning", "distribution", "altitude", "care", "hybrid-formula"]}]
+    }
+  ]
+}
