@@ -1,0 +1,32 @@
+{
+  "accepted": [
+    {
+      "key": 5318901,
+      "genusKey": 2757087,
+      "genus": "Cattleya",
+      "specificEpithet": "dowiana",
+      "canonicalName": "Cattleya dowiana",
+      "authorship": "Bateman & Rchb.f."
+    },
+    {
+      "key": 5319449,
+      "genusKey": 2838589,
+      "genus": "Rhyncholaelia",
+      "specificEpithet": "digbyana",
+      "canonicalName": "Rhyncholaelia digbyana",
+      "authorship": "(Lindl.) Schltr."
+    }
+  ],
+  "synonyms": [
+    {
+      "key": 10000001,
+      "acceptedKey": 5319449,
+      "canonicalName": "Brassavola digbyana"
+    },
+    {
+      "key": 10000002,
+      "acceptedKey": 99999999,
+      "canonicalName": "Unmatched synonym"
+    }
+  ]
+}
