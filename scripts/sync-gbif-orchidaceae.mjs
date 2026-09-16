@@ -73,18 +73,21 @@ export function buildCatalog({ accepted, synonyms, accessedAt = new Date().toISO
   const speciesByKey = new Map();
 
   for (const taxon of accepted) {
-    if (!taxon.key || !taxon.genus || !taxon.specificEpithet) continue;
-    const genusId = deterministicUuid(`gbif:genus:${taxon.genusKey ?? taxon.genus}`);
-    generaByName.set(taxon.genus, {
+    const canonicalName = taxon.canonicalName || taxon.species || '';
+    const genus = taxon.genus || canonicalName.trim().split(/\s+/)[0];
+    const specificEpithet = taxon.specificEpithet || canonicalName.trim().split(/\s+/)[1];
+    if (!taxon.key || !genus || !specificEpithet) continue;
+    const genusId = deterministicUuid(`gbif:genus:${taxon.genusKey ?? genus}`);
+    generaByName.set(genus, {
       id: genusId,
-      name: taxon.genus,
+      name: genus,
       source_id: sourceId,
     });
     speciesByKey.set(Number(taxon.key), {
       id: deterministicUuid(`gbif:species:${taxon.key}`),
       genus_id: genusId,
-      genus_name: taxon.genus,
-      specific_epithet: taxon.specificEpithet,
+      genus_name: genus,
+      specific_epithet: specificEpithet,
       authorship: taxon.authorship || null,
       gbif_taxon_key: Number(taxon.key),
       source_id: sourceId,

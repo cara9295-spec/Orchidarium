@@ -15,6 +15,26 @@ test('builds a deterministic importable Orchidaceae catalog', () => {
   assert.equal(deterministicUuid('gbif:species:5318901'), deterministicUuid('gbif:species:5318901'));
 });
 
+test('derives a missing specific epithet from a GBIF canonical name', () => {
+  const catalog = buildCatalog({
+    accepted: [{
+      key: 123,
+      genusKey: 12,
+      genus: 'Cattleya',
+      canonicalName: 'Cattleya dowiana',
+      scientificName: 'Cattleya dowiana Bateman',
+      authorship: 'Bateman',
+    }],
+    synonyms: [],
+    accessedAt: '2026-09-16',
+  });
+
+  assert.equal(catalog.genera.length, 1);
+  assert.equal(catalog.species.length, 1);
+  assert.equal(catalog.species[0].genus_name, 'Cattleya');
+  assert.equal(catalog.species[0].specific_epithet, 'dowiana');
+});
+
 test('paginates GBIF responses and honors a record limit', async () => {
   const requested = [];
   const pages = [
