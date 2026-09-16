@@ -1,0 +1,12 @@
+source_id,name,domain,url,access,license_or_terms,bulk_download,notes
+rhs_orchid_register,RHS International Orchid Register,hybrids,https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchidregister.asp,search,restricted/database terms,No,Autoridad primaria para grex y parentesco
+kew_powo,Plants of the World Online,taxonomy,https://powo.science.kew.org/,web,Kew terms,Conditional,Taxonomía distribución y sinónimos
+ipni,International Plant Names Index,nomenclature,https://www.ipni.org/,web/api,IPNI terms,Conditional,Nombres y publicación original
+gbif,GBIF,occurrences,https://www.gbif.org/,web/api/download,CC licenses by dataset,Yes with attribution,Ocurrencias y datasets
+inaturalist,iNaturalist,observations/images,https://www.inaturalist.org/,web/api,license per item,Conditional,Verificar licencia por imagen
+bhl,Biodiversity Heritage Library,literature,https://www.biodiversitylibrary.org/,web/api/download,item-specific,Conditional,Libros y revistas históricas
+internet_archive,Internet Archive / Open Library,literature,https://archive.org/,web/download/loan,item-specific,Conditional,Distinguir descarga de préstamo
+speciesplus,Species+,conservation/trade,https://www.speciesplus.net/,web/api,Species+ terms,Conditional,CITES y regulación
+cites_checklist,CITES Checklist,conservation/trade,https://checklist.cites.org/,web,CITES terms,Conditional,Consulta oficial
+world_flora_online,World Flora Online,taxonomy,https://www.worldfloraonline.org/,web/data,WFO terms,Conditional,Clasificación global
+aos,American Orchid Society,culture/awards,https://www.aos.org/,web,AOS terms,No by default,Artículos y recursos
