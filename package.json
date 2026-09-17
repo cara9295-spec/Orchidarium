@@ -1,0 +1,13 @@
+{
+  "name": "orchidarium",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "import:check": "node scripts/import-catalog.mjs --dry-run data/catalog.example.json",
+    "catalog:gbif": "node scripts/sync-gbif-orchidaceae.mjs",
+    "catalog:audit": "node scripts/audit-gbif-catalog.mjs data/generated/gbif-orchidaceae.json --minimum-species 30000 --minimum-synonyms 30000 --report data/generated/gbif-orchidaceae.audit.json",
+    "catalog:gbif:fixture": "node scripts/sync-gbif-orchidaceae.mjs --fixture tests/fixtures/gbif-orchidaceae.json --output data/generated/gbif-orchidaceae.fixture.json"
+  }
+}

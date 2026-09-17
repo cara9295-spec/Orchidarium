@@ -1,0 +1,81 @@
+name: Build GBIF Orchidaceae catalog
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/sync-gbif.yml
+      - scripts/sync-gbif-orchidaceae.mjs
+      - scripts/import-catalog.mjs
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Records per taxonomic status (leave empty for the complete catalog)
+        required: false
+        type: string
+  schedule:
+    - cron: '17 3 1 * *'
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Restore resumable GBIF pages
+        uses: actions/cache@v4
+        with:
+          path: data/generated/gbif-cache
+          key: gbif-orchidaceae-pages-v1-${{ github.run_id }}
+          restore-keys: |
+            gbif-orchidaceae-pages-v1-
+      - name: Download accepted species and synonyms
+        env:
+          RECORD_LIMIT: ${{ inputs.limit }}
+        run: |
+          if [ -n "$RECORD_LIMIT" ]; then
+            npm run catalog:gbif -- --limit "$RECORD_LIMIT"
+          else
+            npm run catalog:gbif
+          fi
+      - name: Validate generated catalog
+        run: node scripts/import-catalog.mjs --dry-run data/generated/gbif-orchidaceae.json
+      - name: Audit catalog integrity and size
+        env:
+          RECORD_LIMIT: ${{ inputs.limit }}
+        run: |
+          if [ -n "$RECORD_LIMIT" ]; then
+            node scripts/audit-gbif-catalog.mjs data/generated/gbif-orchidaceae.json \
+              --report data/generated/gbif-orchidaceae.audit.json
+          else
+            node scripts/audit-gbif-catalog.mjs data/generated/gbif-orchidaceae.json \
+              --minimum-species 30000 --minimum-synonyms 30000 \
+              --report data/generated/gbif-orchidaceae.audit.json
+          fi
+      - name: Publish catalog counts
+        run: |
+          node --input-type=module <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          import { readFile } from 'node:fs/promises';
+          const catalog = JSON.parse(await readFile('data/generated/gbif-orchidaceae.json', 'utf8'));
+          console.log('## GBIF Orchidaceae catalog');
+          console.log(`- Generated: ${catalog.generated_at}`);
+          console.log(`- Genera: ${catalog.genera.length.toLocaleString('en-US')}`);
+          console.log(`- Accepted species: ${catalog.species.length.toLocaleString('en-US')}`);
+          console.log(`- Synonyms linked to accepted species: ${catalog.species_synonyms.length.toLocaleString('en-US')}`);
+          NODE
+      - name: Upload normalized catalog
+        uses: actions/upload-artifact@v4
+        with:
+          name: gbif-orchidaceae-${{ github.run_id }}
+          path: |
+            data/generated/gbif-orchidaceae.json
+            data/generated/gbif-orchidaceae.audit.json
+          if-no-files-found: error
+          retention-days: 30
