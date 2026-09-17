@@ -310,7 +310,8 @@ create index image_evidence_embedding_idx on image_evidence using ivfflat (embed
 create or replace function orchid_search(q text, max_results int default 25)
 returns table(entity_kind orchid_entity_kind, entity_id uuid, label text, rank_score real, match_reason text)
 language sql stable as $$
-  with query as (select websearch_to_tsquery('simple', unaccent(q)) tsq, unaccent(q) uq)
+  with query as (select websearch_to_tsquery('simple', unaccent(q)) tsq, unaccent(q) uq),
+  matches(entity_kind, entity_id, label, rank_score, match_reason) as (
   select 'species'::orchid_entity_kind, s.id, s.full_name,
     greatest(ts_rank(s.search_document, query.tsq), similarity(unaccent(s.full_name), query.uq))::real,
     'species/name'
@@ -334,7 +335,9 @@ language sql stable as $$
     'cultivar/clone'
   from cultivars c, query
   where c.search_document @@ query.tsq or unaccent(c.display_name) % query.uq
-  order by rank_score desc
+  )
+  select * from matches
+  order by matches.rank_score desc
   limit max_results;
 $$;
 

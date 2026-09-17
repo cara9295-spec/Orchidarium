@@ -50,6 +50,7 @@ assert.match(migration, /constraint image_license_trace_required/, 'image eviden
 assert.match(migration, /create or replace function grex_ancestry/, 'migration should expose recursive ancestry');
 assert.match(migration, /create or replace function grex_genetic_contribution/, 'migration should expose genetic contribution');
 assert.match(migration, /create or replace function match_image_embedding/, 'migration should expose vector matching');
+assert.match(migration, /matches\(entity_kind, entity_id, label, rank_score, match_reason\)[\s\S]*?order by matches\.rank_score desc/, 'search should order a named union result instead of an unavailable select-list alias');
 assert.match(migration, /expert_verification = 'approved' and license_status <> 'restricted'/, 'RLS should only expose approved unrestricted images');
 assert.match(seed, /Cattleya[\s\S]*dowiana/, 'seed should include a demo species');
 assert.match(seed, /Rhyncholaeliocattleya Hawaiian Passion/, 'seed should include a demo registered grex');
