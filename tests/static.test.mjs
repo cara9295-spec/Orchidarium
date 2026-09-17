@@ -50,6 +50,7 @@ assert.match(migration, /constraint image_license_trace_required/, 'image eviden
 assert.match(migration, /create or replace function grex_ancestry/, 'migration should expose recursive ancestry');
 assert.match(migration, /create or replace function grex_genetic_contribution/, 'migration should expose genetic contribution');
 assert.match(migration, /create or replace function match_image_embedding/, 'migration should expose vector matching');
+assert.match(migration, /matches\(entity_kind, entity_id, label, rank_score, match_reason\)[\s\S]*?order by matches\.rank_score desc/, 'search should order a named union result instead of an unavailable select-list alias');
 assert.match(migration, /expert_verification = 'approved' and license_status <> 'restricted'/, 'RLS should only expose approved unrestricted images');
 assert.match(seed, /Cattleya[\s\S]*dowiana/, 'seed should include a demo species');
 assert.match(seed, /Rhyncholaeliocattleya Hawaiian Passion/, 'seed should include a demo registered grex');
@@ -67,6 +68,9 @@ assert.match(gbifSync, /gbif-cache/, 'GBIF sync should checkpoint pages for resu
 assert.match(gbifWorkflow, /workflow_dispatch:/, 'GBIF catalog build should be manually runnable');
 assert.match(gbifWorkflow, /actions\/upload-artifact@v4/, 'GBIF catalog should be published as a reviewed artifact');
 assert.match(deployWorkflow, /environment: supabase-staging/, 'deployment should use protected staging secrets');
+assert.match(deployWorkflow, /reset_untracked_schema:[\s\S]*?default: false/, 'schema recovery should require an explicit opt-in');
+assert.match(deployWorkflow, /if: inputs\.reset_untracked_schema[\s\S]*?supabase db reset --linked --no-seed --yes/, 'schema recovery should reset an untracked partial remote schema without seed data or interactive prompts');
+assert.doesNotMatch(deployWorkflow, /supabase db reset[^\n]*--password/, 'schema recovery must only use flags supported by supabase db reset');
 assert.match(deployWorkflow, /supabase db push/, 'deployment should apply database migrations');
 assert.match(deployWorkflow, /gbif-orchidaceae\.audit\.json/, 'deployment should require the audited catalog artifact');
 assert.match(deployWorkflow, /SUPABASE_SERVICE_ROLE_KEY: \$\{\{ secrets\.SUPABASE_SERVICE_ROLE_KEY \}\}/, 'deployment should read the service role from GitHub secrets');

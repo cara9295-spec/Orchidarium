@@ -42,12 +42,21 @@ key is never placed in the browser configuration.
 3. Enter the project reference shown in the Supabase project URL. For
    `https://abcdefgh.supabase.co`, enter `abcdefgh`.
 4. Leave **Import the latest validated GBIF catalog** enabled.
-5. Confirm **Run workflow**.
+5. Leave **Reset an untracked partial schema** disabled for a normal deployment.
+6. Confirm **Run workflow**.
 
 The workflow links the project, applies all migrations, finds the latest
 successful GBIF artifact, audits it again, validates it without writes, and then
 imports the catalog in bounded batches. It deliberately never creates or
 deletes a Supabase project.
+
+If an earlier manual or interrupted setup left database objects that are not
+tracked in the migration history, rerun the workflow with **Reset an untracked
+partial schema** enabled. This recovery option resets the linked staging
+database without loading the demo seed, then reapplies the repository
+migrations before importing the catalog. It is intentionally disabled by
+default because it deletes existing staging data; do not enable it for a normal
+incremental deployment or against a production project.
 
 ## 4. Public browser configuration
 
