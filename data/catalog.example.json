@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "id": "00000000-0000-4000-8000-000000000010",
+      "code": "CURATOR-DEMO",
+      "name": "Curator-authorized demonstration dataset",
+      "url": "https://example.org/orchidarium-demo",
+      "license": "Demo metadata only",
+      "notes": "Replace with an authorized source manifest before production import.",
+      "accessed_at": "2026-07-24"
+    }
+  ],
+  "genera": [],
+  "species": [],
+  "species_synonyms": [],
+  "grexes": [],
+  "cultivars": [],
+  "cultivar_awards": [],
+  "image_evidence": []
+}

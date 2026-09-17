@@ -1,0 +1,79 @@
+name: Deploy Orchidarium to Supabase staging
+
+on:
+  workflow_dispatch:
+    inputs:
+      project_ref:
+        description: Supabase project reference (the subdomain before .supabase.co)
+        required: true
+        type: string
+      import_catalog:
+        description: Import the latest validated GBIF catalog after migrations
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: supabase-staging-${{ inputs.project_ref }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    environment: supabase-staging
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: Link staging project
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+        run: supabase link --project-ref "${{ inputs.project_ref }}" --password "$SUPABASE_DB_PASSWORD"
+      - name: Apply database migrations
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+        run: supabase db push --linked --password "$SUPABASE_DB_PASSWORD"
+      - name: Locate latest successful GBIF catalog run
+        if: inputs.import_catalog
+        id: catalog-run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_id="$(gh run list --workflow sync-gbif.yml --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
+          test -n "$run_id" || { echo 'No successful GBIF catalog workflow run found.' >&2; exit 1; }
+          echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
+      - name: Download latest validated GBIF catalog
+        if: inputs.import_catalog
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p data/generated
+          gh run download "${{ steps.catalog-run.outputs.run_id }}" \
+            --pattern 'gbif-orchidaceae-*' --dir data/generated
+          catalog="$(find data/generated -name gbif-orchidaceae.json -type f -print -quit)"
+          audit="$(find data/generated -name gbif-orchidaceae.audit.json -type f -print -quit)"
+          test -n "$catalog" -a -n "$audit" || { echo 'Catalog artifact is incomplete.' >&2; exit 1; }
+          cp "$catalog" data/generated/catalog-to-import.json
+      - name: Re-audit downloaded catalog
+        if: inputs.import_catalog
+        run: |
+          node scripts/audit-gbif-catalog.mjs data/generated/catalog-to-import.json \
+            --minimum-species 30000 --minimum-synonyms 30000
+          node scripts/import-catalog.mjs --dry-run data/generated/catalog-to-import.json
+      - name: Import catalog into staging
+        if: inputs.import_catalog
+        env:
+          SUPABASE_URL: https://${{ inputs.project_ref }}.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/import-catalog.mjs data/generated/catalog-to-import.json
