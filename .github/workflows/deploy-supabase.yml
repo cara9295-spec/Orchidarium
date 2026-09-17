@@ -12,6 +12,11 @@ on:
         required: true
         default: true
         type: boolean
+      reset_untracked_schema:
+        description: Reset an untracked partial schema before applying migrations (deletes staging data)
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   actions: read
@@ -39,6 +44,12 @@ jobs:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
           SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
         run: supabase link --project-ref "${{ inputs.project_ref }}" --password "$SUPABASE_DB_PASSWORD"
+      - name: Reset untracked partial schema
+        if: inputs.reset_untracked_schema
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+        run: supabase db reset --linked --no-seed --password "$SUPABASE_DB_PASSWORD"
       - name: Apply database migrations
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
