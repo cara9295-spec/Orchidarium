@@ -48,8 +48,7 @@ jobs:
         if: inputs.reset_untracked_schema
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
-          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
-        run: supabase db reset --linked --no-seed --password "$SUPABASE_DB_PASSWORD"
+        run: supabase db reset --linked --no-seed --yes
       - name: Apply database migrations
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}

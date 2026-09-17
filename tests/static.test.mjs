@@ -68,7 +68,8 @@ assert.match(gbifWorkflow, /workflow_dispatch:/, 'GBIF catalog build should be m
 assert.match(gbifWorkflow, /actions\/upload-artifact@v4/, 'GBIF catalog should be published as a reviewed artifact');
 assert.match(deployWorkflow, /environment: supabase-staging/, 'deployment should use protected staging secrets');
 assert.match(deployWorkflow, /reset_untracked_schema:[\s\S]*?default: false/, 'schema recovery should require an explicit opt-in');
-assert.match(deployWorkflow, /if: inputs\.reset_untracked_schema[\s\S]*?supabase db reset --linked --no-seed/, 'schema recovery should reset an untracked partial remote schema without seed data');
+assert.match(deployWorkflow, /if: inputs\.reset_untracked_schema[\s\S]*?supabase db reset --linked --no-seed --yes/, 'schema recovery should reset an untracked partial remote schema without seed data or interactive prompts');
+assert.doesNotMatch(deployWorkflow, /supabase db reset[^\n]*--password/, 'schema recovery must only use flags supported by supabase db reset');
 assert.match(deployWorkflow, /supabase db push/, 'deployment should apply database migrations');
 assert.match(deployWorkflow, /gbif-orchidaceae\.audit\.json/, 'deployment should require the audited catalog artifact');
 assert.match(deployWorkflow, /SUPABASE_SERVICE_ROLE_KEY: \$\{\{ secrets\.SUPABASE_SERVICE_ROLE_KEY \}\}/, 'deployment should read the service role from GitHub secrets');
