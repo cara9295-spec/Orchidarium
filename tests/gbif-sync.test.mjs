@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { buildCatalog, deterministicUuid, fetchGbifPages } from '../scripts/sync-gbif-orchidaceae.mjs';
+import { auditCatalog } from '../scripts/audit-gbif-catalog.mjs';
 import fixture from './fixtures/gbif-orchidaceae.json' with { type: 'json' };
 
 test('builds a deterministic importable Orchidaceae catalog', () => {
@@ -67,4 +68,16 @@ test('resumes from cached GBIF pages without requesting them again', async () =>
   });
   assert.equal(records.length, 2);
   assert.equal(networkCalls, 0);
+});
+
+test('audits catalog size and referential integrity', () => {
+  const catalog = buildCatalog({ ...fixture, accessedAt: '2026-09-14' });
+  assert.equal(auditCatalog(catalog, { minimumSpecies: 2, minimumSynonyms: 1 }).valid, true);
+
+  catalog.species_synonyms[0].species_id = deterministicUuid('missing-species');
+  const audit = auditCatalog(catalog, { minimumSpecies: 3, minimumSynonyms: 2 });
+  assert.equal(audit.valid, false);
+  assert.match(audit.errors.join('\n'), /references missing species/);
+  assert.match(audit.errors.join('\n'), /Expected at least 3 accepted species/);
+  assert.match(audit.errors.join('\n'), /Expected at least 2 linked synonyms/);
 });

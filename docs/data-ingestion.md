@@ -65,6 +65,7 @@ Generate a real taxonomy catalog directly from the public GBIF Species API (acce
 ```bash
 npm run catalog:gbif
 node scripts/import-catalog.mjs --dry-run data/generated/gbif-orchidaceae.json
+npm run catalog:audit
 ```
 
 Use `--limit 100` for a small staging batch and `--output <path>` to select another destination. The generator paginates API responses, creates deterministic UUIDs, associates synonyms only when their accepted species is present, and records the GBIF endpoint and access date. The resulting snapshot still requires taxonomic review and later reconciliation against WCVP/POWO; it is not a source for registered grexes, cultivars, awards, or images.
@@ -72,6 +73,12 @@ Use `--limit 100` for a small staging batch and `--output <path>` to select anot
 Every downloaded API page is checkpointed under `data/generated/gbif-cache`, so rerunning the command resumes an interrupted multi-thousand-record download instead of starting over. Requests retry temporary network and rate-limit failures with exponential backoff. The importer writes catalogs to Supabase in batches of 500 rows to avoid a single oversized REST request.
 
 The GitHub Actions workflow `.github/workflows/sync-gbif.yml` can run the complete download on demand or on its monthly schedule, validates the resulting catalog, and publishes it as a build artifact. Its optional `limit` input supports smaller smoke runs. Generated taxonomy is deliberately not committed automatically: a curator should inspect the artifact and import report before loading staging.
+
+Full runs also enforce a safety floor of 30,000 accepted species and 30,000
+linked synonyms. This prevents a syntactically valid but empty or unexpectedly
+truncated response from being published again. The artifact includes
+`gbif-orchidaceae.audit.json`, which records counts, referential-integrity
+results, and the SHA-256 digest of the exact catalog file.
 
 ## Query imported records from the frontend
 

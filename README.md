@@ -40,9 +40,21 @@ Validate a normalized, authorized import batch with `npm run import:check` or `n
 
 Large downloads are resumable through page checkpoints, and large Supabase imports are split into 500-row requests. `.github/workflows/sync-gbif.yml` also runs the full catalog build monthly or manually and exposes the validated JSON as an artifact for curatorial review.
 
+The first successful full snapshot produced 833 genera, 33,355 accepted species,
+and 42,536 linked synonyms. Snapshot history is recorded in
+`docs/catalog-snapshots.md`. Full workflow runs now enforce minimum record counts
+and include a SHA-256 audit report alongside the catalog, so an empty or
+truncated artifact cannot pass merely because its JSON shape is valid.
+
 ## Connect the public search
 
 Copy `config.example.js` to the ignored `config.js` and set the Supabase project URL plus its browser-safe anon/publishable key. The search UI will then call the `orchid_search` RPC and label its connection state; without configuration, or if the request fails, it remains in an explicitly marked local demo mode. Never place a service-role key in this file.
+
+For a no-local-CLI staging deployment, follow
+`docs/supabase-staging.md`. After the project owner creates one Supabase project
+and stores three credentials as protected GitHub environment secrets, the
+`Deploy Orchidarium to Supabase staging` workflow applies migrations, retrieves
+the latest audited GBIF artifact, validates it again, and imports it.
 
 ## Testing
 

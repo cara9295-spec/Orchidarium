@@ -16,6 +16,7 @@ const identifyFunction = read('supabase/functions/identify-orchid/index.ts');
 const ocrFunction = read('supabase/functions/ocr-label/index.ts');
 const browserConfig = read('config.example.js');
 const gbifWorkflow = read('.github/workflows/sync-gbif.yml');
+const deployWorkflow = read('.github/workflows/deploy-supabase.yml');
 
 assert.match(html, /lang="es"/, 'frontend should be localized for Spanish users');
 assert.match(html, /data-view="identify"/, 'frontend should expose image identification workflow');
@@ -65,6 +66,11 @@ assert.match(gbifSync, /deterministicUuid/, 'GBIF sync should produce repeatable
 assert.match(gbifSync, /gbif-cache/, 'GBIF sync should checkpoint pages for resumable downloads');
 assert.match(gbifWorkflow, /workflow_dispatch:/, 'GBIF catalog build should be manually runnable');
 assert.match(gbifWorkflow, /actions\/upload-artifact@v4/, 'GBIF catalog should be published as a reviewed artifact');
+assert.match(deployWorkflow, /environment: supabase-staging/, 'deployment should use protected staging secrets');
+assert.match(deployWorkflow, /supabase db push/, 'deployment should apply database migrations');
+assert.match(deployWorkflow, /gbif-orchidaceae\.audit\.json/, 'deployment should require the audited catalog artifact');
+assert.match(deployWorkflow, /SUPABASE_SERVICE_ROLE_KEY: \$\{\{ secrets\.SUPABASE_SERVICE_ROLE_KEY \}\}/, 'deployment should read the service role from GitHub secrets');
+assert.doesNotMatch(deployWorkflow, /SUPABASE_SERVICE_ROLE_KEY:\s*['"][A-Za-z0-9]/, 'deployment must not embed service-role credentials');
 
 assert.match(identifyFunction, /license is required for every image/, 'identify function should enforce image license metadata');
 assert.match(identifyFunction, /match_image_embedding/, 'identify function should call internal vector search');

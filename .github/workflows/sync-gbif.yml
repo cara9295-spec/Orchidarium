@@ -47,6 +47,18 @@ jobs:
           fi
       - name: Validate generated catalog
         run: node scripts/import-catalog.mjs --dry-run data/generated/gbif-orchidaceae.json
+      - name: Audit catalog integrity and size
+        env:
+          RECORD_LIMIT: ${{ inputs.limit }}
+        run: |
+          if [ -n "$RECORD_LIMIT" ]; then
+            node scripts/audit-gbif-catalog.mjs data/generated/gbif-orchidaceae.json \
+              --report data/generated/gbif-orchidaceae.audit.json
+          else
+            node scripts/audit-gbif-catalog.mjs data/generated/gbif-orchidaceae.json \
+              --minimum-species 30000 --minimum-synonyms 30000 \
+              --report data/generated/gbif-orchidaceae.audit.json
+          fi
       - name: Publish catalog counts
         run: |
           node --input-type=module <<'NODE' >> "$GITHUB_STEP_SUMMARY"
@@ -62,6 +74,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gbif-orchidaceae-${{ github.run_id }}
-          path: data/generated/gbif-orchidaceae.json
+          path: |
+            data/generated/gbif-orchidaceae.json
+            data/generated/gbif-orchidaceae.audit.json
           if-no-files-found: error
           retention-days: 30
