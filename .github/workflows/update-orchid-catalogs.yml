@@ -1,0 +1,69 @@
+name: Update orchid catalogues
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 8 1 * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_orchid_catalogs.py"
+      - "data/genera.json"
+      - ".github/workflows/update-orchid-catalogs.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build-catalogues:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build orchid catalogues
+        run: python scripts/build_orchid_catalogs.py
+
+      - name: Validate generated catalogue
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('data/orchid_master_catalog.json').read_text(encoding='utf-8'))
+          count = data['metadata']['recordCount']
+          genus_count = data['metadata']['genusCount']
+          assert count == len(data['taxa'])
+          assert genus_count >= 8
+          assert count >= 150, f'Unexpectedly low orchid count: {count}'
+          assert all(t.get('gbifKey') for t in data['taxa'])
+          assert all(t.get('canonicalName') for t in data['taxa'])
+          print(f'Validated {count} records across {genus_count} genera')
+          PY
+
+      - name: Upload downloadable catalogues
+        uses: actions/upload-artifact@v4
+        with:
+          name: orchidarium-catalogues
+          path: |
+            data/orchid_master_catalog.json
+            data/orchid_master_catalog.csv
+            data/genera/*.json
+          retention-days: 30
+
+      - name: Commit updated catalogues
+        run: |
+          if git diff --quiet -- data/orchid_master_catalog.json data/orchid_master_catalog.csv data/genera; then
+            echo "No catalogue changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/orchid_master_catalog.json data/orchid_master_catalog.csv data/genera
+          git commit -m "Update orchid catalogues"
+          git push

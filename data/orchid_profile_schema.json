@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Orchidarium rich orchid profile",
+  "type": "object",
+  "required": ["id","taxonomy","distribution","morphology","cultivation","sources"],
+  "properties": {
+    "id": {"type":"string"},
+    "taxonomy": {
+      "type":"object",
+      "properties": {
+        "scientificName":{"type":"string"},
+        "commonNames":{"type":"object"},
+        "genus":{"type":"string"},
+        "species":{"type":"string"},
+        "subspecies":{"type":["string","null"]},
+        "variety":{"type":["string","null"]},
+        "section":{"type":["string","null"]},
+        "horticulturalGroup":{"type":["string","null"]},
+        "authorship":{"type":["string","null"]},
+        "acceptedName":{"type":"string"},
+        "synonyms":{"type":"array","items":{"type":"string"}}
+      }
+    },
+    "media": {"type":"array","items":{"type":"object","properties":{"url":{"type":"string"},"thumbnailUrl":{"type":"string"},"author":{"type":"string"},"license":{"type":"string"},"sourceUrl":{"type":"string"},"caption":{"type":"string"}}}},
+    "distribution": {"type":"object","properties":{"countries":{"type":"array","items":{"type":"string"}},"regions":{"type":"array","items":{"type":"string"}},"nativeRange":{"type":"string"},"altitudeMinM":{"type":["number","null"]},"altitudeMaxM":{"type":["number","null"]},"habitat":{"type":"string"},"map":{"type":"object","properties":{"provider":{"type":"string"},"url":{"type":"string"},"taxonKey":{"type":["number","null"]}}}}},
+    "morphology": {"type":"object","properties":{"growthHabit":{"type":"string"},"group":{"type":"string"},"dominantColors":{"type":"array","items":{"type":"string"}},"flowerShape":{"type":"string"},"flowerDiameterCm":{"type":"object","properties":{"min":{"type":["number","null"]},"max":{"type":["number","null"]}}},"labellum":{"type":"string"},"sepals":{"type":"string"},"petals":{"type":"string"},"leaves":{"type":"string"},"pseudobulbs":{"type":"string"},"inflorescence":{"type":"string"},"fragrance":{"type":"string"},"bloomingSeason":{"type":"string"}}},
+    "cultivation": {"type":"object","properties":{"difficulty":{"type":"string"},"light":{"type":"string"},"watering":{"type":"string"},"humidity":{"type":"string"},"temperature":{"type":"string"},"fertilizer":{"type":"string"},"substrate":{"type":"string"},"restPeriod":{"type":"string"},"repotting":{"type":"string"},"notes":{"type":"string"}}},
+    "hybridization": {"type":"object","properties":{"importance":{"type":"string"},"principalHybrids":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string"},"seedParent":{"type":"string"},"pollenParent":{"type":"string"},"registrationYear":{"type":["integer","null"]},"sourceUrl":{"type":"string"}}}}},
+    "sources": {"type":"array","items":{"type":"object","properties":{"field":{"type":"string"},"name":{"type":"string"},"url":{"type":"string"},"retrievedAt":{"type":"string"},"confidence":{"type":"string"}}}}
+  }
+}
