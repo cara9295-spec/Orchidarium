@@ -36,6 +36,21 @@ test('derives a missing specific epithet from a GBIF canonical name', () => {
   assert.equal(catalog.species[0].specific_epithet, 'dowiana');
 });
 
+test('keeps genus references valid when GBIF supplies inconsistent genus keys', () => {
+  const catalog = buildCatalog({
+    accepted: [
+      { key: 1, genusKey: 100, genus: 'Cattleya', canonicalName: 'Cattleya dowiana' },
+      { key: 2, genusKey: 200, genus: 'Cattleya', canonicalName: 'Cattleya trianae' },
+    ],
+    synonyms: [],
+    accessedAt: '2026-09-17',
+  });
+
+  assert.equal(catalog.genera.length, 1);
+  assert.equal(catalog.species.length, 2);
+  assert.ok(catalog.species.every((species) => species.genus_id === catalog.genera[0].id));
+});
+
 test('paginates GBIF responses and honors a record limit', async () => {
   const requested = [];
   const pages = [

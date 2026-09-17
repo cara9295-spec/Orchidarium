@@ -77,7 +77,11 @@ export function buildCatalog({ accepted, synonyms, accessedAt = new Date().toISO
     const genus = taxon.genus || canonicalName.trim().split(/\s+/)[0];
     const specificEpithet = taxon.specificEpithet || canonicalName.trim().split(/\s+/)[1];
     if (!taxon.key || !genus || !specificEpithet) continue;
-    const genusId = deterministicUuid(`gbif:genus:${taxon.genusKey ?? genus}`);
+    // GBIF occasionally returns more than one genusKey for the same canonical
+    // genus name. The database identifies a genus by its unique name, so using
+    // genusKey here could leave species pointing at a genus row that was later
+    // overwritten in generaByName. Canonicalize by name for stable references.
+    const genusId = deterministicUuid(`gbif:genus-name:${genus.toLocaleLowerCase('en-US')}`);
     generaByName.set(genus, {
       id: genusId,
       name: genus,
