@@ -70,8 +70,10 @@ def clean_html(value: str | None) -> str | None:
 def licence_allowed(value: str | None) -> bool:
     if not value:
         return False
-    upper = value.upper()
-    return any(marker in upper for marker in ALLOWED_LICENSE_MARKERS)
+    upper = clean_html(value).upper().strip() if clean_html(value) else ""
+    if re.search(r"\b(NC|ND|NONCOMMERCIAL|NO DERIVATIVES)\b", upper):
+        return False
+    return bool(re.search(r"CC\s*0\b|CC[- ]BY(?:[- ]SA)?(?:[- ]\d(?:\.\d)?)?\b|PUBLIC DOMAIN|\bPDM\b", upper))
 
 
 def gbif_species(s: requests.Session) -> list[dict[str, Any]]:
@@ -213,6 +215,8 @@ def build() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     s = session()
     species = gbif_species(s)
+    if not species:
+        raise RuntimeError("GBIF returned zero accepted Cattleya species; refusing to publish empty catalogue")
     records: list[dict[str, Any]] = []
     media_index: list[dict[str, Any]] = []
 
