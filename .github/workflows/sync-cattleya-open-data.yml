@@ -42,12 +42,12 @@ jobs:
 
       - name: Commit refreshed data
         run: |
-          if git diff --quiet -- data/cattleya_open_catalog.json data/cattleya_open_media.json; then
+          git add data/cattleya_open_catalog.json data/cattleya_open_media.json
+          if git diff --cached --quiet -- data/cattleya_open_catalog.json data/cattleya_open_media.json; then
             echo 'No catalogue changes.'
             exit 0
           fi
           git config user.name 'orchidarium-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add data/cattleya_open_catalog.json data/cattleya_open_media.json
           git commit -m 'Refresh Cattleya open-data catalogue'
           git push
