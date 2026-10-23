@@ -135,7 +135,9 @@ def gbif_images(s: requests.Session, taxon_key: int, scientific_name: str, maxim
     for occurrence in payload.get("results", []):
         for media in occurrence.get("media", []) or []:
             url = media.get("identifier") or media.get("references")
-            licence = media.get("license") or occurrence.get("license")
+            # Occurrence licences do not necessarily cover attached photographs.
+            # Only ingest media with an explicit licence on the media object.
+            licence = media.get("license")
             if not url or url in seen or not licence_allowed(licence):
                 continue
             seen.add(url)
