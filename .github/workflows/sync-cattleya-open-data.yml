@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'scripts/sync_cattleya_open_data.py'
+      - 'scripts/validate_cattleya_open_data.py'
       - '.github/workflows/sync-cattleya-open-data.yml'
 
 permissions:
@@ -39,6 +40,9 @@ jobs:
         run: |
           python -m json.tool data/cattleya_open_catalog.json >/dev/null
           python -m json.tool data/cattleya_open_media.json >/dev/null
+
+      - name: Validate taxonomy, media consistency and licenses
+        run: python scripts/validate_cattleya_open_data.py
 
       - name: Commit refreshed data
         run: |
