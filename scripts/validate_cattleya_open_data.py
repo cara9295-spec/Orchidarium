@@ -37,8 +37,8 @@ for item in photos:
     require(key in key_set, f"Orphan media taxon key: {key}")
     require(bool(url and item.get("sourceUrl") and item.get("licence")), f"Missing media URL/source/licence: {key}")
     licence = (item.get("licence") or "").upper()
-    require(not re.search(r"\\b(NC|ND|NONCOMMERCIAL|NO DERIVATIVES)\\b", licence), f"Restricted licence: {url}")
-    require(bool(re.search(r"CC\\s*0\\b|CC[- ]BY(?:[- ]SA)?\\b|PUBLIC DOMAIN|\\bPDM\\b", licence)), f"Unrecognized licence: {url}")
+    require(not re.search(r"\b(NC|ND|NONCOMMERCIAL|NO DERIVATIVES)\b", licence), f"Restricted licence: {url}")
+    require(bool(re.search(r"CC\s*0\b|CC[- ]BY(?:[- ]SA)?\b|PUBLIC DOMAIN|\bPDM\b", licence)), f"Unrecognized licence: {url}")
     if not (item.get("creator") or item.get("rightsHolder") or item.get("credit")):
         unattributed += 1
     urls.append(url)
@@ -46,7 +46,7 @@ for item in photos:
 require(len(urls) == len(set(urls)), "Duplicate image URLs")
 require(embedded == indexed, "Media embedded in catalogue differs from media index")
 if errors:
-    raise SystemExit("Cattleya validation FAILED:\\n- " + "\\n- ".join(errors))
+    raise SystemExit("Cattleya validation FAILED:\n- " + "\n- ".join(errors))
 print(f"Cattleya validation OK: {len(species)} species; {len(photos)} licensed media; "
       f"{len(set(item['taxonKey'] for item in photos))} species with images; "
       f"{unattributed} media records missing creator/credit (review required).")
