@@ -42,7 +42,14 @@ jobs:
           python -m json.tool data/cattleya_open_media.json >/dev/null
 
       - name: Validate taxonomy, media consistency and licenses
-        run: python scripts/validate_cattleya_open_data.py
+        run: |
+          python scripts/validate_cattleya_open_data.py | tee /tmp/cattleya-validation.txt
+          {
+            echo '### Cattleya open-data validation'
+            echo '```text'
+            cat /tmp/cattleya-validation.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit refreshed data
         run: |
