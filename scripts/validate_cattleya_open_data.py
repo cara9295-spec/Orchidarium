@@ -17,6 +17,7 @@ def require(condition, message):
         errors.append(message)
 
 require(bool(species), "Species catalogue is empty")
+require(bool(photos), "Media index is empty; refusing to replace the published images")
 require(catalogue["metadata"]["recordCount"] == len(species), "Species metadata count mismatch")
 require(media["metadata"]["recordCount"] == len(photos), "Media metadata count mismatch")
 keys = [row.get("taxonomy", {}).get("gbifTaxonKey") for row in species]
