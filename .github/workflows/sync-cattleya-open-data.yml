@@ -53,6 +53,32 @@ jobs:
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Guard against unexpected data loss
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          for path in ("data/cattleya_open_catalog.json", "data/cattleya_open_media.json"):
+              previous = subprocess.run(
+                  ["git", "show", f"HEAD:{path}"],
+                  capture_output=True, text=True, check=False,
+              )
+              if previous.returncode != 0:
+                  print(f"{path}: no prior version; baseline guard skipped.")
+                  continue
+              old_count = len(json.loads(previous.stdout)["records"])
+              new_count = len(json.loads(Path(path).read_text(encoding="utf-8"))["records"])
+              if old_count and new_count < old_count * 0.8:
+                  raise SystemExit(
+                      f"{path}: unexpected record loss ({old_count} -> {new_count}); "
+                      "manual review required before publishing."
+                  )
+              print(f"{path}: baseline {old_count}, refreshed {new_count}; OK.")
+          PY
+
       - name: Commit refreshed data
         run: |
           git add data/cattleya_open_catalog.json data/cattleya_open_media.json
