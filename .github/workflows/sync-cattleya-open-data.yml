@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/sync_cattleya_open_data.py'
       - 'scripts/validate_cattleya_open_data.py'
+      - 'tests/test_cattleya_inaturalist.py'
       - '.github/workflows/sync-cattleya-open-data.yml'
 
 permissions:
@@ -32,6 +33,9 @@ jobs:
 
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check requests urllib3
+
+      - name: Test photo-level licensing and taxon matching
+        run: python -m unittest discover -s tests -p 'test_cattleya_inaturalist.py' -v
 
       - name: Build catalogue and licensed media index
         run: python scripts/sync_cattleya_open_data.py
