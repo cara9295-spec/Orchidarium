@@ -27,6 +27,8 @@ from urllib3.util.retry import Retry
 
 GBIF = "https://api.gbif.org/v1"
 COMMONS = "https://commons.wikimedia.org/w/api.php"
+INATURALIST = "https://api.inaturalist.org/v1/observations"
+INAT_ALLOWED_LICENSES = {"cc0", "cc-by", "cc-by-sa"}
 GENUS_KEY = 2800821  # Cattleya Lindl. in the GBIF backbone
 OUT = Path("data")
 ALLOWED_LICENSE_MARKERS = (
@@ -213,6 +215,61 @@ def commons_images(s: requests.Session, scientific_name: str, maximum: int = 2) 
     return images
 
 
+
+def inaturalist_images(s: requests.Session, scientific_name: str, maximum: int = 1) -> list[dict[str, Any]]:
+    """Find research-grade observations, accepting only photos with their own open licence.
+
+    iNaturalist taxon names are checked against the exact requested species to
+    avoid accidentally selecting another taxon or an infraspecific hybrid.
+    """
+    payload = get_json(
+        s,
+        INATURALIST,
+        {
+            "taxon_name": scientific_name,
+            "quality_grade": "research",
+            "photo_license": "cc0,cc-by,cc-by-sa",
+            "per_page": 30,
+            "order_by": "votes",
+        },
+    )
+    images: list[dict[str, Any]] = []
+    for observation in payload.get("results", []):
+        taxon = observation.get("taxon") or {}
+        if (
+            (taxon.get("name") or "").casefold() != scientific_name.casefold()
+            or taxon.get("rank") != "species"
+        ):
+            continue
+        for photo in observation.get("photos") or []:
+            licence = (photo.get("license_code") or "").strip().lower()
+            url = photo.get("url")
+            if licence not in INAT_ALLOWED_LICENSES or not url:
+                continue
+            images.append(
+                {
+                    "source": "iNaturalist",
+                    "scientificName": scientific_name,
+                    "url": url,
+                    "thumbnailUrl": url,
+                    "sourceUrl": observation.get("uri") or (
+                        f"https://www.inaturalist.org/observations/{observation.get('id')}"
+                    ),
+                    "creator": photo.get("attribution") or (
+                        (observation.get("user") or {}).get("login")
+                    ),
+                    "licence": licence.upper(),
+                    "observationId": observation.get("id"),
+                    "photoId": photo.get("id"),
+                    "qualityGrade": observation.get("quality_grade"),
+                    "reviewStatus": "automatically-ingested-needs-editorial-review",
+                }
+            )
+            if len(images) >= maximum:
+                return images
+    return images
+
+
 def build() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     s = session()
@@ -221,6 +278,10 @@ def build() -> None:
         raise RuntimeError("GBIF returned zero accepted Cattleya species; refusing to publish empty catalogue")
     records: list[dict[str, Any]] = []
     media_index: list[dict[str, Any]] = []
+    inat_attempted = 0
+    inat_added = 0
+    inat_errors = 0
+    inat_disabled = False
 
     for index, row in enumerate(species, start=1):
         key = int(row.get("nubKey") or row["key"])
@@ -229,6 +290,21 @@ def build() -> None:
         gbif_media = gbif_images(s, key, name)
         commons_media = commons_images(s, name)
         media = gbif_media + commons_media
+        if not media and not inat_disabled:
+            inat_attempted += 1
+            try:
+                found = inaturalist_images(s, name)
+                media.extend(found)
+                inat_added += len(found)
+            except (requests.RequestException, ValueError) as exc:
+                inat_errors += 1
+                response = getattr(exc, "response", None)
+                status = getattr(response, "status_code", None)
+                print(f"WARNING: iNaturalist search failed for {name}: {exc}")
+                if status in (403, 429):
+                    inat_disabled = True
+                    print("WARNING: iNaturalist access limited; skipping remaining lookups.")
+            time.sleep(1.1)  # Respect iNaturalist's recommended API request rate.
         media_index.extend({"taxonKey": key, **m} for m in media)
 
         records.append(
@@ -291,7 +367,7 @@ def build() -> None:
             "generatedAt": generated,
             "recordCount": len(records),
             "genusGbifKey": GENUS_KEY,
-            "sources": ["GBIF Species API", "GBIF Occurrence API", "Wikimedia Commons Action API"],
+            "sources": ["GBIF Species API", "GBIF Occurrence API", "Wikimedia Commons Action API", "iNaturalist observations API"],
             "reviewStatus": "machine-ingested; editorial validation required",
         },
         "records": records,
@@ -307,7 +383,11 @@ def build() -> None:
     }
     (OUT / "cattleya_open_catalog.json").write_text(json.dumps(catalogue, ensure_ascii=False, indent=2), encoding="utf-8")
     (OUT / "cattleya_open_media.json").write_text(json.dumps(media_catalogue, ensure_ascii=False, indent=2), encoding="utf-8")
+    covered = sum(bool(row["media"]) for row in records)
     print(f"Wrote {len(records)} species and {len(media_index)} licensed media records.")
+    print(f"Image coverage: {covered}/{len(records)} species; {len(records) - covered} without images.")
+    print(f"iNaturalist: {inat_attempted} lookups, {inat_added} licensed photos added, "
+          f"{inat_errors} errors, disabled={inat_disabled}.")
 
 
 if __name__ == "__main__":
