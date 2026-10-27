@@ -80,6 +80,24 @@ jobs:
                       f"{path}: unexpected record loss ({old_count} -> {new_count}); "
                       "manual review required before publishing."
                   )
+              if path.endswith("cattleya_open_catalog.json"):
+                  old_rows = json.loads(previous.stdout)["records"]
+                  new_rows = json.loads(Path(path).read_text(encoding="utf-8"))["records"]
+                  old_covered = {
+                      row["taxonomy"]["gbifTaxonKey"]
+                      for row in old_rows if row.get("media")
+                  }
+                  new_covered = {
+                      row["taxonomy"]["gbifTaxonKey"]
+                      for row in new_rows if row.get("media")
+                  }
+                  lost = old_covered - new_covered
+                  if lost:
+                      raise SystemExit(
+                          f"Previously illustrated Cattleya taxa lost all images: {sorted(lost)}. "
+                          "Review source changes before publishing."
+                      )
+                  print(f"Cattleya image coverage: {len(old_covered)} -> {len(new_covered)} species.")
               print(f"{path}: baseline {old_count}, refreshed {new_count}; OK.")
           PY
 
