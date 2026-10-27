@@ -48,6 +48,9 @@ require(len(urls) == len(set(urls)), "Duplicate image URLs")
 require(embedded == indexed, "Media embedded in catalogue differs from media index")
 if errors:
     raise SystemExit("Cattleya validation FAILED:\n- " + "\n- ".join(errors))
+covered_species = len(set(item["taxonKey"] for item in photos))
+inat_photos = sum(item.get("source") == "iNaturalist" for item in photos)
 print(f"Cattleya validation OK: {len(species)} species; {len(photos)} licensed media; "
-      f"{len(set(item['taxonKey'] for item in photos))} species with images; "
+      f"{covered_species} species with images; {len(species) - covered_species} without images; "
+      f"{inat_photos} iNaturalist images; "
       f"{unattributed} media records missing creator/credit (review required).")
