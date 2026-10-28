@@ -44,6 +44,35 @@ class InaturalistPhotoTests(unittest.TestCase):
         with patch.object(sync, "get_json", return_value=payload):
             self.assertEqual(sync.inaturalist_images(object(), "Cattleya trianae"), [])
 
+    def test_commons_title_recheck_fetches_fresh_licences(self):
+        """A prior Commons photo is recoverable only with a CURRENT open licence."""
+        payload = {"query": {"pages": {
+            "10": {
+                "title": "File:Cattleya wilsoniana 298-1.jpg",
+                "imageinfo": [{
+                    "url": "https://upload.wikimedia.org/open.jpg",
+                    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cattleya_wilsoniana_298-1.jpg",
+                    "extmetadata": {"LicenseShortName": {"value": "CC BY-SA 2.5 dk"}},
+                }],
+            },
+            "11": {
+                "title": "File:Cattleya wilsoniana restricted.jpg",
+                "imageinfo": [{
+                    "url": "https://upload.wikimedia.org/restricted.jpg",
+                    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cattleya_wilsoniana_restricted.jpg",
+                    "extmetadata": {"LicenseShortName": {"value": "CC BY-NC 4.0"}},
+                }],
+            },
+        }}}
+        titles = ["File:Cattleya wilsoniana 298-1.jpg",
+                  "File:Cattleya wilsoniana restricted.jpg"]
+        with patch.object(sync, "get_json", return_value=payload) as request:
+            images = sync.commons_images(object(), "Cattleya wilsoniana", titles=titles)
+        self.assertEqual(len(images), 1)
+        self.assertEqual(images[0]["licence"], "CC BY-SA 2.5 dk")
+        self.assertEqual(request.call_args.args[2]["titles"], "|".join(titles))
+        self.assertNotIn("generator", request.call_args.args[2])
+
     def test_reject_restricted_licences(self):
         for value in ("CC BY-NC 4.0", "CC-BY-ND", "All rights reserved"):
             self.assertFalse(sync.licence_allowed(value))
