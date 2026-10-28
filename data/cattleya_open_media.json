@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Orchidarium licensed media index — Cattleya",
-    "generatedAt": "2026-10-26T15:13:15.712774+00:00",
-    "recordCount": 240,
+    "generatedAt": "2026-10-28T16:17:19.469399+00:00",
+    "recordCount": 234,
     "licenceRule": "Only records with explicit CC0, CC BY, CC BY-SA or Public Domain markers are retained."
   },
   "records": [
@@ -20,40 +20,6 @@
       "countryCode": "BR",
       "year": 2023,
       "type": "StillImage"
-    },
-    {
-      "taxonKey": 2801025,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya aclandiae",
-      "title": "File:210409 015 SD Botanic Gdn - Dickinson Family Conservatory, World of Orchids, Cattleya aclandiae.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/210409_015_SD_Botanic_Gdn_-_Dickinson_Family_Conservatory%2C_World_of_Orchids%2C_Cattleya_aclandiae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/210409_015_SD_Botanic_Gdn_-_Dickinson_Family_Conservatory%2C_World_of_Orchids%2C_Cattleya_aclandiae.jpg/1280px-210409_015_SD_Botanic_Gdn_-_Dickinson_Family_Conservatory%2C_World_of_Orchids%2C_Cattleya_aclandiae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:210409_015_SD_Botanic_Gdn_-_Dickinson_Family_Conservatory,_World_of_Orchids,_Cattleya_aclandiae.jpg",
-      "creator": "cultivar413",
-      "credit": "https://www.flickr.com/photos/131880272@N06/51122397628/",
-      "licence": "CC BY 2.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-      "description": "The Garden did a superlative job presenting their first orchid show with the help of many individuals and organizations. I was hoping for stunning plants and they were in plenty. What brought it over the top was the exquisite design and staging of the show. All credit to Creative Director, Rene van Rems, AIFD. Enjoy!",
-      "width": 3840,
-      "height": 2160,
-      "mime": "image/jpeg"
-    },
-    {
-      "taxonKey": 2801025,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya aclandiae",
-      "title": "File:A and B Larsen orchids - Cattleya aclandiae DSCN0542.JPG",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/A_and_B_Larsen_orchids_-_Cattleya_aclandiae_DSCN0542.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/A_and_B_Larsen_orchids_-_Cattleya_aclandiae_DSCN0542.JPG/1280px-A_and_B_Larsen_orchids_-_Cattleya_aclandiae_DSCN0542.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_aclandiae_DSCN0542.JPG",
-      "creator": "Arne and Bent Larsen, Haarby, Denmark",
-      "credit": "Orchid collection of Arne and Bent Larsen, original filename: 'orc-cattleya/Cattleya aclandiae DSCN0542.JPG'",
-      "licence": "CC BY-SA 2.5 dk",
-      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/dk/deed.en",
-      "description": "Cattleya aclandiae",
-      "width": 2048,
-      "height": 1536,
-      "mime": "image/jpeg"
     },
     {
       "taxonKey": 2811980,
@@ -331,17 +297,17 @@
       "taxonKey": 2800828,
       "source": "Wikimedia Commons",
       "scientificName": "Cattleya bicolor",
-      "title": "File:Cattleya bicolor - Curtis 82-4909 (1856).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cattleya_bicolor_-_Curtis_82-4909_%281856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cattleya_bicolor_-_Curtis_82-4909_%281856%29.jpg/1280px-Cattleya_bicolor_-_Curtis_82-4909_%281856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_bicolor_-_Curtis_82-4909_(1856).jpg",
-      "creator": "Walter Hood Fitch (1817-1892) del. et lith. (?? This plate not signed)",
-      "credit": "\"Curtis's botanical magazine\" vol. 82 (Ser. 3 no. 12) tab. 4909 ( http://www.botanicus.org/page/438365 )",
+      "title": "File:Cattleya bicolor - Fl.Br.3-5-58.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Cattleya_bicolor_-_Fl.Br.3-5-58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Cattleya_bicolor_-_Fl.Br.3-5-58.jpg/1280px-Cattleya_bicolor_-_Fl.Br.3-5-58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_bicolor_-_Fl.Br.3-5-58.jpg",
+      "creator": "Alfred Cogniaux (1841 - 1916)",
+      "credit": "von Martius, Eichler, Urban: \"Flora Brasiliensis\" vol. 3 pt. 5 tab. 58 ( https://www.biodiversitylibrary.org/page/137563 )",
       "licence": "Public domain",
       "licenceUrl": null,
-      "description": "Illustration of Cattleya bicolor (Cattleya bicolor",
-      "width": 2072,
-      "height": 3507,
+      "description": "Illustration of Cattleya bicolor",
+      "width": 4337,
+      "height": 6830,
       "mime": "image/jpeg"
     },
     {
@@ -359,7 +325,8 @@
       "description": "Cattleya blumenscheinii - (Brazil)",
       "width": 7360,
       "height": 4912,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2812257,
@@ -376,7 +343,8 @@
       "description": "Cattleya blumenscheinii - (Brazil)",
       "width": 6994,
       "height": 4668,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 7962939,
@@ -427,7 +395,36 @@
       "description": "brabantiae",
       "width": 640,
       "height": 480,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
+    },
+    {
+      "taxonKey": 2812109,
+      "source": "iNaturalist",
+      "scientificName": "Cattleya bradei",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255061493/square.jpeg",
+      "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/255061493/square.jpeg",
+      "sourceUrl": "https://www.inaturalist.org/observations/148148014",
+      "creator": "(c) Pedro Quinellato Dantas, some rights reserved (CC BY)",
+      "licence": "CC-BY",
+      "observationId": 148148014,
+      "photoId": 255061493,
+      "qualityGrade": "research",
+      "reviewStatus": "automatically-ingested-needs-editorial-review"
+    },
+    {
+      "taxonKey": 2811879,
+      "source": "iNaturalist",
+      "scientificName": "Cattleya briegeri",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568013568/square.jpg",
+      "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/568013568/square.jpg",
+      "sourceUrl": "https://www.inaturalist.org/observations/314488454",
+      "creator": "(c) bruno_san1409, some rights reserved (CC BY-SA)",
+      "licence": "CC-BY-SA",
+      "observationId": 314488454,
+      "photoId": 568013568,
+      "qualityGrade": "research",
+      "reviewStatus": "automatically-ingested-needs-editorial-review"
     },
     {
       "taxonKey": 2800844,
@@ -445,6 +442,20 @@
       "width": 896,
       "height": 1200,
       "mime": "image/jpeg"
+    },
+    {
+      "taxonKey": 2812140,
+      "source": "iNaturalist",
+      "scientificName": "Cattleya caulescens",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354284286/square.jpeg",
+      "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/354284286/square.jpeg",
+      "sourceUrl": "https://www.inaturalist.org/observations/200771918",
+      "creator": "(c) agujaceratops, some rights reserved (CC BY)",
+      "licence": "CC-BY",
+      "observationId": 200771918,
+      "photoId": 354284286,
+      "qualityGrade": "research",
+      "reviewStatus": "automatically-ingested-needs-editorial-review"
     },
     {
       "taxonKey": 8092741,
@@ -482,17 +493,17 @@
       "taxonKey": 8092741,
       "source": "Wikimedia Commons",
       "scientificName": "Cattleya cernua",
-      "title": "File:Cattleya cernua (Lindl.) Van den Berg, Neodiversity 5 13 (2010) (32542597978).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2832542597978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2832542597978%29.jpg/1280px-Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2832542597978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_cernua_(Lindl.)_Van_den_Berg,_Neodiversity_5_13_(2010)_(32542597978).jpg",
+      "title": "File:Cattleya cernua (Lindl.) Van den Berg, Neodiversity 5 13 (2010) (44214575030).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2844214575030%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2844214575030%29.jpg/1280px-Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2844214575030%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_cernua_(Lindl.)_Van_den_Berg,_Neodiversity_5_13_(2010)_(44214575030).jpg",
       "creator": "sunoochi from Sapporo, Hokkaido, Japan",
-      "credit": "[Provincia de Corrientes, Argentina] Cattleya cernua (Lindl.) Van den Berg, Neodiversity 5: 13 (2010)",
+      "credit": "[Rio de Janeiro, Brazil] Cattleya cernua (Lindl.) Van den Berg, Neodiversity 5: 13 (2010)",
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-      "description": "Cattleya cernua - (Argentina, Provincia de Corrientes)",
-      "width": 7131,
-      "height": 4759,
+      "description": "Cattleya cernua - (Brazil, Rio de Janeiro)",
+      "width": 7360,
+      "height": 4912,
       "mime": "image/jpeg"
     },
     {
@@ -550,12 +561,12 @@
       "taxonKey": 2811951,
       "source": "Wikimedia Commons",
       "scientificName": "Cattleya coccinea",
-      "title": "File:Cattleya coccinea '1980s' Lindl., Edwards's Bot. Reg. 22 t. 1919 (1836) (46224838001).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cattleya_coccinea_%271980s%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2846224838001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Cattleya_coccinea_%271980s%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2846224838001%29.jpg/1280px-Cattleya_coccinea_%271980s%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2846224838001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_coccinea_%271980s%27_Lindl.,_Edwards%27s_Bot._Reg._22_t._1919_(1836)_(46224838001).jpg",
+      "title": "File:Cattleya coccinea Acuate petal type '-1802-W2' Lindl., Edwards's Bot. Reg. 22 t. 1919 (1836) (44895728645).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cattleya_coccinea_Acuate_petal_type_%27-1802-W2%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2844895728645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cattleya_coccinea_Acuate_petal_type_%27-1802-W2%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2844895728645%29.jpg/1280px-Cattleya_coccinea_Acuate_petal_type_%27-1802-W2%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2844895728645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_coccinea_Acuate_petal_type_%27-1802-W2%27_Lindl.,_Edwards%27s_Bot._Reg._22_t._1919_(1836)_(44895728645).jpg",
       "creator": "sunoochi from Sapporo, Hokkaido, Japan",
-      "credit": "[Brazil] Cattleya coccinea '1980s' Lindl., Edwards's Bot. Reg. 22: t. 1919 (1836)",
+      "credit": "[Brazil] Cattleya coccinea Acuate petal type '#1802-W2' Lindl., Edwards's Bot. Reg. 22: t. 1919 (1836)",
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "description": "Cattleya coccinea - (Brazil)",
@@ -612,7 +623,8 @@
       "description": "Illustration of Cattleya crispa (as syn. Laelia crispa )",
       "width": 3253,
       "height": 5123,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2812125,
@@ -629,7 +641,8 @@
       "description": "Cattleya crispa Lindley",
       "width": 3906,
       "height": 2602,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2812039,
@@ -1065,7 +1078,8 @@
       "description": "Cattleya gaskelliana im Botanischen Garten München",
       "width": 2801,
       "height": 2000,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800987,
@@ -1082,7 +1096,8 @@
       "description": "Cattleya gaskelliana im Botanischen Garten München",
       "width": 3000,
       "height": 2000,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2812224,
@@ -1099,7 +1114,8 @@
       "description": "Cattleya ghillanyi - Brazil (Minas Gerais)",
       "width": 7360,
       "height": 4912,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2812224,
@@ -1116,7 +1132,8 @@
       "description": "Cattleya ghillanyi - Brazil (Minas Gerais)",
       "width": 7360,
       "height": 4912,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2811870,
@@ -1137,37 +1154,17 @@
     },
     {
       "taxonKey": 2800824,
-      "source": "Wikimedia Commons",
+      "source": "iNaturalist",
       "scientificName": "Cattleya granulosa",
-      "title": "File:Cattleya granulosa.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Cattleya_granulosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Cattleya_granulosa.jpg/1280px-Cattleya_granulosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_granulosa.jpg",
-      "creator": "Dalton Holland Baptista",
-      "credit": "Own work",
-      "licence": "CC BY-SA 3.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "description": "Cattleya granulosa",
-      "width": 1600,
-      "height": 1200,
-      "mime": "image/jpeg"
-    },
-    {
-      "taxonKey": 2800824,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya granulosa",
-      "title": "File:Cattleya granulosa (as Cattleya granulosa var. russelliana) - Edwards vol 31 (NS 8) pl 59 (1845).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Cattleya_granulosa_%28as_Cattleya_granulosa_var._russelliana%29_-_Edwards_vol_31_%28NS_8%29_pl_59_%281845%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Cattleya_granulosa_%28as_Cattleya_granulosa_var._russelliana%29_-_Edwards_vol_31_%28NS_8%29_pl_59_%281845%29.jpg/1280px-Cattleya_granulosa_%28as_Cattleya_granulosa_var._russelliana%29_-_Edwards_vol_31_%28NS_8%29_pl_59_%281845%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_granulosa_(as_Cattleya_granulosa_var._russelliana)_-_Edwards_vol_31_(NS_8)_pl_59_(1845).jpg",
-      "creator": "Miss Drake (1803-1857) del., G. Barclay sc.",
-      "credit": "Edwards's Botanical Register , volume 31 (N.S. 8) plate 59 ( http://www.botanicus.org/page/243068 )",
-      "licence": "Public domain",
-      "licenceUrl": null,
-      "description": "Cattleya granulosa (as syn. Cattleya granulosa var. russelliana )",
-      "width": 2887,
-      "height": 4608,
-      "mime": "image/jpeg"
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/569514507/square.jpg",
+      "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/569514507/square.jpg",
+      "sourceUrl": "https://www.inaturalist.org/observations/315268909",
+      "creator": "(c) Renato Bandeira, some rights reserved (CC BY)",
+      "licence": "CC-BY",
+      "observationId": 315268909,
+      "photoId": 569514507,
+      "qualityGrade": "research",
+      "reviewStatus": "automatically-ingested-needs-editorial-review"
     },
     {
       "taxonKey": 2800942,
@@ -1224,17 +1221,17 @@
       "taxonKey": 10913153,
       "source": "Wikimedia Commons",
       "scientificName": "Cattleya hardyana",
-      "title": "File:Cattleya hardyana 'Juanambu' Swan in Gard. Chron.- n.s.- 24- 206 (1885) 20251103 130527.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130527.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130527.jpg/1280px-Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130527.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_(1885)_20251103_130527.jpg",
+      "title": "File:Cattleya hardyana 'Juanambu' Swan in Gard. Chron.- n.s.- 24- 206 (1885) 20251103 130040.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130040.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130040.jpg/1280px-Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130040.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_(1885)_20251103_130040.jpg",
       "creator": "Motohiro Sunouchi",
       "credit": "Own work",
       "licence": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
       "description": "Plant derived from Colombia Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Distribution Colombia Lifeform Pseudobulbous epiphyte Synonyms Heterotypic synonyms Cattleya massaiana R.Warner & B.S.Williams in Orchid Album 8: t. 362 (1889) Cattleya statteriana Rolfe in Roy. Hort. Soc. Lond. Rep. Conf. Genetics 1906: 238 (1907)",
-      "width": 15800,
-      "height": 10533,
+      "width": 15614,
+      "height": 10409,
       "mime": "image/jpeg"
     },
     {
@@ -1350,7 +1347,8 @@
       "description": "Phalaenopsis cultivars, exhibiton of orchids, Fata Morgana greenhouse, Prague Botanic Garden",
       "width": 5184,
       "height": 3456,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 11319460,
@@ -1367,7 +1365,8 @@
       "description": "Phalaenopsis cultivars, exhibiton of orchids, Fata Morgana greenhouse, Prague Botanic Garden",
       "width": 5184,
       "height": 3456,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801141,
@@ -1418,17 +1417,17 @@
       "taxonKey": 2801141,
       "source": "Wikimedia Commons",
       "scientificName": "Cattleya intermedia",
-      "title": "File:Cattleya intermedia 'Paraty' Graham ex Hook., Bot. Mag. 55 t. 2851 (1828) (50146215802).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Cattleya_intermedia_%27Paraty%27_Graham_ex_Hook.%2C_Bot._Mag._55_t._2851_%281828%29_%2850146215802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cattleya_intermedia_%27Paraty%27_Graham_ex_Hook.%2C_Bot._Mag._55_t._2851_%281828%29_%2850146215802%29.jpg/1280px-Cattleya_intermedia_%27Paraty%27_Graham_ex_Hook.%2C_Bot._Mag._55_t._2851_%281828%29_%2850146215802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_intermedia_%27Paraty%27_Graham_ex_Hook.,_Bot._Mag._55_t._2851_(1828)_(50146215802).jpg",
-      "creator": "sunoochi",
-      "credit": "Cattleya intermedia 'Paraty' Graham ex Hook., Bot. Mag. 55: t. 2851 (1828)",
-      "licence": "CC BY 2.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-      "description": "[Paraty, Brazil / ブラジルパラチ] SUBGENUS Intermediae .mw-parser-output .smallcaps{font-variant:small-caps} Withner , Cattleyas & Relatives 1: 21 (1988). (1988). Distribution: SE. & S. Brazil to Uruguay (84 BZL BZS 85 PAR URU) Lifeform: Pseudobulb geophyte or epiphyte Homotypic synonyms Epidendrum intermedium ( Graham ex Hook. ) Rchb.f. in W.G.Walpers , Ann. Bot. Syst. 6: 318 (1861). Heterotypic synonyms Epidendrum canaliculatum Vell. , Fl. Flumin. 9: t. 10 (1831). Cattleya intermedia var. pallida Lindl. , Edwards's Bot. Reg. 22: t. 1919 (1836). Cattleya maritima Lindl. , Edwards's Bot. Reg. 22: t. 1919 (1836). Cattleya ovata Lindl. , Edwards's Bot. Reg. 22: t. 1919 (1836). Cattleya intermedia var. angustifolia Hook. , Bot. Mag. 66: t. 3711 (1839). Cattleya intermedia var. variegata Hook. , Bot. Mag. 70: t. 4085 (1844). Cattleya amethystina C.Morren , Ann. Soc. Roy. Agric. Gand 4: 217 (1848). Cattleya loddigesii var. amethystina C.Morren ex Lem. , Jard. Fleur. 4: t. 379 (1853). Cattleya lindleyana Rchb.f. , Berliner Allg. Gartenzeitung 1857: 118 (1857). Cattleya amabilis B.S.Williams , Orch.-Grow. Man., ed. 2: 63 (1862). Bletia lindleyana ( Rchb.f. ) Rchb.f. , Xenia Orchid. 2: 65 (1863). Cattleya intermedia var. macrochila Barb.Rodr. , Gen. Spec. Orchid. 1: 71 (1877). Cattleya intermedia var. superba F.Buyss. , L'orchidophile; Traité Théor. & Prat.: 239 (1878). Laelia lindleyana ( Rchb.f. ) G.Nicholson , Ill. Dict. Gard. 2: 229 (1886). Cattleya gibeziae L.Linden & Rodigas , Lindenia 3: 77 (1887). Cattleya intermedia var. gibeziae ( L.Linden & Rodigas ) L.Linden & Rodigas , Lindenia 3: 77 (1887). Cattleya intermedia var. parthenia Rchb.f. , Gard. Chron., ser. 3, 4: 178 (1888). Cattleya aquinii Barb.Rodr. , Pl. Jard. Rio de Janeiro 1: 23 (1891). Cattleya intermedia var. punctatissima Sander , Reichenbachiana 1(2): 51 (1892). Cattleya intermedia var. amethystina ( C.Morren ex L em. ) Fowlie , Braz. Bifol. Cattleyas: 112 (1977). Cattleya intermedia f. parthenia ( Rchb.f. ) F.Barros & J.A.N.Bat. , Orquidologia Sul-Amer.: 101 (2004). Cattleya intermedia f. amethystina ( C.Morren ) M.Wolff & O.Gruss , Orchid. Atlas: 61 (2007).",
-      "width": 7728,
-      "height": 5152,
+      "title": "File:A and B Larsen orchids - Cattleya intermedia 579-4.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/A_and_B_Larsen_orchids_-_Cattleya_intermedia_579-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/A_and_B_Larsen_orchids_-_Cattleya_intermedia_579-4.jpg/1280px-A_and_B_Larsen_orchids_-_Cattleya_intermedia_579-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_intermedia_579-4.jpg",
+      "creator": "Arne and Bent Larsen, Haarby, Denmark",
+      "credit": "Orchid collection of Arne and Bent Larsen, original filename: 'orc-cattleya/Cattleya intermedia 579-4.jpg'",
+      "licence": "CC BY-SA 2.5 dk",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/dk/deed.en",
+      "description": "Cattleya intermedia",
+      "width": 1768,
+      "height": 1204,
       "mime": "image/jpeg"
     },
     {
@@ -1546,7 +1545,8 @@
       "description": "SUBGENUS Cattleya SECTION Cattleya Lindley Distribution: SE. Venezuela to Guyana and Brazil (Roraima) (82 GUY VEN 84 BZN) Lifeform: Pseudobulb epiphyte",
       "width": 8006,
       "height": 5337,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800847,
@@ -1563,7 +1563,8 @@
       "description": "SUBGENUS Cattleya SECTION Cattleya Lindley Distribution: SE. Venezuela to Guyana and Brazil (Roraima) (82 GUY VEN 84 BZN) Lifeform: Pseudobulb epiphyte",
       "width": 4300,
       "height": 5300,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2811885,
@@ -1580,7 +1581,8 @@
       "description": "[Minas Gerais, Brazil] SUBGENUS Crispae SECTION Hadrolaelia Schlechter Distribution: Brazil (Minas Gerais) (84 BZL) Homotypic Synonyms: Bletia jongheana (Rchb.f.) Rchb.f., Flora 55: 158 (1872). * Laelia jongheana Rchb.f., Flora 55: 158 (1872). Sophronitis jongheana (Rchb.f.) Van den Berg & M.W.Chase, Lindleyana 15: 117 (2000). Hadrolaelia jongheana (Rchb.f.) Chiron & V.P.Castro, Richardiana 2: 20 (2002). (* Basionym/Replaced Synonym)",
       "width": 7360,
       "height": 4912,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2811885,
@@ -1597,7 +1599,8 @@
       "description": "SUBGENUS Crispae SECTION Hadrolaelia Schlechter Distribution: Brazil (Minas Gerais) 84 BZL Found in Southern America Brazil Brazil Southeast Homotypic Synonyms: Bletia jongheana (Rchb.f.) Rchb.f., Flora 55: 158 (1872). Laelia jongheana Rchb.f., Flora 55: 158 (1872). Sophronitis jongheana (Rchb.f.) Van den Berg & M.W.Chase, Lindleyana 15: 117 (2000). Hadrolaelia jongheana (Rchb.f.) Chiron & V.P.Castro, Richardiana 2: 20 (2002). (* Basionym/Replaced Synonym)",
       "width": 7045,
       "height": 4702,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800823,
@@ -1698,72 +1701,18 @@
       "type": "StillImage"
     },
     {
-      "taxonKey": 2801162,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya labiata",
-      "title": "File:Cattleya labiata 'Helena'2.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Cattleya_labiata_%27Helena%272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Cattleya_labiata_%27Helena%272.jpg/1280px-Cattleya_labiata_%27Helena%272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_labiata_%27Helena%272.jpg",
-      "creator": "KENPEI",
-      "credit": "KENPEI's photo",
-      "licence": "CC BY-SA 3.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "description": "Cattleya labiata 'Helena' Place:Osaka Prefectural Flower Garden,Osaka,Japan",
-      "width": 3264,
-      "height": 2448,
-      "mime": "image/jpeg"
-    },
-    {
-      "taxonKey": 2801162,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya labiata",
-      "title": "File:Cattleya labiata - Curtis' 69 (N.S. 16) pl. 3998 (1843).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cattleya_labiata_-_Curtis%27_69_%28N.S._16%29_pl._3998_%281843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Cattleya_labiata_-_Curtis%27_69_%28N.S._16%29_pl._3998_%281843%29.jpg/1280px-Cattleya_labiata_-_Curtis%27_69_%28N.S._16%29_pl._3998_%281843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_labiata_-_Curtis%27_69_(N.S._16)_pl._3998_(1843).jpg",
-      "creator": "Walter Hood Fitch (1817-1892) del., Swan sc.",
-      "credit": "\"Curtis's Botanical Magazine\" vol. 69 (N.S. 16) pl. 3998 ( http://botanicus.org/page/433874 )",
-      "licence": "Public domain",
-      "licenceUrl": null,
-      "description": "Illustration of Cattleya labiata",
-      "width": 1999,
-      "height": 3268,
-      "mime": "image/jpeg"
-    },
-    {
       "taxonKey": 2801137,
-      "source": "Wikimedia Commons",
+      "source": "iNaturalist",
       "scientificName": "Cattleya lawrenceana",
-      "title": "File:Cattleya lawrenceana.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cattleya_lawrenceana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Cattleya_lawrenceana.jpg/1280px-Cattleya_lawrenceana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_lawrenceana.jpg",
-      "creator": "Dalton Holland Baptista",
-      "credit": "Own work",
-      "licence": "CC BY-SA 3.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "description": "Cattleya lawrenceana",
-      "width": 1600,
-      "height": 1200,
-      "mime": "image/jpeg"
-    },
-    {
-      "taxonKey": 2801137,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya lawrenceana",
-      "title": "File:Cattleya lawrenceana (1).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cattleya_lawrenceana_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Cattleya_lawrenceana_%281%29.jpg/1280px-Cattleya_lawrenceana_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_lawrenceana_(1).jpg",
-      "creator": "Elena Gaillard from New York, USA",
-      "credit": "Cattleya lawrenceana Uploaded by uleli",
-      "licence": "CC BY 2.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-      "description": "Cattleya lawrenceana",
-      "width": 3872,
-      "height": 2592,
-      "mime": "image/jpeg"
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617524319/square.jpg",
+      "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/617524319/square.jpg",
+      "sourceUrl": "https://www.inaturalist.org/observations/339458138",
+      "creator": "no rights reserved",
+      "licence": "CC0",
+      "observationId": 339458138,
+      "photoId": 617524319,
+      "qualityGrade": "research",
+      "reviewStatus": "automatically-ingested-needs-editorial-review"
     },
     {
       "taxonKey": 2811916,
@@ -1846,6 +1795,23 @@
       "taxonKey": 2801104,
       "source": "Wikimedia Commons",
       "scientificName": "Cattleya loddigesii",
+      "title": "File:37 Cattleya loddigesii - John Lindley - Collectanea botanica (1821).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/37_Cattleya_loddigesii_-_John_Lindley_-_Collectanea_botanica_%281821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/37_Cattleya_loddigesii_-_John_Lindley_-_Collectanea_botanica_%281821%29.jpg/1280px-37_Cattleya_loddigesii_-_John_Lindley_-_Collectanea_botanica_%281821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:37_Cattleya_loddigesii_-_John_Lindley_-_Collectanea_botanica_(1821).jpg",
+      "creator": "John Lindley",
+      "credit": "Collectanea botanica or, figures and botanical illustrations of rare and curious exotic plants",
+      "licence": "Public domain",
+      "licenceUrl": null,
+      "description": "Cattleya loddigesii",
+      "width": 4360,
+      "height": 6594,
+      "mime": "image/jpeg"
+    },
+    {
+      "taxonKey": 2801104,
+      "source": "Wikimedia Commons",
+      "scientificName": "Cattleya loddigesii",
       "title": "File:Cattleya loddigesii.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Cattleya_loddigesii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Cattleya_loddigesii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -1857,23 +1823,6 @@
       "description": null,
       "width": 600,
       "height": 440,
-      "mime": "image/jpeg"
-    },
-    {
-      "taxonKey": 2801104,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya loddigesii",
-      "title": "File:Cattleya loddigesii 'Ponto Rosa' Lindl., Coll. Bot. t. 37 (1826) (25645154457).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cattleya_loddigesii_%27Ponto_Rosa%27_Lindl.%2C_Coll._Bot._t._37_%281826%29_%2825645154457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Cattleya_loddigesii_%27Ponto_Rosa%27_Lindl.%2C_Coll._Bot._t._37_%281826%29_%2825645154457%29.jpg/1280px-Cattleya_loddigesii_%27Ponto_Rosa%27_Lindl.%2C_Coll._Bot._t._37_%281826%29_%2825645154457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_loddigesii_%27Ponto_Rosa%27_Lindl.,_Coll._Bot._t._37_(1826)_(25645154457).jpg",
-      "creator": "sunoochi from Sapporo, Hokkaido, Japan",
-      "credit": "Cattleya loddigesii 'Ponto Rosa' Lindl., Coll. Bot.: t. 37 (1826)",
-      "licence": "CC BY 2.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-      "description": "Cattleya loddigesii 'Ponto Rosa' Lindl., Coll. Bot.: t. 37 (1826)",
-      "width": 7054,
-      "height": 4708,
       "mime": "image/jpeg"
     },
     {
@@ -1908,7 +1857,8 @@
       "description": "Cattleya lueddemanniana blooming in the Floral Showhouse, Niagara Falls, Ontario, Canada.",
       "width": 3000,
       "height": 3352,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 4935173,
@@ -1925,7 +1875,8 @@
       "description": "Cattleya lueddemanniana - (Venezuela)",
       "width": 7105,
       "height": 4742,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2812004,
@@ -2073,6 +2024,20 @@
       "width": 2267,
       "height": 2266,
       "mime": "image/jpeg"
+    },
+    {
+      "taxonKey": 2812096,
+      "source": "iNaturalist",
+      "scientificName": "Cattleya mantiqueirae",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348230805/square.jpeg",
+      "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/348230805/square.jpeg",
+      "sourceUrl": "https://www.inaturalist.org/observations/197680234",
+      "creator": "(c) desertnaturalist, some rights reserved (CC BY)",
+      "licence": "CC-BY",
+      "observationId": 197680234,
+      "photoId": 348230805,
+      "qualityGrade": "research",
+      "reviewStatus": "automatically-ingested-needs-editorial-review"
     },
     {
       "taxonKey": 2812010,
@@ -2319,7 +2284,8 @@
       "description": "Cattleya mirandae",
       "width": 960,
       "height": 1280,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2811994,
@@ -2336,7 +2302,8 @@
       "description": "Cattleya mirandae",
       "width": 3235,
       "height": 4313,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801122,
@@ -2353,7 +2320,8 @@
       "description": "Cattleya mooreana",
       "width": 576,
       "height": 556,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801122,
@@ -2370,7 +2338,8 @@
       "description": "Cattleya mooreana",
       "width": 1280,
       "height": 960,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801063,
@@ -2386,40 +2355,6 @@
       "countryCode": "VE",
       "year": 2024,
       "type": "StillImage"
-    },
-    {
-      "taxonKey": 2801063,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya mossiae",
-      "title": "File:A and B Larsen orchids - Cattleya mossiae x intermedia Aquinii DSCN0754.JPG",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0754.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0754.JPG/1280px-A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0754.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0754.JPG",
-      "creator": "Arne and Bent Larsen, Haarby, Denmark",
-      "credit": "Orchid collection of Arne and Bent Larsen, original filename: 'orc-cattleya/Cattleya mossiae x intermedia Aquinii DSCN0754.JPG'",
-      "licence": "CC BY-SA 2.5 dk",
-      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/dk/deed.en",
-      "description": "Cattleya mossiae x intermedia Aquinii",
-      "width": 2048,
-      "height": 1536,
-      "mime": "image/jpeg"
-    },
-    {
-      "taxonKey": 2801063,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya mossiae",
-      "title": "File:A and B Larsen orchids - Cattleya mossiae x intermedia Aquinii DSCN0756.JPG",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0756.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0756.JPG/1280px-A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0756.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0756.JPG",
-      "creator": "Arne and Bent Larsen, Haarby, Denmark",
-      "credit": "Orchid collection of Arne and Bent Larsen, original filename: 'orc-cattleya/Cattleya mossiae x intermedia Aquinii DSCN0756.JPG'",
-      "licence": "CC BY-SA 2.5 dk",
-      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/dk/deed.en",
-      "description": "Cattleya mossiae x intermedia Aquinii",
-      "width": 2048,
-      "height": 1536,
-      "mime": "image/jpeg"
     },
     {
       "taxonKey": 2811889,
@@ -2538,23 +2473,6 @@
       "taxonKey": 2800960,
       "source": "Wikimedia Commons",
       "scientificName": "Cattleya nobilior",
-      "title": "File:Cattleya nobilior.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Cattleya_nobilior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Cattleya_nobilior.jpg/1280px-Cattleya_nobilior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_nobilior.jpg",
-      "creator": "Dalton Holland Baptista",
-      "credit": "Own work",
-      "licence": "CC BY-SA 3.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "description": "Cattleya nobilior",
-      "width": 2150,
-      "height": 1500,
-      "mime": "image/jpeg"
-    },
-    {
-      "taxonKey": 2800960,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya nobilior",
       "title": "File:Cattleya nobilior fma. amaliae 2412 Rchb.f. in Ill. Hort. 30- t. 485 (1883) 20260722 182255.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182255.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182255.jpg/1280px-Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182255.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2566,6 +2484,23 @@
       "description": "Plant derived from Tocantins, Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya Distribution Brazil to Bolivia Lifeform Pseudobulbous epiphyte Synonyms Homotypic synonyms Cattleya walkeriana var. nobilior ( .mw-parser-output .smallcaps{font-variant:small-caps} Rchb.f. ) A.H.Kent in Man. Orchid. Pl. 2: 50 (1887) Heterotypic synonyms Cattleya nobilior var. alba L.C.Menezes in Orquidário 15: 16 (2001) Cattleya nobilior f. alba ( L.C.Menezes ) F.Barros & J.A.N.Bat. in Orquidologia Sul-Amer.: 102 (2004) Cattleya nobilior var. amaliae Pabst in Bradea 2: 229 (1978) Cattleya nobilior f. amaliae ( Pabst ) M.Wolff & O.Gruss in Orchid. Atlas: 66 (2007) Cattleya nobilior var. hugueneyi L.Linden & Rodigas in Lindenia 1: 15 (1885) Cattleya nobilior f. hugueneyi ( L.Linden & Rodigas ) M.Wolff & O.Gruss in Orchid. Atlas: 66 (2007)",
       "width": 15925,
       "height": 10617,
+      "mime": "image/jpeg"
+    },
+    {
+      "taxonKey": 2800960,
+      "source": "Wikimedia Commons",
+      "scientificName": "Cattleya nobilior",
+      "title": "File:Cattleya nobilior fma. amaliae 2412 Rchb.f. in Ill. Hort. 30- t. 485 (1883) 20260722 182936.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182936.jpg/1280px-Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_(1883)_20260722_182936.jpg",
+      "creator": "Motohiro Sunouchi",
+      "credit": "Own work",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+      "description": "Plant derived from Tocantins, Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya Distribution Brazil to Bolivia Lifeform Pseudobulbous epiphyte Synonyms Homotypic synonyms Cattleya walkeriana var. nobilior ( .mw-parser-output .smallcaps{font-variant:small-caps} Rchb.f. ) A.H.Kent in Man. Orchid. Pl. 2: 50 (1887) Heterotypic synonyms Cattleya nobilior var. alba L.C.Menezes in Orquidário 15: 16 (2001) Cattleya nobilior f. alba ( L.C.Menezes ) F.Barros & J.A.N.Bat. in Orquidologia Sul-Amer.: 102 (2004) Cattleya nobilior var. amaliae Pabst in Bradea 2: 229 (1978) Cattleya nobilior f. amaliae ( Pabst ) M.Wolff & O.Gruss in Orchid. Atlas: 66 (2007) Cattleya nobilior var. hugueneyi L.Linden & Rodigas in Lindenia 1: 15 (1885) Cattleya nobilior f. hugueneyi ( L.Linden & Rodigas ) M.Wolff & O.Gruss in Orchid. Atlas: 66 (2007)",
+      "width": 15448,
+      "height": 10299,
       "mime": "image/jpeg"
     },
     {
@@ -2617,7 +2552,8 @@
       "description": "Cattleya percivaliana 'Centro Amarillo' N.S. (105 X 115mm) 3 stems 4 flowers 25th Funabashi Orchid Show in TOBU Department Store, Funabashi Chiba Japan.",
       "width": 3200,
       "height": 2400,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800899,
@@ -2634,7 +2570,8 @@
       "description": "[Venezuela] SUBGENUS Cattleya SECTION Cattleya Lindley Pseudobulb epiphyte Distribution: Colombia to NW. & N. Venezuela (82 VEN 83 CLM) Found in [Southern America] Northern South America Venezuela, Western South America Colombia Homotypic Synonyms: Cattleya labiata var. percivaliana Rchb.f., Gard. Chron., n.s., 18: 814 (1882). (* Basionym/Replaced Synonym) Heterotypic Synonyms: Cattleya percivaliana var. alba R.Warner & B.S.Williams, Orchid Album 3: t. 131 (1884). Cattleya percivaliana var. bicolor Rolfe, Orchid Rev. 4: 66 (1896). Cattleya percivaliana var. grandiflora Cogn. & A.Gooss., Dict. Icon. Orchid., Cattleya: t. 7A (1903). Cattleya percivaliana f. alba (R.Warner & B.S.Williams) M.Wolff & O.Gruss, Orchid. Atlas: 67 (2007). Cattleya percivaliana f. bicolor (Rolfe) M.Wolff & O.Gruss, Orchid. Atlas: 67 (2007).",
       "width": 7360,
       "height": 4912,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801190,
@@ -2651,7 +2588,8 @@
       "description": "Orchid Cattleya perrinii in Longwood Gardens. October 2022. The Main Conservatory. Natural areal includes SE Brasil.",
       "width": 4608,
       "height": 3456,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801190,
@@ -2668,7 +2606,8 @@
       "description": "Orchid Cattleya perrinii in Longwood Gardens. October 2022. The Main Conservatory. Natural areal includes SE Brasil.",
       "width": 3456,
       "height": 4608,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2812149,
@@ -2685,7 +2624,8 @@
       "description": "Cattleya pfisteri",
       "width": 1800,
       "height": 1250,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2812149,
@@ -2702,7 +2642,8 @@
       "description": "Cattleya pfisteri",
       "width": 2000,
       "height": 1450,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800851,
@@ -2719,7 +2660,8 @@
       "description": "Cattleya porphyroglossa",
       "width": 2048,
       "height": 1536,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800851,
@@ -2736,7 +2678,8 @@
       "description": "Cattleya porphyroglossa",
       "width": 2048,
       "height": 1536,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2812072,
@@ -2827,17 +2770,17 @@
       "taxonKey": 7569287,
       "source": "Wikimedia Commons",
       "scientificName": "Cattleya purpurata",
-      "title": "File:Cattleya purpurata fma. flamea ‘Dr. Haetinger’ (Lindl. & Paxton) Rollisson ex Lindl., Gard. Chron. 1855 319 (1855) (50042071751).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cattleya_purpurata_fma._flamea_%E2%80%98Dr._Haetinger%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.%2C_Gard._Chron._1855_319_%281855%29_%2850042071751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Cattleya_purpurata_fma._flamea_%E2%80%98Dr._Haetinger%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.%2C_Gard._Chron._1855_319_%281855%29_%2850042071751%29.jpg/1280px-Cattleya_purpurata_fma._flamea_%E2%80%98Dr._Haetinger%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.%2C_Gard._Chron._1855_319_%281855%29_%2850042071751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_purpurata_fma._flamea_%E2%80%98Dr._Haetinger%E2%80%99_(Lindl._%26_Paxton)_Rollisson_ex_Lindl.,_Gard._Chron._1855_319_(1855)_(50042071751).jpg",
-      "creator": "sunoochi from Sapporo, Hokkaido, Japan",
-      "credit": "Cattleya purpurata fma. flamea ‘Dr. Haetinger’ (Lindl. & Paxton) Rollisson ex Lindl., Gard. Chron. 1855: 319 (1855)",
-      "licence": "CC BY 2.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-      "description": "[Brazil / ブラジル] SECTION Crispae ( .mw-parser-output .smallcaps{font-variant:small-caps} Pfitzer ) Van den Berg , Phytotaxa 186(2): 78 (2014). Distribution: SE. & S. Brazil (84 BZL BZS) Lifeform: Pseudobulb epiphyte Basionym Laelia purpurata Lindl. & Paxton , Paxton's Fl. Gard. 3: 111 (1852). Homotypic synonyms Bletia purpurata ( Lindl. & Paxton ) Rchb.f. in W.G.Walpers , Ann. Bot. Syst. 6: 423 (1862), nom. illeg. Sophronitis purpurata ( Lindl. & Paxton ) Van den Berg & M.W.Chase , Lindleyana 15: 118 (2000). Hadrolaelia purpurata ( Lindl. & Paxton ) Chiron & V.P.Castro, Richardiana 2: 19 (2002). Brasilaelia purpurata ( Lindl. & Paxton ) Campacci , Colet. Orquídeas Brasil. 4(Pré-anexo): 100 (2006). Chironiella purpurata ( Lindl. & Paxton ) Braem , Richardiana 6: 109 (2006). Heterotypic synonyms Amalia purpurea Heynh. , Alph. Aufz. Gew.: 29 (1846), nom. nud. Cattleya brysiana Lem. , Jard. Fleur. 3: t. 275 (1853). Laelia purpurata var. praetexta Rchb.f. , Allg. Gartenzeitung 23: 241 (1855). Laelia casperiana Rchb.f. , Wochenschr. Gärtnerei Pflanzenk. 2: 336 (1859). Bletia casperiana ( Rchb.f. ) Rchb.f. in W.G.Walpers , Ann. Bot. Syst. 6: 423 (1862). Bletia purpurata var. aurorea Rchb.f. , Xenia Orchid. 2: 53 (1862). Bletia purpurata var. pallida Rchb.f. , Xenia Orchid. 2: 53 (1862). Bletia purpurata var. praetexta ( Rchb.f. ) Rchb.f. , Xenia Orchid. 2: 53 (1862). Laelia purpurata var. nelisii Lem. , Ill. Hort. 15: t. 569 (1868). Laelia purpurata var. rosea Regel , Gartenflora 21: 225 (1872). Laelia russelliana B.S.Williams , Orch.-Grow. Man., ed. 6: 366 (1885). Laelia purpurata var. russelliana ( B.S.Williams ) B.S.Williams , Orchid Album 6: t. 269 (1887). Laelia purpurata var. blenheimense R.Warner & B.S.Williams , Orchid Album 8: t. 346 (1889). Laelia purpurata var. virginalis L.C.Menezes , Orquidário 9: 34 (1995). Hadrolaelia purpurata f. virginalis ( L.C.Menezes ) F.Barros & J.A.N.Bat. , Orquidologia Sul-Amer.: 103 (2004).",
-      "width": 8256,
-      "height": 5504,
+      "title": "File:Cattleya purpurata fma. sanguinea ‘Dark Beautiful’ (Lindl. & Paxton) Rollisson ex Lindl.- Gard. Chron. 1855- 319 (1855). 20240706 065801.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cattleya_purpurata_fma._sanguinea_%E2%80%98Dark_Beautiful%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.-_Gard._Chron._1855-_319_%281855%29._20240706_065801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Cattleya_purpurata_fma._sanguinea_%E2%80%98Dark_Beautiful%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.-_Gard._Chron._1855-_319_%281855%29._20240706_065801.jpg/1280px-Cattleya_purpurata_fma._sanguinea_%E2%80%98Dark_Beautiful%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.-_Gard._Chron._1855-_319_%281855%29._20240706_065801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_purpurata_fma._sanguinea_%E2%80%98Dark_Beautiful%E2%80%99_(Lindl._%26_Paxton)_Rollisson_ex_Lindl.-_Gard._Chron._1855-_319_(1855)._20240706_065801.jpg",
+      "creator": "Motohiro Sunouchi",
+      "credit": "Own work",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+      "description": "Plant derived from South of Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Section Crispae ( Pfitzer ) Van den Berg , Phytotaxa 186(2): 78 (2014). Distribution SE. & S. Brazil Lifeform Pseudobulbous epiphyte Synonyms Homotypic synonyms Bletia purpurata ( Lindl. & Paxton ) Rchb.f. in Ann. Bot. Syst. 6: 423 (1862) Brasilaelia purpurata ( Lindl. & Paxton ) Campacci in Colet. Orquídeas Brasil. 4(Pré-anexo): 100 (2006) Chironiella purpurata ( Lindl. & Paxton ) Braem in Richardiana 6: 109 (2006) Hadrolaelia purpurata ( Lindl. & Paxton ) Chiron & V.P.Castro in Richardiana 2: 19 (2002) Laelia purpurata Lindl. & Paxton in Paxton's Fl. Gard. 3: 111 (1852) Sophronitis purpurata ( Lindl. & Paxton ) Van den Berg & M.W.Chase in Lindleyana 15: 118 (2000) Heterotypic synonyms Amalia purpurea Heynh. in Alph. Aufz. Gew.: 29 (1846) Bletia casperiana ( Rchb.f. ) Rchb.f. in Ann. Bot. Syst. 6: 423 (1862) Bletia purpurata var. aurorea Rchb.f. in Xenia Orchid. 2: 53 (1862) Bletia purpurata var. pallida Rchb.f. in Xenia Orchid. 2: 53 (1862) Bletia purpurata var. praetexta ( Rchb.f. ) Rchb.f. in Xenia Orchid. 2: 53 (1862) Cattleya brysiana Lem. in Jard. Fleur. 3: t. 275 (1853) Cattleya purpurata var. blenheimense ( R.Warner & B.S.Williams ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 57 (2016) Cattleya purpurata var. nelisii ( Lem. ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 57 (2016) Cattleya purpurata var. praetexta ( Rchb.f. ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 57 (2016) Cattleya purpurata var. rosea ( Regel ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 57 (2016) Cattleya purpurata var. russelliana ( B.S.Williams ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 58 (2016) Cattleya purpurata var. virginalis ( L.C.Menezes ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 58 (2016) Hadrolaelia purpurata f. virginalis ( L.C.Menezes ) F.Barros & J.A.N.Bat. in Orquidologia Sul-Amer.: 103 (2004) Laelia casperiana Rchb.f. in Wochenschr. Gärtnerei Pflanzenk. 2: 336 (1859) Laelia purpurata var. blenheimense R.Warner & B.S.Williams in Orchid Album 8: t. 346 (1889) Laelia purpurata var. nelisii Lem. in Ill. Hort. 15: t. 569 (1868) Laelia purpurata var. praetexta Rchb.f. in Allg. Gartenzeitung 23: 241 (1855) Laelia purpurata var. rosea Regel in Gartenflora 21: 225 (1872) Laelia purpurata var. russelliana ( B.S.Williams ) B.S.Williams in Orchid Album 6: t. 269 (1887) Laelia purpurata var. virginalis L.C.Menezes in Orquidário 9: 34 (1995) Laelia russelliana B.S.Williams in Orch.-Grow. Man., ed. 6: 366 (1885)",
+      "width": 16512,
+      "height": 11008,
       "mime": "image/jpeg"
     },
     {
@@ -2923,7 +2866,8 @@
       "description": "[Minas Gerais, Brazil / ブラジルミナスジェライス] SUBGENUS Cattleya SECTION Crispae ( .mw-parser-output .smallcaps{font-variant:small-caps} Pfitzer ) Van den Berg , Phytotaxa 186(2): 78 (2014). SERIES Parviflorae ( Lindl. ) Van den Berg , Phytotaxa 186(2): 82 (2014). Distribution: Brazil (Minas Gerais: Serra da Caraça) (84 BZL) Lifeform: Pseudobulb epiphyte Basionym Laelia reginae Pabst , Bradea 2: 24 (1975). Homotypic synonyms Sophronitis reginae ( Pabst ) Van den Berg & M.W.Chase , Lindleyana 15: 118 (2000). Hoffmannseggella reginae ( Pabst ) V.P.Castro & Chiron , Richardiana 2: 23 (2002).",
       "width": 7420,
       "height": 4947,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2811958,
@@ -2940,7 +2884,8 @@
       "description": "[Minas Gerais, Brazil / ブラジルミナスジェライス] SUBGENUS Cattleya SECTION Crispae ( .mw-parser-output .smallcaps{font-variant:small-caps} Pfitzer ) Van den Berg , Phytotaxa 186(2): 78 (2014). SERIES Parviflorae ( Lindl. ) Van den Berg , Phytotaxa 186(2): 82 (2014). Distribution: Brazil (Minas Gerais: Serra da Caraça) (84 BZL) Lifeform: Pseudobulb epiphyte Basionym Laelia reginae Pabst , Bradea 2: 24 (1975). Homotypic synonyms Sophronitis reginae ( Pabst ) Van den Berg & M.W.Chase , Lindleyana 15: 118 (2000). Hoffmannseggella reginae ( Pabst ) V.P.Castro & Chiron , Richardiana 2: 23 (2002).",
       "width": 5249,
       "height": 7874,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801031,
@@ -3012,37 +2957,17 @@
     },
     {
       "taxonKey": 2812036,
-      "source": "Wikimedia Commons",
+      "source": "iNaturalist",
       "scientificName": "Cattleya rupestris",
-      "title": "File:Cattleya rupestris '2020' (Lindl.) Van den Berg in Neodiversity 3- 11 (2008) 20250426 112429.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112429.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112429.jpg/1280px-Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112429.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_rupestris_%272020%27_(Lindl.)_Van_den_Berg_in_Neodiversity_3-_11_(2008)_20250426_112429.jpg",
-      "creator": "Motohiro Sunouchi",
-      "credit": "Own work",
-      "licence": "CC BY 4.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
-      "description": "Plant derived from Minas Gerais, Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Subgenus Cattleya Section Crispae Series Parviflorae ( Lindl. ) Van den Berg Distribution Brazil (Minas Gerais) Lifeform Epiphyte Synonyms Homotypic synonyms Bletia rupestris ( Lindl. ) Rchb.f. in Ann. Bot. Syst. 6: 431 (1862) Hoffmannseggella rupestris ( Lindl. ) V.P.Castro & Chiron in Richardiana 2: 23 (2002) Laelia rupestris Lindl. in Edwards's Bot. Reg. 28: t. 62 (1842) Sophronitis mirandae Van den Berg & M.W.Chase in Lindleyana 15: 118 (2000)",
-      "width": 16512,
-      "height": 11008,
-      "mime": "image/jpeg"
-    },
-    {
-      "taxonKey": 2812036,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya rupestris",
-      "title": "File:Cattleya rupestris '2020' (Lindl.) Van den Berg in Neodiversity 3- 11 (2008) 20250426 112715.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112715.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112715.jpg/1280px-Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112715.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_rupestris_%272020%27_(Lindl.)_Van_den_Berg_in_Neodiversity_3-_11_(2008)_20250426_112715.jpg",
-      "creator": "Motohiro Sunouchi",
-      "credit": "Own work",
-      "licence": "CC BY 4.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
-      "description": "Plant derived from Minas Gerais, Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Subgenus Cattleya Section Crispae Series Parviflorae ( Lindl. ) Van den Berg Distribution Brazil (Minas Gerais) Lifeform Epiphyte Synonyms Homotypic synonyms Bletia rupestris ( Lindl. ) Rchb.f. in Ann. Bot. Syst. 6: 431 (1862) Hoffmannseggella rupestris ( Lindl. ) V.P.Castro & Chiron in Richardiana 2: 23 (2002) Laelia rupestris Lindl. in Edwards's Bot. Reg. 28: t. 62 (1842) Sophronitis mirandae Van den Berg & M.W.Chase in Lindleyana 15: 118 (2000)",
-      "width": 15527,
-      "height": 10351,
-      "mime": "image/jpeg"
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41010993/square.jpg",
+      "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/41010993/square.jpg",
+      "sourceUrl": "https://www.inaturalist.org/observations/26402280",
+      "creator": "(c) william_hoyer, some rights reserved (CC BY)",
+      "licence": "CC-BY",
+      "observationId": 26402280,
+      "photoId": 41010993,
+      "qualityGrade": "research",
+      "reviewStatus": "automatically-ingested-needs-editorial-review"
     },
     {
       "taxonKey": 2800892,
@@ -3093,7 +3018,8 @@
       "description": "An orchid (Cattleya Schofieldiana var.): flowering stem. Watercolour, 1902. Iconographic Collections",
       "width": 2280,
       "height": 3108,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800858,
@@ -3110,7 +3036,8 @@
       "description": "Plant derived from Brazil Taxonomy Family: Orchidaceae Subfamily: Epidendroideae Tribe: Epidendreae Subtribe: Laeliinae Genus: Cattleya Lindl. Subgenus: Falcata Section: Granulosae [Fowlie] Withner 1989 Distribution: Brazil (Espírito Santo to Rio de Janeiro) (84 BZL) Lifeform: Pseudobulb epiphyte Homotypic Names: Cattleya granulosa var. schofieldiana (Rchb.f.) A.H.Kent in H.J.Veitch, Man. Orchid. Pl. 2: 36 (1887). Cattleya granulosa f. schofieldiana (Rchb.f.) A.D.Hawkes, Encycl. Cult. Orchids: 97 (1965), no basionym ref. Heterotypic Synonyms: Cattleya princeps Anon., Gard. Chron., ser. 3, 11: 816 (1892), nom. illeg. Cattleya granulosa var. banneri Rolfe, Orchid Rev. 4: 244 (1896). Cattleya schofieldiana var. banneri (Rolfe) Fowlie, Braz. Bifol. Cattleyas: 78 (1977). Cattleya schofieldiana var. tedescoana L.C.Menezes, Bol. CAOB 75: 40 (2009).",
       "width": 16512,
       "height": 11008,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801054,
@@ -3195,7 +3122,8 @@
       "description": "Cattleya × sororia . Berggarten Hannover.",
       "width": 1098,
       "height": 1464,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801100,
@@ -3212,7 +3140,8 @@
       "description": "Cattleya × sororia. Berggarten Hannover.",
       "width": 900,
       "height": 1200,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 7587736,
@@ -3523,7 +3452,8 @@
       "description": "Cattleya vasconcelosiana - (Brasil, Minas Gerais)",
       "width": 7360,
       "height": 4912,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 8160153,
@@ -3540,7 +3470,8 @@
       "description": "Cattleya vasconcelosiana - (Brasil, Minas Gerais)",
       "width": 7268,
       "height": 4851,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801007,
@@ -3557,7 +3488,8 @@
       "description": "Illustration of Cattleya velutina",
       "width": 3253,
       "height": 5123,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801007,
@@ -3574,7 +3506,8 @@
       "description": "Cattleya velutina",
       "width": 1400,
       "height": 2000,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800952,
@@ -3612,37 +3545,17 @@
     },
     {
       "taxonKey": 7499732,
-      "source": "Wikimedia Commons",
+      "source": "iNaturalist",
       "scientificName": "Cattleya violacea",
-      "title": "File:Cattleya violacea (Kunth) Lindl., Gard. Chron. 1842 472 (1842) (28032990567).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2828032990567%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2828032990567%29.jpg/1280px-Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2828032990567%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_violacea_(Kunth)_Lindl.,_Gard._Chron._1842_472_(1842)_(28032990567).jpg",
-      "creator": "snotch from Sapporo, Hokkaido, Japan",
-      "credit": "[Brazil] Cattleya violacea (Kunth) Lindl., Gard. Chron. 1842: 472 (1842)",
-      "licence": "CC BY 2.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-      "description": "' Cattleya violacea - Brazil",
-      "width": 7360,
-      "height": 4912,
-      "mime": "image/jpeg"
-    },
-    {
-      "taxonKey": 7499732,
-      "source": "Wikimedia Commons",
-      "scientificName": "Cattleya violacea",
-      "title": "File:Cattleya violacea (Kunth) Lindl., Gard. Chron. 1842 472 (1842) (29029280518).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2829029280518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2829029280518%29.jpg/1280px-Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2829029280518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_violacea_(Kunth)_Lindl.,_Gard._Chron._1842_472_(1842)_(29029280518).jpg",
-      "creator": "snotch from Sapporo, Hokkaido, Japan",
-      "credit": "[Brazil] Cattleya violacea (Kunth) Lindl., Gard. Chron. 1842: 472 (1842)",
-      "licence": "CC BY 2.0",
-      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-      "description": "Cattleya violacea - Brazil",
-      "width": 7030,
-      "height": 4692,
-      "mime": "image/jpeg"
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62963540/square.jpeg",
+      "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62963540/square.jpeg",
+      "sourceUrl": "https://www.inaturalist.org/observations/39672682",
+      "creator": "(c) Kai Squires, some rights reserved (CC BY)",
+      "licence": "CC-BY",
+      "observationId": 39672682,
+      "photoId": 62963540,
+      "qualityGrade": "research",
+      "reviewStatus": "automatically-ingested-needs-editorial-review"
     },
     {
       "taxonKey": 2800917,
@@ -3738,7 +3651,8 @@
       "description": "Illustration of Cattleya wallisii (as syn. Cattleya eldorado )",
       "width": 3253,
       "height": 5123,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2801015,
@@ -3755,7 +3669,8 @@
       "description": "Plant derived from Central Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Section Lawrenceanae Van den Berg Distribution N. Brazil Lifeform Pseudobulbous epiphyte Synonyms Homotypic synonyms Cattleya eldorado var. wallisii ( Linden ) E.S.Rand in J. Orchidées 3: 19 (1892) Laelia wallisii Linden in Ann. Hort. Belge Étrangère 15: 102 (1865) Heterotypic synonyms Cattleya crocata Rchb.f. in Gard. Chron., n.s., 26: 360 (1886) Cattleya eldorado Linden in Lindenia 6: t. 262 (1890) Cattleya eldorado var. ornata Rchb.f. in Orch.-Grow. Man., ed. 6: 181 (1885) Cattleya eldorado var. splendens Linden ex B.S.Williams in Orch.-Grow. Man., ed. 4: 114 (1871) Cattleya eldorado var. virginalis Linden & André ex F.Buyss. in L'orchidophile; Traité Théor. & Prat.: 236 (1878) Cattleya labiata var. eldorado ( Linden ) A.H.Kent in Man. Orchid. Pl. 2: 17 (1887) Cattleya macnorlandii G.Nicholson in Ill. Dict. Gard. 1: 288 (1884) Cattleya trichopiliochila Barb.Rodr. in Gen. Spec. Orchid. 1: 70 (1877) Cattleya trichopiliochila var. virginalis ( Linden & André ex Ducos ) Braem in Cattleya Unifoliate Cattleyas: 84 (1986) Cattleya virginalis Linden & André ex Ducos in Ill. Hort. 23: 161 (1876) Cattleya virginalis var. rosea B.S.Williams in Orch.-Grow. Man., ed. 6: 207 (1885) Cattleya wallisii var. ornata ( Rchb.f. ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 63 (2016) Cattleya wallisii var. splendens ( Linden ex B.S.Williams ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 63 (2016) Cattleya wallisii var. virginalis ( Linden & André ex Ducos ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 63 (2016)",
       "width": 10737,
       "height": 16105,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800953,
@@ -3840,7 +3755,8 @@
       "description": "Illustration of Cattleya × whitei",
       "width": 1699,
       "height": 2272,
-      "mime": "image/jpeg"
+      "mime": "image/jpeg",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800969,
@@ -3857,7 +3773,8 @@
       "description": "Orchid album :comprising coloured figures and descriptions of new, rare and beautiful orchidaceous plants /Conducted by Robert Warner and Benjamin Samuel Williams; the botanical descriptions by Thomas Moore; the coloured figures by John Nugent Fitch.",
       "width": 3202,
       "height": 3996,
-      "mime": "image/png"
+      "mime": "image/png",
+      "reviewStatus": "recovered-by-title-needs-editorial-review"
     },
     {
       "taxonKey": 2800881,

@@ -1,13 +1,14 @@
 {
   "metadata": {
     "title": "Orchidarium automated Cattleya open-data catalogue",
-    "generatedAt": "2026-10-26T15:13:15.712774+00:00",
+    "generatedAt": "2026-10-28T16:17:19.469399+00:00",
     "recordCount": 288,
     "genusGbifKey": 2800821,
     "sources": [
       "GBIF Species API",
       "GBIF Occurrence API",
-      "Wikimedia Commons Action API"
+      "Wikimedia Commons Action API",
+      "iNaturalist observations API"
     ],
     "reviewStatus": "machine-ingested; editorial validation required"
   },
@@ -110,38 +111,6 @@
           "countryCode": "BR",
           "year": 2023,
           "type": "StillImage"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya aclandiae",
-          "title": "File:210409 015 SD Botanic Gdn - Dickinson Family Conservatory, World of Orchids, Cattleya aclandiae.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/210409_015_SD_Botanic_Gdn_-_Dickinson_Family_Conservatory%2C_World_of_Orchids%2C_Cattleya_aclandiae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/210409_015_SD_Botanic_Gdn_-_Dickinson_Family_Conservatory%2C_World_of_Orchids%2C_Cattleya_aclandiae.jpg/1280px-210409_015_SD_Botanic_Gdn_-_Dickinson_Family_Conservatory%2C_World_of_Orchids%2C_Cattleya_aclandiae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:210409_015_SD_Botanic_Gdn_-_Dickinson_Family_Conservatory,_World_of_Orchids,_Cattleya_aclandiae.jpg",
-          "creator": "cultivar413",
-          "credit": "https://www.flickr.com/photos/131880272@N06/51122397628/",
-          "licence": "CC BY 2.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-          "description": "The Garden did a superlative job presenting their first orchid show with the help of many individuals and organizations. I was hoping for stunning plants and they were in plenty. What brought it over the top was the exquisite design and staging of the show. All credit to Creative Director, Rene van Rems, AIFD. Enjoy!",
-          "width": 3840,
-          "height": 2160,
-          "mime": "image/jpeg"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya aclandiae",
-          "title": "File:A and B Larsen orchids - Cattleya aclandiae DSCN0542.JPG",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/A_and_B_Larsen_orchids_-_Cattleya_aclandiae_DSCN0542.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/A_and_B_Larsen_orchids_-_Cattleya_aclandiae_DSCN0542.JPG/1280px-A_and_B_Larsen_orchids_-_Cattleya_aclandiae_DSCN0542.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_aclandiae_DSCN0542.JPG",
-          "creator": "Arne and Bent Larsen, Haarby, Denmark",
-          "credit": "Orchid collection of Arne and Bent Larsen, original filename: 'orc-cattleya/Cattleya aclandiae DSCN0542.JPG'",
-          "licence": "CC BY-SA 2.5 dk",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/dk/deed.en",
-          "description": "Cattleya aclandiae",
-          "width": 2048,
-          "height": 1536,
-          "mime": "image/jpeg"
         }
       ],
       "links": {
@@ -152,7 +121,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:14.897278+00:00",
+        "retrievedAt": "2026-10-28T15:47:21.612715+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -239,7 +208,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:15.631725+00:00",
+        "retrievedAt": "2026-10-28T15:47:22.311710+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -295,7 +264,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:16.288941+00:00",
+        "retrievedAt": "2026-10-28T15:47:25.112284+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -365,7 +334,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:17.220968+00:00",
+        "retrievedAt": "2026-10-28T15:47:27.415590+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -428,7 +397,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:18.005538+00:00",
+        "retrievedAt": "2026-10-28T15:47:29.353504+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -573,7 +542,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:19.288839+00:00",
+        "retrievedAt": "2026-10-28T15:47:30.056757+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -664,7 +633,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:20.514606+00:00",
+        "retrievedAt": "2026-10-28T15:47:32.196874+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -720,7 +689,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:21.142587+00:00",
+        "retrievedAt": "2026-10-28T15:47:34.827130+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -830,7 +799,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:21.828210+00:00",
+        "retrievedAt": "2026-10-28T15:47:35.677035+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -878,7 +847,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:45:22.463087+00:00",
+        "retrievedAt": "2026-10-28T15:47:38.109270+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -979,7 +948,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:00.237832+00:00",
+        "retrievedAt": "2026-10-28T15:48:00.369594+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1124,7 +1093,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:02.411058+00:00",
+        "retrievedAt": "2026-10-28T15:48:02.068909+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1236,7 +1205,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:03.337009+00:00",
+        "retrievedAt": "2026-10-28T15:48:04.739122+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1330,7 +1299,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:04.928900+00:00",
+        "retrievedAt": "2026-10-28T15:48:05.337913+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1393,7 +1362,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:07.533693+00:00",
+        "retrievedAt": "2026-10-28T15:48:08.146418+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1531,7 +1500,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:09.739345+00:00",
+        "retrievedAt": "2026-10-28T15:48:09.073290+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1587,7 +1556,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:10.921725+00:00",
+        "retrievedAt": "2026-10-28T15:48:10.958400+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1635,7 +1604,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:11.761883+00:00",
+        "retrievedAt": "2026-10-28T15:48:13.103300+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1716,7 +1685,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:12.497510+00:00",
+        "retrievedAt": "2026-10-28T15:48:13.926167+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1819,7 +1788,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:46:13.846898+00:00",
+        "retrievedAt": "2026-10-28T15:48:15.731368+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1886,17 +1855,17 @@
         {
           "source": "Wikimedia Commons",
           "scientificName": "Cattleya bicolor",
-          "title": "File:Cattleya bicolor - Curtis 82-4909 (1856).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cattleya_bicolor_-_Curtis_82-4909_%281856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cattleya_bicolor_-_Curtis_82-4909_%281856%29.jpg/1280px-Cattleya_bicolor_-_Curtis_82-4909_%281856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_bicolor_-_Curtis_82-4909_(1856).jpg",
-          "creator": "Walter Hood Fitch (1817-1892) del. et lith. (?? This plate not signed)",
-          "credit": "\"Curtis's botanical magazine\" vol. 82 (Ser. 3 no. 12) tab. 4909 ( http://www.botanicus.org/page/438365 )",
+          "title": "File:Cattleya bicolor - Fl.Br.3-5-58.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Cattleya_bicolor_-_Fl.Br.3-5-58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Cattleya_bicolor_-_Fl.Br.3-5-58.jpg/1280px-Cattleya_bicolor_-_Fl.Br.3-5-58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_bicolor_-_Fl.Br.3-5-58.jpg",
+          "creator": "Alfred Cogniaux (1841 - 1916)",
+          "credit": "von Martius, Eichler, Urban: \"Flora Brasiliensis\" vol. 3 pt. 5 tab. 58 ( https://www.biodiversitylibrary.org/page/137563 )",
           "licence": "Public domain",
           "licenceUrl": null,
-          "description": "Illustration of Cattleya bicolor (Cattleya bicolor",
-          "width": 2072,
-          "height": 3507,
+          "description": "Illustration of Cattleya bicolor",
+          "width": 4337,
+          "height": 6830,
           "mime": "image/jpeg"
         }
       ],
@@ -1908,7 +1877,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:01.172116+00:00",
+        "retrievedAt": "2026-10-28T15:49:01.848724+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -1978,7 +1947,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:04.983483+00:00",
+        "retrievedAt": "2026-10-28T15:49:05.853814+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2026,7 +1995,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:06.956707+00:00",
+        "retrievedAt": "2026-10-28T15:49:09.059244+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2172,7 +2141,8 @@
           "description": "Cattleya blumenscheinii - (Brazil)",
           "width": 7360,
           "height": 4912,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -2188,7 +2158,8 @@
           "description": "Cattleya blumenscheinii - (Brazil)",
           "width": 6994,
           "height": 4668,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -2199,7 +2170,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:08.876760+00:00",
+        "retrievedAt": "2026-10-28T15:49:11.864671+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2247,7 +2218,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:09.511465+00:00",
+        "retrievedAt": "2026-10-28T15:49:14.385013+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2328,7 +2299,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:10.894350+00:00",
+        "retrievedAt": "2026-10-28T15:49:15.498908+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2382,7 +2353,8 @@
           "description": "brabantiae",
           "width": 640,
           "height": 480,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -2393,7 +2365,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:12.275760+00:00",
+        "retrievedAt": "2026-10-28T15:49:17.774952+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2461,7 +2433,21 @@
       "morphology": {},
       "cultivation": {},
       "hybridization": {},
-      "media": [],
+      "media": [
+        {
+          "source": "iNaturalist",
+          "scientificName": "Cattleya bradei",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255061493/square.jpeg",
+          "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/255061493/square.jpeg",
+          "sourceUrl": "https://www.inaturalist.org/observations/148148014",
+          "creator": "(c) Pedro Quinellato Dantas, some rights reserved (CC BY)",
+          "licence": "CC-BY",
+          "observationId": 148148014,
+          "photoId": 255061493,
+          "qualityGrade": "research",
+          "reviewStatus": "automatically-ingested-needs-editorial-review"
+        }
+      ],
       "links": {
         "gbif": "https://www.gbif.org/species/2812109",
         "powoSearch": "https://powo.science.kew.org/results?q=Cattleya%20bradei",
@@ -2470,7 +2456,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:13.858732+00:00",
+        "retrievedAt": "2026-10-28T15:49:21.770928+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2518,7 +2504,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:14.485540+00:00",
+        "retrievedAt": "2026-10-28T15:50:01.977601+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2586,7 +2572,21 @@
       "morphology": {},
       "cultivation": {},
       "hybridization": {},
-      "media": [],
+      "media": [
+        {
+          "source": "iNaturalist",
+          "scientificName": "Cattleya briegeri",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568013568/square.jpg",
+          "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/568013568/square.jpg",
+          "sourceUrl": "https://www.inaturalist.org/observations/314488454",
+          "creator": "(c) bruno_san1409, some rights reserved (CC BY-SA)",
+          "licence": "CC-BY-SA",
+          "observationId": 314488454,
+          "photoId": 568013568,
+          "qualityGrade": "research",
+          "reviewStatus": "automatically-ingested-needs-editorial-review"
+        }
+      ],
       "links": {
         "gbif": "https://www.gbif.org/species/2811879",
         "powoSearch": "https://powo.science.kew.org/results?q=Cattleya%20briegeri",
@@ -2595,7 +2595,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:47:15.451189+00:00",
+        "retrievedAt": "2026-10-28T15:50:05.077427+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2658,7 +2658,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:00.407478+00:00",
+        "retrievedAt": "2026-10-28T15:50:07.889895+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2731,7 +2731,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:01.670611+00:00",
+        "retrievedAt": "2026-10-28T15:50:08.473169+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2779,7 +2779,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:04.706880+00:00",
+        "retrievedAt": "2026-10-28T15:50:10.131003+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2827,7 +2827,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:06.528949+00:00",
+        "retrievedAt": "2026-10-28T15:50:11.892594+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2875,7 +2875,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:08.540893+00:00",
+        "retrievedAt": "2026-10-28T15:50:13.906991+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2931,7 +2931,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:10.335486+00:00",
+        "retrievedAt": "2026-10-28T15:50:15.740271+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -2994,7 +2994,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:11.781200+00:00",
+        "retrievedAt": "2026-10-28T15:50:17.620517+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3064,7 +3064,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:12.854318+00:00",
+        "retrievedAt": "2026-10-28T15:50:19.570844+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3134,7 +3134,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:14.146676+00:00",
+        "retrievedAt": "2026-10-28T15:51:01.762310+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3272,7 +3272,21 @@
       "morphology": {},
       "cultivation": {},
       "hybridization": {},
-      "media": [],
+      "media": [
+        {
+          "source": "iNaturalist",
+          "scientificName": "Cattleya caulescens",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354284286/square.jpeg",
+          "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/354284286/square.jpeg",
+          "sourceUrl": "https://www.inaturalist.org/observations/200771918",
+          "creator": "(c) agujaceratops, some rights reserved (CC BY)",
+          "licence": "CC-BY",
+          "observationId": 200771918,
+          "photoId": 354284286,
+          "qualityGrade": "research",
+          "reviewStatus": "automatically-ingested-needs-editorial-review"
+        }
+      ],
       "links": {
         "gbif": "https://www.gbif.org/species/2812140",
         "powoSearch": "https://powo.science.kew.org/results?q=Cattleya%20caulescens",
@@ -3281,7 +3295,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:48:16.233502+00:00",
+        "retrievedAt": "2026-10-28T15:51:07.531819+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3495,17 +3509,17 @@
         {
           "source": "Wikimedia Commons",
           "scientificName": "Cattleya cernua",
-          "title": "File:Cattleya cernua (Lindl.) Van den Berg, Neodiversity 5 13 (2010) (32542597978).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2832542597978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2832542597978%29.jpg/1280px-Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2832542597978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_cernua_(Lindl.)_Van_den_Berg,_Neodiversity_5_13_(2010)_(32542597978).jpg",
+          "title": "File:Cattleya cernua (Lindl.) Van den Berg, Neodiversity 5 13 (2010) (44214575030).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2844214575030%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2844214575030%29.jpg/1280px-Cattleya_cernua_%28Lindl.%29_Van_den_Berg%2C_Neodiversity_5_13_%282010%29_%2844214575030%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_cernua_(Lindl.)_Van_den_Berg,_Neodiversity_5_13_(2010)_(44214575030).jpg",
           "creator": "sunoochi from Sapporo, Hokkaido, Japan",
-          "credit": "[Provincia de Corrientes, Argentina] Cattleya cernua (Lindl.) Van den Berg, Neodiversity 5: 13 (2010)",
+          "credit": "[Rio de Janeiro, Brazil] Cattleya cernua (Lindl.) Van den Berg, Neodiversity 5: 13 (2010)",
           "licence": "CC BY 2.0",
           "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-          "description": "Cattleya cernua - (Argentina, Provincia de Corrientes)",
-          "width": 7131,
-          "height": 4759,
+          "description": "Cattleya cernua - (Brazil, Rio de Janeiro)",
+          "width": 7360,
+          "height": 4912,
           "mime": "image/jpeg"
         }
       ],
@@ -3517,7 +3531,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:01.001911+00:00",
+        "retrievedAt": "2026-10-28T15:51:09.338716+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3565,7 +3579,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:03.506341+00:00",
+        "retrievedAt": "2026-10-28T15:51:11.736047+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3613,7 +3627,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:05.017003+00:00",
+        "retrievedAt": "2026-10-28T15:51:14.146882+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3758,7 +3772,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:07.057209+00:00",
+        "retrievedAt": "2026-10-28T15:51:15.914838+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3828,7 +3842,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:08.005441+00:00",
+        "retrievedAt": "2026-10-28T15:51:17.862785+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3876,7 +3890,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:09.000114+00:00",
+        "retrievedAt": "2026-10-28T15:51:19.759785+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -3924,7 +3938,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:09.885698+00:00",
+        "retrievedAt": "2026-10-28T15:51:22.020064+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -4068,12 +4082,12 @@
         {
           "source": "Wikimedia Commons",
           "scientificName": "Cattleya coccinea",
-          "title": "File:Cattleya coccinea '1980s' Lindl., Edwards's Bot. Reg. 22 t. 1919 (1836) (46224838001).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cattleya_coccinea_%271980s%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2846224838001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Cattleya_coccinea_%271980s%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2846224838001%29.jpg/1280px-Cattleya_coccinea_%271980s%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2846224838001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_coccinea_%271980s%27_Lindl.,_Edwards%27s_Bot._Reg._22_t._1919_(1836)_(46224838001).jpg",
+          "title": "File:Cattleya coccinea Acuate petal type '-1802-W2' Lindl., Edwards's Bot. Reg. 22 t. 1919 (1836) (44895728645).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cattleya_coccinea_Acuate_petal_type_%27-1802-W2%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2844895728645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cattleya_coccinea_Acuate_petal_type_%27-1802-W2%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2844895728645%29.jpg/1280px-Cattleya_coccinea_Acuate_petal_type_%27-1802-W2%27_Lindl.%2C_Edwards%27s_Bot._Reg._22_t._1919_%281836%29_%2844895728645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_coccinea_Acuate_petal_type_%27-1802-W2%27_Lindl.,_Edwards%27s_Bot._Reg._22_t._1919_(1836)_(44895728645).jpg",
           "creator": "sunoochi from Sapporo, Hokkaido, Japan",
-          "credit": "[Brazil] Cattleya coccinea '1980s' Lindl., Edwards's Bot. Reg. 22: t. 1919 (1836)",
+          "credit": "[Brazil] Cattleya coccinea Acuate petal type '#1802-W2' Lindl., Edwards's Bot. Reg. 22: t. 1919 (1836)",
           "licence": "CC BY 2.0",
           "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
           "description": "Cattleya coccinea - (Brazil)",
@@ -4090,7 +4104,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:11.791140+00:00",
+        "retrievedAt": "2026-10-28T15:51:23.769806+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -4138,7 +4152,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:12.829305+00:00",
+        "retrievedAt": "2026-10-28T15:52:03.283476+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -4241,7 +4255,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:49:13.800750+00:00",
+        "retrievedAt": "2026-10-28T15:52:06.113177+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -4311,7 +4325,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:00.952978+00:00",
+        "retrievedAt": "2026-10-28T15:52:10.627488+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -4492,7 +4506,8 @@
           "description": "Illustration of Cattleya crispa (as syn. Laelia crispa )",
           "width": 3253,
           "height": 5123,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -4508,7 +4523,8 @@
           "description": "Cattleya crispa Lindley",
           "width": 3906,
           "height": 2602,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -4519,7 +4535,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:03.538182+00:00",
+        "retrievedAt": "2026-10-28T15:52:15.935275+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -4769,7 +4785,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:06.921354+00:00",
+        "retrievedAt": "2026-10-28T15:52:17.774244+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -4839,7 +4855,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:08.019746+00:00",
+        "retrievedAt": "2026-10-28T15:52:21.558781+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -4895,7 +4911,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:09.355103+00:00",
+        "retrievedAt": "2026-10-28T15:52:26.897115+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -4972,7 +4988,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:10.577255+00:00",
+        "retrievedAt": "2026-10-28T15:52:30.386973+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5020,7 +5036,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:11.665013+00:00",
+        "retrievedAt": "2026-10-28T15:52:33.349041+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5068,7 +5084,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:12.825167+00:00",
+        "retrievedAt": "2026-10-28T15:53:02.785859+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5145,7 +5161,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:13.904676+00:00",
+        "retrievedAt": "2026-10-28T15:53:05.299151+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5208,7 +5224,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:50:14.815714+00:00",
+        "retrievedAt": "2026-10-28T15:53:07.674084+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5271,7 +5287,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:00.569659+00:00",
+        "retrievedAt": "2026-10-28T15:53:10.406060+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5365,7 +5381,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:03.768806+00:00",
+        "retrievedAt": "2026-10-28T15:53:11.305156+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5421,7 +5437,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:06.728358+00:00",
+        "retrievedAt": "2026-10-28T15:53:13.742990+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5484,7 +5500,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:09.487573+00:00",
+        "retrievedAt": "2026-10-28T15:53:16.866901+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5594,7 +5610,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:11.294125+00:00",
+        "retrievedAt": "2026-10-28T15:53:18.536497+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5690,7 +5706,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:12.991099+00:00",
+        "retrievedAt": "2026-10-28T15:53:19.831376+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5738,7 +5754,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:13.585701+00:00",
+        "retrievedAt": "2026-10-28T15:53:22.244538+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5786,7 +5802,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:14.322015+00:00",
+        "retrievedAt": "2026-10-28T15:54:03.343713+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5834,7 +5850,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:15.006118+00:00",
+        "retrievedAt": "2026-10-28T15:54:07.572779+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -5915,7 +5931,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:51:16.204931+00:00",
+        "retrievedAt": "2026-10-28T15:54:08.518740+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -6319,7 +6335,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:00.511574+00:00",
+        "retrievedAt": "2026-10-28T15:54:09.788623+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -6478,7 +6494,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:04.184294+00:00",
+        "retrievedAt": "2026-10-28T15:54:11.257580+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -6565,7 +6581,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:05.271423+00:00",
+        "retrievedAt": "2026-10-28T15:54:12.021793+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -6621,7 +6637,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:06.363512+00:00",
+        "retrievedAt": "2026-10-28T15:54:14.273105+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -6677,7 +6693,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:07.326568+00:00",
+        "retrievedAt": "2026-10-28T15:54:16.711155+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -6787,7 +6803,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:08.198425+00:00",
+        "retrievedAt": "2026-10-28T15:54:17.876888+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -6864,7 +6880,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:08.792326+00:00",
+        "retrievedAt": "2026-10-28T15:54:21.259321+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -6934,7 +6950,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:09.756121+00:00",
+        "retrievedAt": "2026-10-28T15:55:02.454256+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -6990,7 +7006,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:11.327857+00:00",
+        "retrievedAt": "2026-10-28T15:55:06.334976+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7053,7 +7069,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:52:12.224316+00:00",
+        "retrievedAt": "2026-10-28T15:55:08.402083+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7116,7 +7132,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:00.489320+00:00",
+        "retrievedAt": "2026-10-28T15:55:10.736578+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7247,7 +7263,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:01.893886+00:00",
+        "retrievedAt": "2026-10-28T15:55:11.632470+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7303,7 +7319,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:06.365599+00:00",
+        "retrievedAt": "2026-10-28T15:55:15.480863+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7373,7 +7389,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:09.494644+00:00",
+        "retrievedAt": "2026-10-28T15:55:19.050348+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7693,7 +7709,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:12.071699+00:00",
+        "retrievedAt": "2026-10-28T15:55:20.839996+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7741,7 +7757,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:12.961981+00:00",
+        "retrievedAt": "2026-10-28T15:55:23.028180+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7858,7 +7874,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:14.129510+00:00",
+        "retrievedAt": "2026-10-28T15:55:24.245191+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7906,7 +7922,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:14.923808+00:00",
+        "retrievedAt": "2026-10-28T15:56:02.184227+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -7954,7 +7970,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:15.572514+00:00",
+        "retrievedAt": "2026-10-28T15:56:05.853517+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8051,7 +8067,8 @@
           "description": "Cattleya gaskelliana im Botanischen Garten München",
           "width": 2801,
           "height": 2000,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -8067,7 +8084,8 @@
           "description": "Cattleya gaskelliana im Botanischen Garten München",
           "width": 3000,
           "height": 2000,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -8078,7 +8096,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:53:17.263281+00:00",
+        "retrievedAt": "2026-10-28T15:56:08.313848+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8148,7 +8166,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:01.091427+00:00",
+        "retrievedAt": "2026-10-28T15:56:10.705195+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8224,7 +8242,8 @@
           "description": "Cattleya ghillanyi - Brazil (Minas Gerais)",
           "width": 7360,
           "height": 4912,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -8240,7 +8259,8 @@
           "description": "Cattleya ghillanyi - Brazil (Minas Gerais)",
           "width": 7360,
           "height": 4912,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -8251,7 +8271,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:04.763460+00:00",
+        "retrievedAt": "2026-10-28T15:56:13.197492+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8370,7 +8390,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:06.150571+00:00",
+        "retrievedAt": "2026-10-28T15:56:15.329000+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8461,7 +8481,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:07.235202+00:00",
+        "retrievedAt": "2026-10-28T15:56:17.056012+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8569,7 +8589,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:08.655765+00:00",
+        "retrievedAt": "2026-10-28T15:56:18.448611+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8617,7 +8637,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:09.290240+00:00",
+        "retrievedAt": "2026-10-28T15:57:02.148929+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8687,36 +8707,17 @@
       "hybridization": {},
       "media": [
         {
-          "source": "Wikimedia Commons",
+          "source": "iNaturalist",
           "scientificName": "Cattleya granulosa",
-          "title": "File:Cattleya granulosa.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Cattleya_granulosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Cattleya_granulosa.jpg/1280px-Cattleya_granulosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_granulosa.jpg",
-          "creator": "Dalton Holland Baptista",
-          "credit": "Own work",
-          "licence": "CC BY-SA 3.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "description": "Cattleya granulosa",
-          "width": 1600,
-          "height": 1200,
-          "mime": "image/jpeg"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya granulosa",
-          "title": "File:Cattleya granulosa (as Cattleya granulosa var. russelliana) - Edwards vol 31 (NS 8) pl 59 (1845).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Cattleya_granulosa_%28as_Cattleya_granulosa_var._russelliana%29_-_Edwards_vol_31_%28NS_8%29_pl_59_%281845%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Cattleya_granulosa_%28as_Cattleya_granulosa_var._russelliana%29_-_Edwards_vol_31_%28NS_8%29_pl_59_%281845%29.jpg/1280px-Cattleya_granulosa_%28as_Cattleya_granulosa_var._russelliana%29_-_Edwards_vol_31_%28NS_8%29_pl_59_%281845%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_granulosa_(as_Cattleya_granulosa_var._russelliana)_-_Edwards_vol_31_(NS_8)_pl_59_(1845).jpg",
-          "creator": "Miss Drake (1803-1857) del., G. Barclay sc.",
-          "credit": "Edwards's Botanical Register , volume 31 (N.S. 8) plate 59 ( http://www.botanicus.org/page/243068 )",
-          "licence": "Public domain",
-          "licenceUrl": null,
-          "description": "Cattleya granulosa (as syn. Cattleya granulosa var. russelliana )",
-          "width": 2887,
-          "height": 4608,
-          "mime": "image/jpeg"
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/569514507/square.jpg",
+          "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/569514507/square.jpg",
+          "sourceUrl": "https://www.inaturalist.org/observations/315268909",
+          "creator": "(c) Renato Bandeira, some rights reserved (CC BY)",
+          "licence": "CC-BY",
+          "observationId": 315268909,
+          "photoId": 569514507,
+          "qualityGrade": "research",
+          "reviewStatus": "automatically-ingested-needs-editorial-review"
         }
       ],
       "links": {
@@ -8727,7 +8728,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:10.948646+00:00",
+        "retrievedAt": "2026-10-28T15:57:06.221223+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8783,7 +8784,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:11.975177+00:00",
+        "retrievedAt": "2026-10-28T15:57:08.549388+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8839,7 +8840,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:12.676712+00:00",
+        "retrievedAt": "2026-10-28T15:57:10.507118+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -8902,7 +8903,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:54:13.644597+00:00",
+        "retrievedAt": "2026-10-28T15:57:12.863181+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9061,7 +9062,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:00.718497+00:00",
+        "retrievedAt": "2026-10-28T15:57:14.826287+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9117,7 +9118,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:03.176898+00:00",
+        "retrievedAt": "2026-10-28T15:57:17.129609+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9191,17 +9192,17 @@
         {
           "source": "Wikimedia Commons",
           "scientificName": "Cattleya hardyana",
-          "title": "File:Cattleya hardyana 'Juanambu' Swan in Gard. Chron.- n.s.- 24- 206 (1885) 20251103 130527.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130527.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130527.jpg/1280px-Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130527.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_(1885)_20251103_130527.jpg",
+          "title": "File:Cattleya hardyana 'Juanambu' Swan in Gard. Chron.- n.s.- 24- 206 (1885) 20251103 130040.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130040.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130040.jpg/1280px-Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_%281885%29_20251103_130040.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_hardyana_%27Juanambu%27_Swan_in_Gard._Chron.-_n.s.-_24-_206_(1885)_20251103_130040.jpg",
           "creator": "Motohiro Sunouchi",
           "credit": "Own work",
           "licence": "CC BY 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
           "description": "Plant derived from Colombia Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Distribution Colombia Lifeform Pseudobulbous epiphyte Synonyms Heterotypic synonyms Cattleya massaiana R.Warner & B.S.Williams in Orchid Album 8: t. 362 (1889) Cattleya statteriana Rolfe in Roy. Hort. Soc. Lond. Rep. Conf. Genetics 1906: 238 (1907)",
-          "width": 15800,
-          "height": 10533,
+          "width": 15614,
+          "height": 10409,
           "mime": "image/jpeg"
         }
       ],
@@ -9213,7 +9214,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:05.580951+00:00",
+        "retrievedAt": "2026-10-28T15:57:18.169422+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9269,7 +9270,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:06.784790+00:00",
+        "retrievedAt": "2026-10-28T15:57:20.501978+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9456,7 +9457,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:08.414773+00:00",
+        "retrievedAt": "2026-10-28T15:57:21.782144+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9657,7 +9658,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:10.673721+00:00",
+        "retrievedAt": "2026-10-28T15:58:00.456865+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9713,7 +9714,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:11.541544+00:00",
+        "retrievedAt": "2026-10-28T15:58:02.773534+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9769,7 +9770,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:12.542803+00:00",
+        "retrievedAt": "2026-10-28T15:58:06.045527+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9825,7 +9826,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:13.273302+00:00",
+        "retrievedAt": "2026-10-28T15:58:08.457323+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9881,7 +9882,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:55:14.070626+00:00",
+        "retrievedAt": "2026-10-28T15:58:10.845706+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -9929,7 +9930,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:00.285196+00:00",
+        "retrievedAt": "2026-10-28T15:58:12.948181+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10006,7 +10007,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:02.159050+00:00",
+        "retrievedAt": "2026-10-28T15:58:16.521580+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10076,7 +10077,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:05.037189+00:00",
+        "retrievedAt": "2026-10-28T15:58:19.751279+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10124,7 +10125,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:06.981986+00:00",
+        "retrievedAt": "2026-10-28T15:58:22.239687+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10193,7 +10194,8 @@
           "description": "Phalaenopsis cultivars, exhibiton of orchids, Fata Morgana greenhouse, Prague Botanic Garden",
           "width": 5184,
           "height": 3456,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -10209,7 +10211,8 @@
           "description": "Phalaenopsis cultivars, exhibiton of orchids, Fata Morgana greenhouse, Prague Botanic Garden",
           "width": 5184,
           "height": 3456,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -10220,7 +10223,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:08.098927+00:00",
+        "retrievedAt": "2026-10-28T15:59:00.369314+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10268,7 +10271,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:08.962884+00:00",
+        "retrievedAt": "2026-10-28T15:59:03.376870+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10536,17 +10539,17 @@
         {
           "source": "Wikimedia Commons",
           "scientificName": "Cattleya intermedia",
-          "title": "File:Cattleya intermedia 'Paraty' Graham ex Hook., Bot. Mag. 55 t. 2851 (1828) (50146215802).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Cattleya_intermedia_%27Paraty%27_Graham_ex_Hook.%2C_Bot._Mag._55_t._2851_%281828%29_%2850146215802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cattleya_intermedia_%27Paraty%27_Graham_ex_Hook.%2C_Bot._Mag._55_t._2851_%281828%29_%2850146215802%29.jpg/1280px-Cattleya_intermedia_%27Paraty%27_Graham_ex_Hook.%2C_Bot._Mag._55_t._2851_%281828%29_%2850146215802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_intermedia_%27Paraty%27_Graham_ex_Hook.,_Bot._Mag._55_t._2851_(1828)_(50146215802).jpg",
-          "creator": "sunoochi",
-          "credit": "Cattleya intermedia 'Paraty' Graham ex Hook., Bot. Mag. 55: t. 2851 (1828)",
-          "licence": "CC BY 2.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-          "description": "[Paraty, Brazil / ブラジルパラチ] SUBGENUS Intermediae .mw-parser-output .smallcaps{font-variant:small-caps} Withner , Cattleyas & Relatives 1: 21 (1988). (1988). Distribution: SE. & S. Brazil to Uruguay (84 BZL BZS 85 PAR URU) Lifeform: Pseudobulb geophyte or epiphyte Homotypic synonyms Epidendrum intermedium ( Graham ex Hook. ) Rchb.f. in W.G.Walpers , Ann. Bot. Syst. 6: 318 (1861). Heterotypic synonyms Epidendrum canaliculatum Vell. , Fl. Flumin. 9: t. 10 (1831). Cattleya intermedia var. pallida Lindl. , Edwards's Bot. Reg. 22: t. 1919 (1836). Cattleya maritima Lindl. , Edwards's Bot. Reg. 22: t. 1919 (1836). Cattleya ovata Lindl. , Edwards's Bot. Reg. 22: t. 1919 (1836). Cattleya intermedia var. angustifolia Hook. , Bot. Mag. 66: t. 3711 (1839). Cattleya intermedia var. variegata Hook. , Bot. Mag. 70: t. 4085 (1844). Cattleya amethystina C.Morren , Ann. Soc. Roy. Agric. Gand 4: 217 (1848). Cattleya loddigesii var. amethystina C.Morren ex Lem. , Jard. Fleur. 4: t. 379 (1853). Cattleya lindleyana Rchb.f. , Berliner Allg. Gartenzeitung 1857: 118 (1857). Cattleya amabilis B.S.Williams , Orch.-Grow. Man., ed. 2: 63 (1862). Bletia lindleyana ( Rchb.f. ) Rchb.f. , Xenia Orchid. 2: 65 (1863). Cattleya intermedia var. macrochila Barb.Rodr. , Gen. Spec. Orchid. 1: 71 (1877). Cattleya intermedia var. superba F.Buyss. , L'orchidophile; Traité Théor. & Prat.: 239 (1878). Laelia lindleyana ( Rchb.f. ) G.Nicholson , Ill. Dict. Gard. 2: 229 (1886). Cattleya gibeziae L.Linden & Rodigas , Lindenia 3: 77 (1887). Cattleya intermedia var. gibeziae ( L.Linden & Rodigas ) L.Linden & Rodigas , Lindenia 3: 77 (1887). Cattleya intermedia var. parthenia Rchb.f. , Gard. Chron., ser. 3, 4: 178 (1888). Cattleya aquinii Barb.Rodr. , Pl. Jard. Rio de Janeiro 1: 23 (1891). Cattleya intermedia var. punctatissima Sander , Reichenbachiana 1(2): 51 (1892). Cattleya intermedia var. amethystina ( C.Morren ex L em. ) Fowlie , Braz. Bifol. Cattleyas: 112 (1977). Cattleya intermedia f. parthenia ( Rchb.f. ) F.Barros & J.A.N.Bat. , Orquidologia Sul-Amer.: 101 (2004). Cattleya intermedia f. amethystina ( C.Morren ) M.Wolff & O.Gruss , Orchid. Atlas: 61 (2007).",
-          "width": 7728,
-          "height": 5152,
+          "title": "File:A and B Larsen orchids - Cattleya intermedia 579-4.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/A_and_B_Larsen_orchids_-_Cattleya_intermedia_579-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/A_and_B_Larsen_orchids_-_Cattleya_intermedia_579-4.jpg/1280px-A_and_B_Larsen_orchids_-_Cattleya_intermedia_579-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_intermedia_579-4.jpg",
+          "creator": "Arne and Bent Larsen, Haarby, Denmark",
+          "credit": "Orchid collection of Arne and Bent Larsen, original filename: 'orc-cattleya/Cattleya intermedia 579-4.jpg'",
+          "licence": "CC BY-SA 2.5 dk",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/dk/deed.en",
+          "description": "Cattleya intermedia",
+          "width": 1768,
+          "height": 1204,
           "mime": "image/jpeg"
         },
         {
@@ -10574,7 +10577,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:11.957043+00:00",
+        "retrievedAt": "2026-10-28T15:59:05.663974+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10644,7 +10647,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:13.253083+00:00",
+        "retrievedAt": "2026-10-28T15:59:08.076108+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10739,7 +10742,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:14.619964+00:00",
+        "retrievedAt": "2026-10-28T15:59:09.215845+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10917,7 +10920,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:56:16.376787+00:00",
+        "retrievedAt": "2026-10-28T15:59:10.331961+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -10987,7 +10990,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:00.778538+00:00",
+        "retrievedAt": "2026-10-28T15:59:12.821628+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11035,7 +11038,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:03.315478+00:00",
+        "retrievedAt": "2026-10-28T15:59:15.206329+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11129,7 +11132,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:06.212097+00:00",
+        "retrievedAt": "2026-10-28T15:59:15.983521+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11177,7 +11180,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:07.870642+00:00",
+        "retrievedAt": "2026-10-28T15:59:18.319302+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11254,7 +11257,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:09.123689+00:00",
+        "retrievedAt": "2026-10-28T16:00:01.665936+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11310,7 +11313,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:09.900441+00:00",
+        "retrievedAt": "2026-10-28T16:00:04.146817+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11364,7 +11367,8 @@
           "description": "SUBGENUS Cattleya SECTION Cattleya Lindley Distribution: SE. Venezuela to Guyana and Brazil (Roraima) (82 GUY VEN 84 BZN) Lifeform: Pseudobulb epiphyte",
           "width": 8006,
           "height": 5337,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -11380,7 +11384,8 @@
           "description": "SUBGENUS Cattleya SECTION Cattleya Lindley Distribution: SE. Venezuela to Guyana and Brazil (Roraima) (82 GUY VEN 84 BZN) Lifeform: Pseudobulb epiphyte",
           "width": 4300,
           "height": 5300,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -11391,7 +11396,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:11.398737+00:00",
+        "retrievedAt": "2026-10-28T16:00:07.447936+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11447,7 +11452,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:12.545141+00:00",
+        "retrievedAt": "2026-10-28T16:00:09.234066+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11495,7 +11500,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:14.087173+00:00",
+        "retrievedAt": "2026-10-28T16:00:11.596243+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11585,7 +11590,8 @@
           "description": "[Minas Gerais, Brazil] SUBGENUS Crispae SECTION Hadrolaelia Schlechter Distribution: Brazil (Minas Gerais) (84 BZL) Homotypic Synonyms: Bletia jongheana (Rchb.f.) Rchb.f., Flora 55: 158 (1872). * Laelia jongheana Rchb.f., Flora 55: 158 (1872). Sophronitis jongheana (Rchb.f.) Van den Berg & M.W.Chase, Lindleyana 15: 117 (2000). Hadrolaelia jongheana (Rchb.f.) Chiron & V.P.Castro, Richardiana 2: 20 (2002). (* Basionym/Replaced Synonym)",
           "width": 7360,
           "height": 4912,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -11601,7 +11607,8 @@
           "description": "SUBGENUS Crispae SECTION Hadrolaelia Schlechter Distribution: Brazil (Minas Gerais) 84 BZL Found in Southern America Brazil Brazil Southeast Homotypic Synonyms: Bletia jongheana (Rchb.f.) Rchb.f., Flora 55: 158 (1872). Laelia jongheana Rchb.f., Flora 55: 158 (1872). Sophronitis jongheana (Rchb.f.) Van den Berg & M.W.Chase, Lindleyana 15: 117 (2000). Hadrolaelia jongheana (Rchb.f.) Chiron & V.P.Castro, Richardiana 2: 20 (2002). (* Basionym/Replaced Synonym)",
           "width": 7045,
           "height": 4702,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -11612,7 +11619,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:57:15.911080+00:00",
+        "retrievedAt": "2026-10-28T16:00:14.470190+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11682,7 +11689,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:00.669158+00:00",
+        "retrievedAt": "2026-10-28T16:00:16.790519+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11730,7 +11737,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:04.312135+00:00",
+        "retrievedAt": "2026-10-28T16:00:19.443825+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11778,7 +11785,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:06.579301+00:00",
+        "retrievedAt": "2026-10-28T16:01:03.224146+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11859,7 +11866,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:08.105607+00:00",
+        "retrievedAt": "2026-10-28T16:01:07.344251+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -11936,7 +11943,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:08.889053+00:00",
+        "retrievedAt": "2026-10-28T16:01:09.614285+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -12032,7 +12039,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:09.783218+00:00",
+        "retrievedAt": "2026-10-28T16:01:10.689311+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -12080,7 +12087,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:10.711751+00:00",
+        "retrievedAt": "2026-10-28T16:01:13.299676+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -12491,38 +12498,6 @@
           "countryCode": "BR",
           "year": 2025,
           "type": "StillImage"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya labiata",
-          "title": "File:Cattleya labiata 'Helena'2.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Cattleya_labiata_%27Helena%272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Cattleya_labiata_%27Helena%272.jpg/1280px-Cattleya_labiata_%27Helena%272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_labiata_%27Helena%272.jpg",
-          "creator": "KENPEI",
-          "credit": "KENPEI's photo",
-          "licence": "CC BY-SA 3.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "description": "Cattleya labiata 'Helena' Place:Osaka Prefectural Flower Garden,Osaka,Japan",
-          "width": 3264,
-          "height": 2448,
-          "mime": "image/jpeg"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya labiata",
-          "title": "File:Cattleya labiata - Curtis' 69 (N.S. 16) pl. 3998 (1843).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cattleya_labiata_-_Curtis%27_69_%28N.S._16%29_pl._3998_%281843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Cattleya_labiata_-_Curtis%27_69_%28N.S._16%29_pl._3998_%281843%29.jpg/1280px-Cattleya_labiata_-_Curtis%27_69_%28N.S._16%29_pl._3998_%281843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_labiata_-_Curtis%27_69_(N.S._16)_pl._3998_(1843).jpg",
-          "creator": "Walter Hood Fitch (1817-1892) del., Swan sc.",
-          "credit": "\"Curtis's Botanical Magazine\" vol. 69 (N.S. 16) pl. 3998 ( http://botanicus.org/page/433874 )",
-          "licence": "Public domain",
-          "licenceUrl": null,
-          "description": "Illustration of Cattleya labiata",
-          "width": 1999,
-          "height": 3268,
-          "mime": "image/jpeg"
         }
       ],
       "links": {
@@ -12533,7 +12508,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:12.843914+00:00",
+        "retrievedAt": "2026-10-28T16:01:15.141046+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -12596,7 +12571,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:13.716984+00:00",
+        "retrievedAt": "2026-10-28T16:01:17.220909+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -12659,36 +12634,17 @@
       "hybridization": {},
       "media": [
         {
-          "source": "Wikimedia Commons",
+          "source": "iNaturalist",
           "scientificName": "Cattleya lawrenceana",
-          "title": "File:Cattleya lawrenceana.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cattleya_lawrenceana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Cattleya_lawrenceana.jpg/1280px-Cattleya_lawrenceana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_lawrenceana.jpg",
-          "creator": "Dalton Holland Baptista",
-          "credit": "Own work",
-          "licence": "CC BY-SA 3.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "description": "Cattleya lawrenceana",
-          "width": 1600,
-          "height": 1200,
-          "mime": "image/jpeg"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya lawrenceana",
-          "title": "File:Cattleya lawrenceana (1).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cattleya_lawrenceana_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Cattleya_lawrenceana_%281%29.jpg/1280px-Cattleya_lawrenceana_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_lawrenceana_(1).jpg",
-          "creator": "Elena Gaillard from New York, USA",
-          "credit": "Cattleya lawrenceana Uploaded by uleli",
-          "licence": "CC BY 2.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-          "description": "Cattleya lawrenceana",
-          "width": 3872,
-          "height": 2592,
-          "mime": "image/jpeg"
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617524319/square.jpg",
+          "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/617524319/square.jpg",
+          "sourceUrl": "https://www.inaturalist.org/observations/339458138",
+          "creator": "no rights reserved",
+          "licence": "CC0",
+          "observationId": 339458138,
+          "photoId": 617524319,
+          "qualityGrade": "research",
+          "reviewStatus": "automatically-ingested-needs-editorial-review"
         }
       ],
       "links": {
@@ -12699,7 +12655,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:58:15.264159+00:00",
+        "retrievedAt": "2026-10-28T16:01:21.154436+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -12783,7 +12739,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:00.148064+00:00",
+        "retrievedAt": "2026-10-28T16:01:23.677386+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -12831,7 +12787,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:01.166703+00:00",
+        "retrievedAt": "2026-10-28T16:01:27.488923+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -12915,7 +12871,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:03.716184+00:00",
+        "retrievedAt": "2026-10-28T16:02:01.493435+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -12992,7 +12948,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:05.027580+00:00",
+        "retrievedAt": "2026-10-28T16:02:05.734421+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13040,7 +12996,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:05.797347+00:00",
+        "retrievedAt": "2026-10-28T16:02:07.938707+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13218,7 +13174,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:07.424094+00:00",
+        "retrievedAt": "2026-10-28T16:02:09.003040+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13281,7 +13237,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:08.342564+00:00",
+        "retrievedAt": "2026-10-28T16:02:10.795770+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13402,6 +13358,22 @@
         {
           "source": "Wikimedia Commons",
           "scientificName": "Cattleya loddigesii",
+          "title": "File:37 Cattleya loddigesii - John Lindley - Collectanea botanica (1821).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/37_Cattleya_loddigesii_-_John_Lindley_-_Collectanea_botanica_%281821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/37_Cattleya_loddigesii_-_John_Lindley_-_Collectanea_botanica_%281821%29.jpg/1280px-37_Cattleya_loddigesii_-_John_Lindley_-_Collectanea_botanica_%281821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:37_Cattleya_loddigesii_-_John_Lindley_-_Collectanea_botanica_(1821).jpg",
+          "creator": "John Lindley",
+          "credit": "Collectanea botanica or, figures and botanical illustrations of rare and curious exotic plants",
+          "licence": "Public domain",
+          "licenceUrl": null,
+          "description": "Cattleya loddigesii",
+          "width": 4360,
+          "height": 6594,
+          "mime": "image/jpeg"
+        },
+        {
+          "source": "Wikimedia Commons",
+          "scientificName": "Cattleya loddigesii",
           "title": "File:Cattleya loddigesii.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Cattleya_loddigesii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Cattleya_loddigesii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -13414,22 +13386,6 @@
           "width": 600,
           "height": 440,
           "mime": "image/jpeg"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya loddigesii",
-          "title": "File:Cattleya loddigesii 'Ponto Rosa' Lindl., Coll. Bot. t. 37 (1826) (25645154457).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cattleya_loddigesii_%27Ponto_Rosa%27_Lindl.%2C_Coll._Bot._t._37_%281826%29_%2825645154457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Cattleya_loddigesii_%27Ponto_Rosa%27_Lindl.%2C_Coll._Bot._t._37_%281826%29_%2825645154457%29.jpg/1280px-Cattleya_loddigesii_%27Ponto_Rosa%27_Lindl.%2C_Coll._Bot._t._37_%281826%29_%2825645154457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_loddigesii_%27Ponto_Rosa%27_Lindl.,_Coll._Bot._t._37_(1826)_(25645154457).jpg",
-          "creator": "sunoochi from Sapporo, Hokkaido, Japan",
-          "credit": "Cattleya loddigesii 'Ponto Rosa' Lindl., Coll. Bot.: t. 37 (1826)",
-          "licence": "CC BY 2.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-          "description": "Cattleya loddigesii 'Ponto Rosa' Lindl., Coll. Bot.: t. 37 (1826)",
-          "width": 7054,
-          "height": 4708,
-          "mime": "image/jpeg"
         }
       ],
       "links": {
@@ -13440,7 +13396,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:10.510298+00:00",
+        "retrievedAt": "2026-10-28T16:02:12.512067+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13562,7 +13518,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:11.746338+00:00",
+        "retrievedAt": "2026-10-28T16:02:13.350119+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13618,7 +13574,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T14:59:12.517566+00:00",
+        "retrievedAt": "2026-10-28T16:02:15.676261+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13666,7 +13622,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:00.527989+00:00",
+        "retrievedAt": "2026-10-28T16:02:17.988006+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13714,7 +13670,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:01.516024+00:00",
+        "retrievedAt": "2026-10-28T16:02:19.980974+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13839,7 +13795,8 @@
           "description": "Cattleya lueddemanniana blooming in the Floral Showhouse, Niagara Falls, Ontario, Canada.",
           "width": 3000,
           "height": 3352,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -13855,7 +13812,8 @@
           "description": "Cattleya lueddemanniana - (Venezuela)",
           "width": 7105,
           "height": 4742,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -13866,7 +13824,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:02.802820+00:00",
+        "retrievedAt": "2026-10-28T16:03:02.618490+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -13969,7 +13927,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:05.758438+00:00",
+        "retrievedAt": "2026-10-28T16:03:04.979340+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14184,7 +14142,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:06.663355+00:00",
+        "retrievedAt": "2026-10-28T16:03:05.762523+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14364,7 +14322,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:07.986600+00:00",
+        "retrievedAt": "2026-10-28T16:03:07.070041+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14420,7 +14378,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:08.601187+00:00",
+        "retrievedAt": "2026-10-28T16:03:09.700590+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14468,7 +14426,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:09.247714+00:00",
+        "retrievedAt": "2026-10-28T16:03:14.322142+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14516,7 +14474,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:09.855107+00:00",
+        "retrievedAt": "2026-10-28T16:03:16.190156+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14591,7 +14549,21 @@
       "morphology": {},
       "cultivation": {},
       "hybridization": {},
-      "media": [],
+      "media": [
+        {
+          "source": "iNaturalist",
+          "scientificName": "Cattleya mantiqueirae",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348230805/square.jpeg",
+          "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/348230805/square.jpeg",
+          "sourceUrl": "https://www.inaturalist.org/observations/197680234",
+          "creator": "(c) desertnaturalist, some rights reserved (CC BY)",
+          "licence": "CC-BY",
+          "observationId": 197680234,
+          "photoId": 348230805,
+          "qualityGrade": "research",
+          "reviewStatus": "automatically-ingested-needs-editorial-review"
+        }
+      ],
       "links": {
         "gbif": "https://www.gbif.org/species/2812096",
         "powoSearch": "https://powo.science.kew.org/results?q=Cattleya%20mantiqueirae",
@@ -14600,7 +14572,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:00:11.350912+00:00",
+        "retrievedAt": "2026-10-28T16:03:20.325483+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14703,7 +14675,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:00.221447+00:00",
+        "retrievedAt": "2026-10-28T16:03:21.196902+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14766,7 +14738,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:01.488302+00:00",
+        "retrievedAt": "2026-10-28T16:04:02.470716+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14814,7 +14786,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:02.257105+00:00",
+        "retrievedAt": "2026-10-28T16:04:05.260245+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -14877,7 +14849,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:03.317359+00:00",
+        "retrievedAt": "2026-10-28T16:04:07.424211+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15029,7 +15001,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:05.319940+00:00",
+        "retrievedAt": "2026-10-28T16:04:09.086413+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15077,7 +15049,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:06.554585+00:00",
+        "retrievedAt": "2026-10-28T16:04:10.896577+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15292,7 +15264,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:07.968022+00:00",
+        "retrievedAt": "2026-10-28T16:04:12.523196+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15348,7 +15320,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:08.900563+00:00",
+        "retrievedAt": "2026-10-28T16:04:14.838688+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15444,7 +15416,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:09.746101+00:00",
+        "retrievedAt": "2026-10-28T16:04:15.693500+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15554,7 +15526,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:01:10.937830+00:00",
+        "retrievedAt": "2026-10-28T16:04:16.623196+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15610,7 +15582,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:00.204940+00:00",
+        "retrievedAt": "2026-10-28T16:04:19.506928+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15686,7 +15658,8 @@
           "description": "Cattleya mirandae",
           "width": 960,
           "height": 1280,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -15702,7 +15675,8 @@
           "description": "Cattleya mirandae",
           "width": 3235,
           "height": 4313,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -15713,7 +15687,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:01.457758+00:00",
+        "retrievedAt": "2026-10-28T16:05:03.557823+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15761,7 +15735,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:02.460026+00:00",
+        "retrievedAt": "2026-10-28T16:05:06.297120+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15809,7 +15783,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:03.370705+00:00",
+        "retrievedAt": "2026-10-28T16:05:09.025466+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15857,7 +15831,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:04.722712+00:00",
+        "retrievedAt": "2026-10-28T16:05:11.454570+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15905,7 +15879,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:05.802991+00:00",
+        "retrievedAt": "2026-10-28T16:05:13.743666+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -15953,7 +15927,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:06.411720+00:00",
+        "retrievedAt": "2026-10-28T16:05:16.191485+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -16009,7 +15983,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:07.558542+00:00",
+        "retrievedAt": "2026-10-28T16:05:19.000165+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -16063,7 +16037,8 @@
           "description": "Cattleya mooreana",
           "width": 576,
           "height": 556,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -16079,7 +16054,8 @@
           "description": "Cattleya mooreana",
           "width": 1280,
           "height": 960,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -16090,7 +16066,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:08.552352+00:00",
+        "retrievedAt": "2026-10-28T16:05:21.303619+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -16564,38 +16540,6 @@
           "countryCode": "VE",
           "year": 2024,
           "type": "StillImage"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya mossiae",
-          "title": "File:A and B Larsen orchids - Cattleya mossiae x intermedia Aquinii DSCN0754.JPG",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0754.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0754.JPG/1280px-A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0754.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0754.JPG",
-          "creator": "Arne and Bent Larsen, Haarby, Denmark",
-          "credit": "Orchid collection of Arne and Bent Larsen, original filename: 'orc-cattleya/Cattleya mossiae x intermedia Aquinii DSCN0754.JPG'",
-          "licence": "CC BY-SA 2.5 dk",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/dk/deed.en",
-          "description": "Cattleya mossiae x intermedia Aquinii",
-          "width": 2048,
-          "height": 1536,
-          "mime": "image/jpeg"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya mossiae",
-          "title": "File:A and B Larsen orchids - Cattleya mossiae x intermedia Aquinii DSCN0756.JPG",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0756.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0756.JPG/1280px-A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0756.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_mossiae_x_intermedia_Aquinii_DSCN0756.JPG",
-          "creator": "Arne and Bent Larsen, Haarby, Denmark",
-          "credit": "Orchid collection of Arne and Bent Larsen, original filename: 'orc-cattleya/Cattleya mossiae x intermedia Aquinii DSCN0756.JPG'",
-          "licence": "CC BY-SA 2.5 dk",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/dk/deed.en",
-          "description": "Cattleya mossiae x intermedia Aquinii",
-          "width": 2048,
-          "height": 1536,
-          "mime": "image/jpeg"
         }
       ],
       "links": {
@@ -16606,7 +16550,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:02:11.460719+00:00",
+        "retrievedAt": "2026-10-28T16:06:00.906067+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -16654,7 +16598,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:00.411483+00:00",
+        "retrievedAt": "2026-10-28T16:06:04.718932+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -16724,7 +16668,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:03.515187+00:00",
+        "retrievedAt": "2026-10-28T16:06:06.507578+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -16834,7 +16778,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:05.095694+00:00",
+        "retrievedAt": "2026-10-28T16:06:07.568303+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -16897,7 +16841,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:06.169111+00:00",
+        "retrievedAt": "2026-10-28T16:06:09.471722+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -16953,7 +16897,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:07.069236+00:00",
+        "retrievedAt": "2026-10-28T16:06:11.248384+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17009,7 +16953,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:08.194351+00:00",
+        "retrievedAt": "2026-10-28T16:06:13.401992+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17126,7 +17070,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:09.430239+00:00",
+        "retrievedAt": "2026-10-28T16:06:14.681242+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17196,7 +17140,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:10.100329+00:00",
+        "retrievedAt": "2026-10-28T16:06:16.702394+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17252,7 +17196,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:11.074033+00:00",
+        "retrievedAt": "2026-10-28T16:06:19.272622+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17308,7 +17252,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:03:11.988224+00:00",
+        "retrievedAt": "2026-10-28T16:07:03.330212+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17364,7 +17308,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:00.879541+00:00",
+        "retrievedAt": "2026-10-28T16:07:07.422360+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17420,7 +17364,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:02.265288+00:00",
+        "retrievedAt": "2026-10-28T16:07:10.282980+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17562,22 +17506,6 @@
         {
           "source": "Wikimedia Commons",
           "scientificName": "Cattleya nobilior",
-          "title": "File:Cattleya nobilior.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Cattleya_nobilior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Cattleya_nobilior.jpg/1280px-Cattleya_nobilior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_nobilior.jpg",
-          "creator": "Dalton Holland Baptista",
-          "credit": "Own work",
-          "licence": "CC BY-SA 3.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "description": "Cattleya nobilior",
-          "width": 2150,
-          "height": 1500,
-          "mime": "image/jpeg"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya nobilior",
           "title": "File:Cattleya nobilior fma. amaliae 2412 Rchb.f. in Ill. Hort. 30- t. 485 (1883) 20260722 182255.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182255.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182255.jpg/1280px-Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182255.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -17590,6 +17518,22 @@
           "width": 15925,
           "height": 10617,
           "mime": "image/jpeg"
+        },
+        {
+          "source": "Wikimedia Commons",
+          "scientificName": "Cattleya nobilior",
+          "title": "File:Cattleya nobilior fma. amaliae 2412 Rchb.f. in Ill. Hort. 30- t. 485 (1883) 20260722 182936.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182936.jpg/1280px-Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_%281883%29_20260722_182936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_nobilior_fma._amaliae_2412_Rchb.f._in_Ill._Hort._30-_t._485_(1883)_20260722_182936.jpg",
+          "creator": "Motohiro Sunouchi",
+          "credit": "Own work",
+          "licence": "CC BY 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+          "description": "Plant derived from Tocantins, Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya Distribution Brazil to Bolivia Lifeform Pseudobulbous epiphyte Synonyms Homotypic synonyms Cattleya walkeriana var. nobilior ( .mw-parser-output .smallcaps{font-variant:small-caps} Rchb.f. ) A.H.Kent in Man. Orchid. Pl. 2: 50 (1887) Heterotypic synonyms Cattleya nobilior var. alba L.C.Menezes in Orquidário 15: 16 (2001) Cattleya nobilior f. alba ( L.C.Menezes ) F.Barros & J.A.N.Bat. in Orquidologia Sul-Amer.: 102 (2004) Cattleya nobilior var. amaliae Pabst in Bradea 2: 229 (1978) Cattleya nobilior f. amaliae ( Pabst ) M.Wolff & O.Gruss in Orchid. Atlas: 66 (2007) Cattleya nobilior var. hugueneyi L.Linden & Rodigas in Lindenia 1: 15 (1885) Cattleya nobilior f. hugueneyi ( L.Linden & Rodigas ) M.Wolff & O.Gruss in Orchid. Atlas: 66 (2007)",
+          "width": 15448,
+          "height": 10299,
+          "mime": "image/jpeg"
         }
       ],
       "links": {
@@ -17600,7 +17544,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:06.077074+00:00",
+        "retrievedAt": "2026-10-28T16:07:12.079110+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17656,7 +17600,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:06.787351+00:00",
+        "retrievedAt": "2026-10-28T16:07:16.817661+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17726,7 +17670,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:07.413603+00:00",
+        "retrievedAt": "2026-10-28T16:07:19.701931+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17782,7 +17726,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:08.058680+00:00",
+        "retrievedAt": "2026-10-28T16:07:22.037382+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17885,7 +17829,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:08.991622+00:00",
+        "retrievedAt": "2026-10-28T16:07:23.204710+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17933,7 +17877,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:09.618942+00:00",
+        "retrievedAt": "2026-10-28T16:07:25.797056+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -17996,7 +17940,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:10.541636+00:00",
+        "retrievedAt": "2026-10-28T16:07:28.266444+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18052,7 +17996,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:04:11.303481+00:00",
+        "retrievedAt": "2026-10-28T16:08:03.119988+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18122,7 +18066,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:00.970885+00:00",
+        "retrievedAt": "2026-10-28T16:08:06.502409+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18219,7 +18163,8 @@
           "description": "Cattleya percivaliana 'Centro Amarillo' N.S. (105 X 115mm) 3 stems 4 flowers 25th Funabashi Orchid Show in TOBU Department Store, Funabashi Chiba Japan.",
           "width": 3200,
           "height": 2400,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -18235,7 +18180,8 @@
           "description": "[Venezuela] SUBGENUS Cattleya SECTION Cattleya Lindley Pseudobulb epiphyte Distribution: Colombia to NW. & N. Venezuela (82 VEN 83 CLM) Found in [Southern America] Northern South America Venezuela, Western South America Colombia Homotypic Synonyms: Cattleya labiata var. percivaliana Rchb.f., Gard. Chron., n.s., 18: 814 (1882). (* Basionym/Replaced Synonym) Heterotypic Synonyms: Cattleya percivaliana var. alba R.Warner & B.S.Williams, Orchid Album 3: t. 131 (1884). Cattleya percivaliana var. bicolor Rolfe, Orchid Rev. 4: 66 (1896). Cattleya percivaliana var. grandiflora Cogn. & A.Gooss., Dict. Icon. Orchid., Cattleya: t. 7A (1903). Cattleya percivaliana f. alba (R.Warner & B.S.Williams) M.Wolff & O.Gruss, Orchid. Atlas: 67 (2007). Cattleya percivaliana f. bicolor (Rolfe) M.Wolff & O.Gruss, Orchid. Atlas: 67 (2007).",
           "width": 7360,
           "height": 4912,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -18246,7 +18192,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:03.252658+00:00",
+        "retrievedAt": "2026-10-28T16:08:09.620882+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18392,7 +18338,8 @@
           "description": "Orchid Cattleya perrinii in Longwood Gardens. October 2022. The Main Conservatory. Natural areal includes SE Brasil.",
           "width": 4608,
           "height": 3456,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -18408,7 +18355,8 @@
           "description": "Orchid Cattleya perrinii in Longwood Gardens. October 2022. The Main Conservatory. Natural areal includes SE Brasil.",
           "width": 3456,
           "height": 4608,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -18419,7 +18367,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:06.202740+00:00",
+        "retrievedAt": "2026-10-28T16:08:13.458121+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18495,7 +18443,8 @@
           "description": "Cattleya pfisteri",
           "width": 1800,
           "height": 1250,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -18511,7 +18460,8 @@
           "description": "Cattleya pfisteri",
           "width": 2000,
           "height": 1450,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -18522,7 +18472,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:07.945871+00:00",
+        "retrievedAt": "2026-10-28T16:08:16.326347+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18570,7 +18520,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:08.688165+00:00",
+        "retrievedAt": "2026-10-28T16:08:18.984260+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18618,7 +18568,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:09.668727+00:00",
+        "retrievedAt": "2026-10-28T16:08:21.174093+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18674,7 +18624,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:10.933501+00:00",
+        "retrievedAt": "2026-10-28T16:09:01.568337+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18722,7 +18672,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:11.791594+00:00",
+        "retrievedAt": "2026-10-28T16:09:05.852197+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18778,7 +18728,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:12.580674+00:00",
+        "retrievedAt": "2026-10-28T16:09:07.661821+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18826,7 +18776,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:05:13.367165+00:00",
+        "retrievedAt": "2026-10-28T16:09:09.983936+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -18903,7 +18853,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:00.159248+00:00",
+        "retrievedAt": "2026-10-28T16:09:12.667500+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -19000,7 +18950,8 @@
           "description": "Cattleya porphyroglossa",
           "width": 2048,
           "height": 1536,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -19016,7 +18967,8 @@
           "description": "Cattleya porphyroglossa",
           "width": 2048,
           "height": 1536,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -19027,7 +18979,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:01.991528+00:00",
+        "retrievedAt": "2026-10-28T16:09:16.085781+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -19083,7 +19035,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:03.995622+00:00",
+        "retrievedAt": "2026-10-28T16:09:18.513509+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -19214,7 +19166,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:05.551855+00:00",
+        "retrievedAt": "2026-10-28T16:09:19.803492+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -19284,7 +19236,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:06.332053+00:00",
+        "retrievedAt": "2026-10-28T16:09:21.928567+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -19464,7 +19416,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:07.818095+00:00",
+        "retrievedAt": "2026-10-28T16:10:00.473798+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -19720,17 +19672,17 @@
         {
           "source": "Wikimedia Commons",
           "scientificName": "Cattleya purpurata",
-          "title": "File:Cattleya purpurata fma. flamea ‘Dr. Haetinger’ (Lindl. & Paxton) Rollisson ex Lindl., Gard. Chron. 1855 319 (1855) (50042071751).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cattleya_purpurata_fma._flamea_%E2%80%98Dr._Haetinger%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.%2C_Gard._Chron._1855_319_%281855%29_%2850042071751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Cattleya_purpurata_fma._flamea_%E2%80%98Dr._Haetinger%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.%2C_Gard._Chron._1855_319_%281855%29_%2850042071751%29.jpg/1280px-Cattleya_purpurata_fma._flamea_%E2%80%98Dr._Haetinger%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.%2C_Gard._Chron._1855_319_%281855%29_%2850042071751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_purpurata_fma._flamea_%E2%80%98Dr._Haetinger%E2%80%99_(Lindl._%26_Paxton)_Rollisson_ex_Lindl.,_Gard._Chron._1855_319_(1855)_(50042071751).jpg",
-          "creator": "sunoochi from Sapporo, Hokkaido, Japan",
-          "credit": "Cattleya purpurata fma. flamea ‘Dr. Haetinger’ (Lindl. & Paxton) Rollisson ex Lindl., Gard. Chron. 1855: 319 (1855)",
-          "licence": "CC BY 2.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-          "description": "[Brazil / ブラジル] SECTION Crispae ( .mw-parser-output .smallcaps{font-variant:small-caps} Pfitzer ) Van den Berg , Phytotaxa 186(2): 78 (2014). Distribution: SE. & S. Brazil (84 BZL BZS) Lifeform: Pseudobulb epiphyte Basionym Laelia purpurata Lindl. & Paxton , Paxton's Fl. Gard. 3: 111 (1852). Homotypic synonyms Bletia purpurata ( Lindl. & Paxton ) Rchb.f. in W.G.Walpers , Ann. Bot. Syst. 6: 423 (1862), nom. illeg. Sophronitis purpurata ( Lindl. & Paxton ) Van den Berg & M.W.Chase , Lindleyana 15: 118 (2000). Hadrolaelia purpurata ( Lindl. & Paxton ) Chiron & V.P.Castro, Richardiana 2: 19 (2002). Brasilaelia purpurata ( Lindl. & Paxton ) Campacci , Colet. Orquídeas Brasil. 4(Pré-anexo): 100 (2006). Chironiella purpurata ( Lindl. & Paxton ) Braem , Richardiana 6: 109 (2006). Heterotypic synonyms Amalia purpurea Heynh. , Alph. Aufz. Gew.: 29 (1846), nom. nud. Cattleya brysiana Lem. , Jard. Fleur. 3: t. 275 (1853). Laelia purpurata var. praetexta Rchb.f. , Allg. Gartenzeitung 23: 241 (1855). Laelia casperiana Rchb.f. , Wochenschr. Gärtnerei Pflanzenk. 2: 336 (1859). Bletia casperiana ( Rchb.f. ) Rchb.f. in W.G.Walpers , Ann. Bot. Syst. 6: 423 (1862). Bletia purpurata var. aurorea Rchb.f. , Xenia Orchid. 2: 53 (1862). Bletia purpurata var. pallida Rchb.f. , Xenia Orchid. 2: 53 (1862). Bletia purpurata var. praetexta ( Rchb.f. ) Rchb.f. , Xenia Orchid. 2: 53 (1862). Laelia purpurata var. nelisii Lem. , Ill. Hort. 15: t. 569 (1868). Laelia purpurata var. rosea Regel , Gartenflora 21: 225 (1872). Laelia russelliana B.S.Williams , Orch.-Grow. Man., ed. 6: 366 (1885). Laelia purpurata var. russelliana ( B.S.Williams ) B.S.Williams , Orchid Album 6: t. 269 (1887). Laelia purpurata var. blenheimense R.Warner & B.S.Williams , Orchid Album 8: t. 346 (1889). Laelia purpurata var. virginalis L.C.Menezes , Orquidário 9: 34 (1995). Hadrolaelia purpurata f. virginalis ( L.C.Menezes ) F.Barros & J.A.N.Bat. , Orquidologia Sul-Amer.: 103 (2004).",
-          "width": 8256,
-          "height": 5504,
+          "title": "File:Cattleya purpurata fma. sanguinea ‘Dark Beautiful’ (Lindl. & Paxton) Rollisson ex Lindl.- Gard. Chron. 1855- 319 (1855). 20240706 065801.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cattleya_purpurata_fma._sanguinea_%E2%80%98Dark_Beautiful%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.-_Gard._Chron._1855-_319_%281855%29._20240706_065801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Cattleya_purpurata_fma._sanguinea_%E2%80%98Dark_Beautiful%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.-_Gard._Chron._1855-_319_%281855%29._20240706_065801.jpg/1280px-Cattleya_purpurata_fma._sanguinea_%E2%80%98Dark_Beautiful%E2%80%99_%28Lindl._%26_Paxton%29_Rollisson_ex_Lindl.-_Gard._Chron._1855-_319_%281855%29._20240706_065801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_purpurata_fma._sanguinea_%E2%80%98Dark_Beautiful%E2%80%99_(Lindl._%26_Paxton)_Rollisson_ex_Lindl.-_Gard._Chron._1855-_319_(1855)._20240706_065801.jpg",
+          "creator": "Motohiro Sunouchi",
+          "credit": "Own work",
+          "licence": "CC BY 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+          "description": "Plant derived from South of Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Section Crispae ( Pfitzer ) Van den Berg , Phytotaxa 186(2): 78 (2014). Distribution SE. & S. Brazil Lifeform Pseudobulbous epiphyte Synonyms Homotypic synonyms Bletia purpurata ( Lindl. & Paxton ) Rchb.f. in Ann. Bot. Syst. 6: 423 (1862) Brasilaelia purpurata ( Lindl. & Paxton ) Campacci in Colet. Orquídeas Brasil. 4(Pré-anexo): 100 (2006) Chironiella purpurata ( Lindl. & Paxton ) Braem in Richardiana 6: 109 (2006) Hadrolaelia purpurata ( Lindl. & Paxton ) Chiron & V.P.Castro in Richardiana 2: 19 (2002) Laelia purpurata Lindl. & Paxton in Paxton's Fl. Gard. 3: 111 (1852) Sophronitis purpurata ( Lindl. & Paxton ) Van den Berg & M.W.Chase in Lindleyana 15: 118 (2000) Heterotypic synonyms Amalia purpurea Heynh. in Alph. Aufz. Gew.: 29 (1846) Bletia casperiana ( Rchb.f. ) Rchb.f. in Ann. Bot. Syst. 6: 423 (1862) Bletia purpurata var. aurorea Rchb.f. in Xenia Orchid. 2: 53 (1862) Bletia purpurata var. pallida Rchb.f. in Xenia Orchid. 2: 53 (1862) Bletia purpurata var. praetexta ( Rchb.f. ) Rchb.f. in Xenia Orchid. 2: 53 (1862) Cattleya brysiana Lem. in Jard. Fleur. 3: t. 275 (1853) Cattleya purpurata var. blenheimense ( R.Warner & B.S.Williams ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 57 (2016) Cattleya purpurata var. nelisii ( Lem. ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 57 (2016) Cattleya purpurata var. praetexta ( Rchb.f. ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 57 (2016) Cattleya purpurata var. rosea ( Regel ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 57 (2016) Cattleya purpurata var. russelliana ( B.S.Williams ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 58 (2016) Cattleya purpurata var. virginalis ( L.C.Menezes ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 58 (2016) Hadrolaelia purpurata f. virginalis ( L.C.Menezes ) F.Barros & J.A.N.Bat. in Orquidologia Sul-Amer.: 103 (2004) Laelia casperiana Rchb.f. in Wochenschr. Gärtnerei Pflanzenk. 2: 336 (1859) Laelia purpurata var. blenheimense R.Warner & B.S.Williams in Orchid Album 8: t. 346 (1889) Laelia purpurata var. nelisii Lem. in Ill. Hort. 15: t. 569 (1868) Laelia purpurata var. praetexta Rchb.f. in Allg. Gartenzeitung 23: 241 (1855) Laelia purpurata var. rosea Regel in Gartenflora 21: 225 (1872) Laelia purpurata var. russelliana ( B.S.Williams ) B.S.Williams in Orchid Album 6: t. 269 (1887) Laelia purpurata var. virginalis L.C.Menezes in Orquidário 9: 34 (1995) Laelia russelliana B.S.Williams in Orch.-Grow. Man., ed. 6: 366 (1885)",
+          "width": 16512,
+          "height": 11008,
           "mime": "image/jpeg"
         }
       ],
@@ -19742,7 +19694,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:09.133488+00:00",
+        "retrievedAt": "2026-10-28T16:10:03.408331+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -19866,7 +19818,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:10.412068+00:00",
+        "retrievedAt": "2026-10-28T16:10:04.889993+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -19983,7 +19935,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:11.444359+00:00",
+        "retrievedAt": "2026-10-28T16:10:06.599048+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20031,7 +19983,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:06:12.091457+00:00",
+        "retrievedAt": "2026-10-28T16:10:08.886849+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20094,7 +20046,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:00.811108+00:00",
+        "retrievedAt": "2026-10-28T16:10:10.793486+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20142,7 +20094,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:03.896046+00:00",
+        "retrievedAt": "2026-10-28T16:10:12.727414+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20225,7 +20177,8 @@
           "description": "[Minas Gerais, Brazil / ブラジルミナスジェライス] SUBGENUS Cattleya SECTION Crispae ( .mw-parser-output .smallcaps{font-variant:small-caps} Pfitzer ) Van den Berg , Phytotaxa 186(2): 78 (2014). SERIES Parviflorae ( Lindl. ) Van den Berg , Phytotaxa 186(2): 82 (2014). Distribution: Brazil (Minas Gerais: Serra da Caraça) (84 BZL) Lifeform: Pseudobulb epiphyte Basionym Laelia reginae Pabst , Bradea 2: 24 (1975). Homotypic synonyms Sophronitis reginae ( Pabst ) Van den Berg & M.W.Chase , Lindleyana 15: 118 (2000). Hoffmannseggella reginae ( Pabst ) V.P.Castro & Chiron , Richardiana 2: 23 (2002).",
           "width": 7420,
           "height": 4947,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -20241,7 +20194,8 @@
           "description": "[Minas Gerais, Brazil / ブラジルミナスジェライス] SUBGENUS Cattleya SECTION Crispae ( .mw-parser-output .smallcaps{font-variant:small-caps} Pfitzer ) Van den Berg , Phytotaxa 186(2): 78 (2014). SERIES Parviflorae ( Lindl. ) Van den Berg , Phytotaxa 186(2): 82 (2014). Distribution: Brazil (Minas Gerais: Serra da Caraça) (84 BZL) Lifeform: Pseudobulb epiphyte Basionym Laelia reginae Pabst , Bradea 2: 24 (1975). Homotypic synonyms Sophronitis reginae ( Pabst ) Van den Berg & M.W.Chase , Lindleyana 15: 118 (2000). Hoffmannseggella reginae ( Pabst ) V.P.Castro & Chiron , Richardiana 2: 23 (2002).",
           "width": 5249,
           "height": 7874,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -20252,7 +20206,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:05.254288+00:00",
+        "retrievedAt": "2026-10-28T16:10:19.264281+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20300,7 +20254,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:06.389556+00:00",
+        "retrievedAt": "2026-10-28T16:10:21.721601+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20348,7 +20302,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:07.178569+00:00",
+        "retrievedAt": "2026-10-28T16:11:02.607576+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20429,7 +20383,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:08.451629+00:00",
+        "retrievedAt": "2026-10-28T16:11:04.805903+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20499,7 +20453,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:09.264577+00:00",
+        "retrievedAt": "2026-10-28T16:11:07.558856+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20580,7 +20534,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:10.011714+00:00",
+        "retrievedAt": "2026-10-28T16:11:08.258340+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20628,7 +20582,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:11.349312+00:00",
+        "retrievedAt": "2026-10-28T16:11:11.084286+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20705,36 +20659,17 @@
       "hybridization": {},
       "media": [
         {
-          "source": "Wikimedia Commons",
+          "source": "iNaturalist",
           "scientificName": "Cattleya rupestris",
-          "title": "File:Cattleya rupestris '2020' (Lindl.) Van den Berg in Neodiversity 3- 11 (2008) 20250426 112429.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112429.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112429.jpg/1280px-Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112429.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_rupestris_%272020%27_(Lindl.)_Van_den_Berg_in_Neodiversity_3-_11_(2008)_20250426_112429.jpg",
-          "creator": "Motohiro Sunouchi",
-          "credit": "Own work",
-          "licence": "CC BY 4.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
-          "description": "Plant derived from Minas Gerais, Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Subgenus Cattleya Section Crispae Series Parviflorae ( Lindl. ) Van den Berg Distribution Brazil (Minas Gerais) Lifeform Epiphyte Synonyms Homotypic synonyms Bletia rupestris ( Lindl. ) Rchb.f. in Ann. Bot. Syst. 6: 431 (1862) Hoffmannseggella rupestris ( Lindl. ) V.P.Castro & Chiron in Richardiana 2: 23 (2002) Laelia rupestris Lindl. in Edwards's Bot. Reg. 28: t. 62 (1842) Sophronitis mirandae Van den Berg & M.W.Chase in Lindleyana 15: 118 (2000)",
-          "width": 16512,
-          "height": 11008,
-          "mime": "image/jpeg"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya rupestris",
-          "title": "File:Cattleya rupestris '2020' (Lindl.) Van den Berg in Neodiversity 3- 11 (2008) 20250426 112715.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112715.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112715.jpg/1280px-Cattleya_rupestris_%272020%27_%28Lindl.%29_Van_den_Berg_in_Neodiversity_3-_11_%282008%29_20250426_112715.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_rupestris_%272020%27_(Lindl.)_Van_den_Berg_in_Neodiversity_3-_11_(2008)_20250426_112715.jpg",
-          "creator": "Motohiro Sunouchi",
-          "credit": "Own work",
-          "licence": "CC BY 4.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
-          "description": "Plant derived from Minas Gerais, Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Subgenus Cattleya Section Crispae Series Parviflorae ( Lindl. ) Van den Berg Distribution Brazil (Minas Gerais) Lifeform Epiphyte Synonyms Homotypic synonyms Bletia rupestris ( Lindl. ) Rchb.f. in Ann. Bot. Syst. 6: 431 (1862) Hoffmannseggella rupestris ( Lindl. ) V.P.Castro & Chiron in Richardiana 2: 23 (2002) Laelia rupestris Lindl. in Edwards's Bot. Reg. 28: t. 62 (1842) Sophronitis mirandae Van den Berg & M.W.Chase in Lindleyana 15: 118 (2000)",
-          "width": 15527,
-          "height": 10351,
-          "mime": "image/jpeg"
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41010993/square.jpg",
+          "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/41010993/square.jpg",
+          "sourceUrl": "https://www.inaturalist.org/observations/26402280",
+          "creator": "(c) william_hoyer, some rights reserved (CC BY)",
+          "licence": "CC-BY",
+          "observationId": 26402280,
+          "photoId": 41010993,
+          "qualityGrade": "research",
+          "reviewStatus": "automatically-ingested-needs-editorial-review"
         }
       ],
       "links": {
@@ -20745,7 +20680,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:07:13.454706+00:00",
+        "retrievedAt": "2026-10-28T16:11:14.807900+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20801,7 +20736,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:00.356331+00:00",
+        "retrievedAt": "2026-10-28T16:11:17.534639+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20849,7 +20784,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:01.583775+00:00",
+        "retrievedAt": "2026-10-28T16:11:19.341780+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -20926,7 +20861,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:04.111063+00:00",
+        "retrievedAt": "2026-10-28T16:11:21.633645+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21064,7 +20999,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:05.752966+00:00",
+        "retrievedAt": "2026-10-28T16:11:22.949172+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21154,7 +21089,8 @@
           "description": "An orchid (Cattleya Schofieldiana var.): flowering stem. Watercolour, 1902. Iconographic Collections",
           "width": 2280,
           "height": 3108,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -21170,7 +21106,8 @@
           "description": "Plant derived from Brazil Taxonomy Family: Orchidaceae Subfamily: Epidendroideae Tribe: Epidendreae Subtribe: Laeliinae Genus: Cattleya Lindl. Subgenus: Falcata Section: Granulosae [Fowlie] Withner 1989 Distribution: Brazil (Espírito Santo to Rio de Janeiro) (84 BZL) Lifeform: Pseudobulb epiphyte Homotypic Names: Cattleya granulosa var. schofieldiana (Rchb.f.) A.H.Kent in H.J.Veitch, Man. Orchid. Pl. 2: 36 (1887). Cattleya granulosa f. schofieldiana (Rchb.f.) A.D.Hawkes, Encycl. Cult. Orchids: 97 (1965), no basionym ref. Heterotypic Synonyms: Cattleya princeps Anon., Gard. Chron., ser. 3, 11: 816 (1892), nom. illeg. Cattleya granulosa var. banneri Rolfe, Orchid Rev. 4: 244 (1896). Cattleya schofieldiana var. banneri (Rolfe) Fowlie, Braz. Bifol. Cattleyas: 78 (1977). Cattleya schofieldiana var. tedescoana L.C.Menezes, Bol. CAOB 75: 40 (2009).",
           "width": 16512,
           "height": 11008,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -21181,7 +21118,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:06.462484+00:00",
+        "retrievedAt": "2026-10-28T16:12:02.321933+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21291,7 +21228,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:07.702250+00:00",
+        "retrievedAt": "2026-10-28T16:12:05.484070+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21339,7 +21276,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:08.440691+00:00",
+        "retrievedAt": "2026-10-28T16:12:08.439347+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21387,7 +21324,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:09.195700+00:00",
+        "retrievedAt": "2026-10-28T16:12:10.854103+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21435,7 +21372,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:09.949877+00:00",
+        "retrievedAt": "2026-10-28T16:12:15.434268+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21483,7 +21420,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:08:10.874858+00:00",
+        "retrievedAt": "2026-10-28T16:12:17.581894+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21553,7 +21490,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:00.742475+00:00",
+        "retrievedAt": "2026-10-28T16:12:19.412066+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21601,7 +21538,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:03.199437+00:00",
+        "retrievedAt": "2026-10-28T16:12:21.907282+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21746,7 +21683,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:04.760726+00:00",
+        "retrievedAt": "2026-10-28T16:12:23.040964+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21800,7 +21737,8 @@
           "description": "Cattleya × sororia . Berggarten Hannover.",
           "width": 1098,
           "height": 1464,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -21816,7 +21754,8 @@
           "description": "Cattleya × sororia. Berggarten Hannover.",
           "width": 900,
           "height": 1200,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -21827,7 +21766,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:05.355098+00:00",
+        "retrievedAt": "2026-10-28T16:13:02.394891+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21875,7 +21814,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:06.057559+00:00",
+        "retrievedAt": "2026-10-28T16:13:05.909227+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -21923,7 +21862,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:07.152913+00:00",
+        "retrievedAt": "2026-10-28T16:13:08.756862+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -22004,7 +21943,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:08.123270+00:00",
+        "retrievedAt": "2026-10-28T16:13:09.581835+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -22177,7 +22116,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:10.100042+00:00",
+        "retrievedAt": "2026-10-28T16:13:11.156398+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -22233,7 +22172,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:10.853333+00:00",
+        "retrievedAt": "2026-10-28T16:13:13.410948+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -22314,7 +22253,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:09:11.572841+00:00",
+        "retrievedAt": "2026-10-28T16:13:14.393887+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -22377,7 +22316,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:00.292230+00:00",
+        "retrievedAt": "2026-10-28T16:13:16.733282+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -22447,7 +22386,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:01.456661+00:00",
+        "retrievedAt": "2026-10-28T16:13:19.367181+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -22725,7 +22664,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:03.506720+00:00",
+        "retrievedAt": "2026-10-28T16:14:01.786636+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -22816,7 +22755,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:05.201607+00:00",
+        "retrievedAt": "2026-10-28T16:14:04.825648+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23108,7 +23047,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:07.315709+00:00",
+        "retrievedAt": "2026-10-28T16:14:06.467461+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23189,7 +23128,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:08.422223+00:00",
+        "retrievedAt": "2026-10-28T16:14:07.292723+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23252,7 +23191,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:09.310170+00:00",
+        "retrievedAt": "2026-10-28T16:14:10.060855+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23336,7 +23275,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:09.949450+00:00",
+        "retrievedAt": "2026-10-28T16:14:13.418315+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23384,7 +23323,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:10.517050+00:00",
+        "retrievedAt": "2026-10-28T16:14:16.248423+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23446,7 +23385,8 @@
           "description": "Cattleya vasconcelosiana - (Brasil, Minas Gerais)",
           "width": 7360,
           "height": 4912,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -23462,7 +23402,8 @@
           "description": "Cattleya vasconcelosiana - (Brasil, Minas Gerais)",
           "width": 7268,
           "height": 4851,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -23473,7 +23414,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:10:11.569920+00:00",
+        "retrievedAt": "2026-10-28T16:14:19.451814+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23521,7 +23462,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:00.460608+00:00",
+        "retrievedAt": "2026-10-28T16:14:21.750123+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23598,7 +23539,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:01.493172+00:00",
+        "retrievedAt": "2026-10-28T16:15:01.907866+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23702,7 +23643,8 @@
           "description": "Illustration of Cattleya velutina",
           "width": 3253,
           "height": 5123,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -23718,7 +23660,8 @@
           "description": "Cattleya velutina",
           "width": 1400,
           "height": 2000,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -23729,7 +23672,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:04.314994+00:00",
+        "retrievedAt": "2026-10-28T16:15:06.576334+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23810,7 +23753,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:06.565835+00:00",
+        "retrievedAt": "2026-10-28T16:15:07.449677+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23887,7 +23830,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:08.322157+00:00",
+        "retrievedAt": "2026-10-28T16:15:09.552097+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -23978,7 +23921,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:09.532855+00:00",
+        "retrievedAt": "2026-10-28T16:15:11.469333+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -24026,7 +23969,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:10.220054+00:00",
+        "retrievedAt": "2026-10-28T16:15:13.591973+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -24082,7 +24025,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:11.194735+00:00",
+        "retrievedAt": "2026-10-28T16:15:15.672927+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -24138,7 +24081,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:11.891443+00:00",
+        "retrievedAt": "2026-10-28T16:15:17.669971+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -24306,36 +24249,17 @@
       "hybridization": {},
       "media": [
         {
-          "source": "Wikimedia Commons",
+          "source": "iNaturalist",
           "scientificName": "Cattleya violacea",
-          "title": "File:Cattleya violacea (Kunth) Lindl., Gard. Chron. 1842 472 (1842) (28032990567).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2828032990567%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2828032990567%29.jpg/1280px-Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2828032990567%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_violacea_(Kunth)_Lindl.,_Gard._Chron._1842_472_(1842)_(28032990567).jpg",
-          "creator": "snotch from Sapporo, Hokkaido, Japan",
-          "credit": "[Brazil] Cattleya violacea (Kunth) Lindl., Gard. Chron. 1842: 472 (1842)",
-          "licence": "CC BY 2.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-          "description": "' Cattleya violacea - Brazil",
-          "width": 7360,
-          "height": 4912,
-          "mime": "image/jpeg"
-        },
-        {
-          "source": "Wikimedia Commons",
-          "scientificName": "Cattleya violacea",
-          "title": "File:Cattleya violacea (Kunth) Lindl., Gard. Chron. 1842 472 (1842) (29029280518).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2829029280518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2829029280518%29.jpg/1280px-Cattleya_violacea_%28Kunth%29_Lindl.%2C_Gard._Chron._1842_472_%281842%29_%2829029280518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_violacea_(Kunth)_Lindl.,_Gard._Chron._1842_472_(1842)_(29029280518).jpg",
-          "creator": "snotch from Sapporo, Hokkaido, Japan",
-          "credit": "[Brazil] Cattleya violacea (Kunth) Lindl., Gard. Chron. 1842: 472 (1842)",
-          "licence": "CC BY 2.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
-          "description": "Cattleya violacea - Brazil",
-          "width": 7030,
-          "height": 4692,
-          "mime": "image/jpeg"
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62963540/square.jpeg",
+          "thumbnailUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62963540/square.jpeg",
+          "sourceUrl": "https://www.inaturalist.org/observations/39672682",
+          "creator": "(c) Kai Squires, some rights reserved (CC BY)",
+          "licence": "CC-BY",
+          "observationId": 39672682,
+          "photoId": 62963540,
+          "qualityGrade": "research",
+          "reviewStatus": "automatically-ingested-needs-editorial-review"
         }
       ],
       "links": {
@@ -24346,7 +24270,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:11:14.292875+00:00",
+        "retrievedAt": "2026-10-28T16:15:21.017244+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -24444,7 +24368,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:00.993893+00:00",
+        "retrievedAt": "2026-10-28T16:16:02.343575+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -24507,7 +24431,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:03.450114+00:00",
+        "retrievedAt": "2026-10-28T16:16:07.716913+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -24687,7 +24611,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:06.839334+00:00",
+        "retrievedAt": "2026-10-28T16:16:12.365626+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -24875,7 +24799,8 @@
           "description": "Illustration of Cattleya wallisii (as syn. Cattleya eldorado )",
           "width": 3253,
           "height": 5123,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -24891,7 +24816,8 @@
           "description": "Plant derived from Central Brazil Taxonomy Family ラン科 Orchidaceae Subfamily セッコク亜科 Epidendroideae Tribe エピデンドラム連 Epidendreae Subtribe Laeliinae Genus カトレア属 Cattleya .mw-parser-output .smallcaps{font-variant:small-caps} Lindl. Section Lawrenceanae Van den Berg Distribution N. Brazil Lifeform Pseudobulbous epiphyte Synonyms Homotypic synonyms Cattleya eldorado var. wallisii ( Linden ) E.S.Rand in J. Orchidées 3: 19 (1892) Laelia wallisii Linden in Ann. Hort. Belge Étrangère 15: 102 (1865) Heterotypic synonyms Cattleya crocata Rchb.f. in Gard. Chron., n.s., 26: 360 (1886) Cattleya eldorado Linden in Lindenia 6: t. 262 (1890) Cattleya eldorado var. ornata Rchb.f. in Orch.-Grow. Man., ed. 6: 181 (1885) Cattleya eldorado var. splendens Linden ex B.S.Williams in Orch.-Grow. Man., ed. 4: 114 (1871) Cattleya eldorado var. virginalis Linden & André ex F.Buyss. in L'orchidophile; Traité Théor. & Prat.: 236 (1878) Cattleya labiata var. eldorado ( Linden ) A.H.Kent in Man. Orchid. Pl. 2: 17 (1887) Cattleya macnorlandii G.Nicholson in Ill. Dict. Gard. 1: 288 (1884) Cattleya trichopiliochila Barb.Rodr. in Gen. Spec. Orchid. 1: 70 (1877) Cattleya trichopiliochila var. virginalis ( Linden & André ex Ducos ) Braem in Cattleya Unifoliate Cattleyas: 84 (1986) Cattleya virginalis Linden & André ex Ducos in Ill. Hort. 23: 161 (1876) Cattleya virginalis var. rosea B.S.Williams in Orch.-Grow. Man., ed. 6: 207 (1885) Cattleya wallisii var. ornata ( Rchb.f. ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 63 (2016) Cattleya wallisii var. splendens ( Linden ex B.S.Williams ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 63 (2016) Cattleya wallisii var. virginalis ( Linden & André ex Ducos ) K.A.Roberts in Orchids (West Palm Beach) 85(10, Suppl.): 63 (2016)",
           "width": 10737,
           "height": 16105,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -24902,7 +24828,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:08.615087+00:00",
+        "retrievedAt": "2026-10-28T16:16:15.259986+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -25033,7 +24959,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:09.965972+00:00",
+        "retrievedAt": "2026-10-28T16:16:16.435117+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -25234,7 +25160,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:12.435435+00:00",
+        "retrievedAt": "2026-10-28T16:16:18.456079+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -25339,7 +25265,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:13.400729+00:00",
+        "retrievedAt": "2026-10-28T16:16:20.485797+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -25387,7 +25313,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:14.947077+00:00",
+        "retrievedAt": "2026-10-28T16:16:22.353433+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -25443,7 +25369,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:16.654938+00:00",
+        "retrievedAt": "2026-10-28T16:16:24.192044+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -25519,7 +25445,8 @@
           "description": "Illustration of Cattleya × whitei",
           "width": 1699,
           "height": 2272,
-          "mime": "image/jpeg"
+          "mime": "image/jpeg",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         },
         {
           "source": "Wikimedia Commons",
@@ -25535,7 +25462,8 @@
           "description": "Orchid album :comprising coloured figures and descriptions of new, rare and beautiful orchidaceous plants /Conducted by Robert Warner and Benjamin Samuel Williams; the botanical descriptions by Thomas Moore; the coloured figures by John Nugent Fitch.",
           "width": 3202,
           "height": 3996,
-          "mime": "image/png"
+          "mime": "image/png",
+          "reviewStatus": "recovered-by-title-needs-editorial-review"
         }
       ],
       "links": {
@@ -25546,7 +25474,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:12:18.206266+00:00",
+        "retrievedAt": "2026-10-28T16:17:02.560050+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -25635,7 +25563,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:13:01.085376+00:00",
+        "retrievedAt": "2026-10-28T16:17:04.540368+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -25878,7 +25806,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:13:05.366049+00:00",
+        "retrievedAt": "2026-10-28T16:17:06.415575+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -25926,7 +25854,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:13:08.345715+00:00",
+        "retrievedAt": "2026-10-28T16:17:08.718883+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -26003,7 +25931,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:13:10.357301+00:00",
+        "retrievedAt": "2026-10-28T16:17:10.914095+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -26134,7 +26062,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:13:12.700817+00:00",
+        "retrievedAt": "2026-10-28T16:17:12.294494+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -26204,7 +26132,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:13:14.246069+00:00",
+        "retrievedAt": "2026-10-28T16:17:15.064788+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -26252,7 +26180,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:13:14.905183+00:00",
+        "retrievedAt": "2026-10-28T16:17:17.341198+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
@@ -26322,7 +26250,7 @@
       },
       "provenance": {
         "taxonomySource": "GBIF Backbone Taxonomy",
-        "retrievedAt": "2026-10-26T15:13:15.632632+00:00",
+        "retrievedAt": "2026-10-28T16:17:19.389254+00:00",
         "reviewStatus": "automatically-ingested-needs-editorial-review",
         "dataPolicy": "No inferred morphology, cultivation or distribution fields."
       }
