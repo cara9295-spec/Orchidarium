@@ -164,23 +164,35 @@ def gbif_images(s: requests.Session, taxon_key: int, scientific_name: str, maxim
     return images
 
 
-def commons_images(s: requests.Session, scientific_name: str, maximum: int = 2) -> list[dict[str, Any]]:
-    payload = get_json(
-        s,
-        COMMONS,
-        {
-            "action": "query",
-            "format": "json",
+def commons_images(
+    s: requests.Session,
+    scientific_name: str,
+    maximum: int = 2,
+    titles: list[str] | None = None,
+) -> list[dict[str, Any]]:
+    """Search Commons or recheck previously indexed files by exact page title.
+
+    Title lookups re-fetch the current file licence rather than trusting cached
+    metadata when a transient search-index change hides a known photograph.
+    """
+    params: dict[str, Any] = {
+        "action": "query",
+        "format": "json",
+        "prop": "imageinfo",
+        "iiprop": "url|extmetadata|mime|size",
+        "iiurlwidth": 1200,
+        "iiextmetadatafilter": "Artist|Credit|LicenseShortName|LicenseUrl|UsageTerms|ImageDescription|AttributionRequired|Copyrighted",
+    }
+    if titles:
+        params["titles"] = "|".join(titles)
+    else:
+        params.update({
             "generator": "search",
             "gsrsearch": f'intitle:"{scientific_name}" filetype:bitmap',
             "gsrnamespace": 6,
             "gsrlimit": 10,
-            "prop": "imageinfo",
-            "iiprop": "url|extmetadata|mime|size",
-            "iiurlwidth": 1200,
-            "iiextmetadatafilter": "Artist|Credit|LicenseShortName|LicenseUrl|UsageTerms|ImageDescription|AttributionRequired|Copyrighted",
-        },
-    )
+        })
+    payload = get_json(s, COMMONS, params)
     images: list[dict[str, Any]] = []
     pages = (payload.get("query") or {}).get("pages") or {}
     for page in pages.values():
@@ -273,6 +285,14 @@ def inaturalist_images(s: requests.Session, scientific_name: str, maximum: int =
 def build() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     s = session()
+    # Keep only Commons page titles as recovery candidates. Their current
+    # licences are rechecked via the Commons API before any reuse.
+    previous_commons_titles: dict[int, list[str]] = {}
+    previous_index = OUT / "cattleya_open_media.json"
+    if previous_index.exists():
+        for item in json.loads(previous_index.read_text(encoding="utf-8")).get("records", []):
+            if item.get("source") == "Wikimedia Commons" and item.get("title") and item.get("taxonKey"):
+                previous_commons_titles.setdefault(int(item["taxonKey"]), []).append(item["title"])
     species = gbif_species(s)
     if not species:
         raise RuntimeError("GBIF returned zero accepted Cattleya species; refusing to publish empty catalogue")
@@ -282,6 +302,7 @@ def build() -> None:
     inat_added = 0
     inat_errors = 0
     inat_disabled = False
+    commons_recovered = 0
 
     for index, row in enumerate(species, start=1):
         key = int(row.get("nubKey") or row["key"])
@@ -305,6 +326,21 @@ def build() -> None:
                     inat_disabled = True
                     print("WARNING: iNaturalist access limited; skipping remaining lookups.")
             time.sleep(1.1)  # Respect iNaturalist's recommended API request rate.
+        # Commons search is not stable: re-query known file titles when a taxon
+        # would otherwise lose every photo. Do NOT reuse old licence metadata.
+        if not media and previous_commons_titles.get(key):
+            try:
+                recovered = commons_images(
+                    s, name, maximum=2, titles=previous_commons_titles[key][:20],
+                )
+                for item in recovered:
+                    item["reviewStatus"] = "recovered-by-title-needs-editorial-review"
+                media.extend(recovered)
+                commons_recovered += len(recovered)
+                if recovered:
+                    print(f"Recovered {len(recovered)} currently licensed Commons images for {name} by title.")
+            except (requests.RequestException, ValueError) as exc:
+                print(f"WARNING: Commons title recheck failed for {name}: {exc}")
         media_index.extend({"taxonKey": key, **m} for m in media)
 
         records.append(
@@ -388,6 +424,7 @@ def build() -> None:
     print(f"Image coverage: {covered}/{len(records)} species; {len(records) - covered} without images.")
     print(f"iNaturalist: {inat_attempted} lookups, {inat_added} licensed photos added, "
           f"{inat_errors} errors, disabled={inat_disabled}.")
+    print(f"Commons title rechecks: {commons_recovered} currently licensed images recovered.")
 
 
 if __name__ == "__main__":
