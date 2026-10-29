@@ -25,6 +25,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Check out the newest main, not a potentially stale push-event SHA.
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -111,4 +114,39 @@ jobs:
           git config user.name 'orchidarium-bot'
           git config user.email 'actions@users.noreply.github.com'
           git commit -m 'Refresh Cattleya open-data catalogue'
-          git push
+          if git push; then
+            echo 'Cattleya catalogue published successfully.'
+            exit 0
+          fi
+          # Another workflow may have published a newer catalogue while this
+          # long-running job was fetching images. Never force-push stale data.
+          echo 'Push rejected: checking whether a newer catalogue is already published.'
+          branch="${GITHUB_REF_NAME:-main}"
+          git fetch origin "refs/heads/${branch}:refs/remotes/origin/${branch}"
+          if python - <<'PY'
+          import json
+          import subprocess
+          from datetime import datetime
+          from pathlib import Path
+
+          branch = __import__("os").environ.get("GITHUB_REF_NAME", "main")
+          paths = ("data/cattleya_open_catalog.json", "data/cattleya_open_media.json")
+          for path in paths:
+              published = subprocess.check_output(
+                  ["git", "show", f"origin/{branch}:{path}"], text=True,
+              )
+              remote_time = datetime.fromisoformat(json.loads(published)["metadata"]["generatedAt"])
+              local_time = datetime.fromisoformat(
+                  json.loads(Path(path).read_text(encoding="utf-8"))["metadata"]["generatedAt"]
+              )
+              if remote_time < local_time:
+                  print(f"{path}: remote data is older; refusing to discard this update.")
+                  raise SystemExit(1)
+              print(f"{path}: newer or equal data already published ({remote_time.isoformat()}).")
+          PY
+          then
+            echo 'A newer catalogue is already on the remote; stale run safely skipped.'
+            exit 0
+          fi
+          echo 'Remote changed without newer catalogue data; rerun from latest main is required.'
+          exit 1
