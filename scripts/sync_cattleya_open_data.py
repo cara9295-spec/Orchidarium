@@ -19,7 +19,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote
+from urllib.parse import quote, urlsplit, urlunsplit
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -228,6 +228,23 @@ def commons_images(
 
 
 
+
+def inaturalist_large_url(url: str) -> str:
+    """Use a larger iNaturalist-hosted photo while preserving the original thumbnail.
+
+    Only rewrite the documented iNaturalist photo hosts and square image paths.
+    Other URLs are returned unchanged instead of guessing unsupported variants.
+    """
+    parsed = urlsplit(url)
+    if parsed.scheme != "https" or parsed.hostname not in {
+        "inaturalist-open-data.s3.amazonaws.com",
+        "static.inaturalist.org",
+    }:
+        return url
+    large_path = re.sub(r"/square\.(jpe?g|png)$", r"/large.\1", parsed.path, flags=re.I)
+    return urlunsplit(parsed._replace(path=large_path))
+
+
 def inaturalist_images(s: requests.Session, scientific_name: str, maximum: int = 1) -> list[dict[str, Any]]:
     """Find research-grade observations, accepting only photos with their own open licence.
 
@@ -262,7 +279,7 @@ def inaturalist_images(s: requests.Session, scientific_name: str, maximum: int =
                 {
                     "source": "iNaturalist",
                     "scientificName": scientific_name,
-                    "url": url,
+                    "url": inaturalist_large_url(url),
                     "thumbnailUrl": url,
                     "sourceUrl": observation.get("uri") or (
                         f"https://www.inaturalist.org/observations/{observation.get('id')}"
