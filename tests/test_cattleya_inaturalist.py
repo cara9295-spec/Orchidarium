@@ -35,6 +35,21 @@ class InaturalistPhotoTests(unittest.TestCase):
         self.assertEqual(request.call_args.args[1], sync.INATURALIST)
         self.assertEqual(request.call_args.args[2]["photo_license"], "cc0,cc-by,cc-by-sa")
 
+    def test_large_inaturalist_image_preserves_thumbnail(self):
+        square = "https://inaturalist-open-data.s3.amazonaws.com/photos/42/square.jpeg"
+        payload = {"results": [{
+            "id": 42,
+            "taxon": {"name": "Cattleya trianae", "rank": "species"},
+            "photos": [{"id": 42, "url": square, "license_code": "cc-by"}],
+            "quality_grade": "research",
+        }]}
+        with patch.object(sync, "get_json", return_value=payload):
+            result = sync.inaturalist_images(object(), "Cattleya trianae")
+        self.assertEqual(result[0]["url"], "https://inaturalist-open-data.s3.amazonaws.com/photos/42/large.jpeg")
+        self.assertEqual(result[0]["thumbnailUrl"], square)
+        self.assertEqual(sync.inaturalist_large_url("https://example.org/photos/42/square.jpeg"),
+                         "https://example.org/photos/42/square.jpeg")
+
     def test_no_photo_level_licence_means_no_image(self):
         payload = {"results": [{
             "id": 3, "taxon": {"name": "Cattleya trianae", "rank": "species"},
