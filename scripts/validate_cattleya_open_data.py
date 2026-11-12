@@ -28,6 +28,7 @@ urls = []
 embedded = Counter()
 indexed = Counter()
 unattributed = 0
+missing_required_credit = []
 for row in species:
     taxon = row.get("taxonomy", {})
     require(bool(taxon.get("canonicalName")), "Missing canonical species name")
@@ -40,8 +41,13 @@ for item in photos:
     licence = (item.get("licence") or "").upper()
     require(not re.search(r"\b(NC|ND|NONCOMMERCIAL|NO DERIVATIVES)\b", licence), f"Restricted licence: {url}")
     require(bool(re.search(r"CC\s*0\b|CC[- ]BY(?:[- ]SA)?\b|PUBLIC DOMAIN|\bPDM\b", licence)), f"Unrecognized licence: {url}")
-    if not (item.get("creator") or item.get("rightsHolder") or item.get("credit")):
+    has_credit = bool(item.get("creator") or item.get("rightsHolder") or item.get("credit"))
+    if not has_credit:
         unattributed += 1
+        # CC BY and CC BY-SA require attribution; public-domain and CC0
+        # entries are reported separately without treating credit as mandatory.
+        if re.search(r"CC[- ]BY(?:[- ]SA)?\b", licence):
+            missing_required_credit.append((item.get("scientificName"), url))
     urls.append(url)
     indexed[(key, url)] += 1
 require(len(urls) == len(set(urls)), "Duplicate image URLs")
@@ -53,4 +59,7 @@ inat_photos = sum(item.get("source") == "iNaturalist" for item in photos)
 print(f"Cattleya validation OK: {len(species)} species; {len(photos)} licensed media; "
       f"{covered_species} species with images; {len(species) - covered_species} without images; "
       f"{inat_photos} iNaturalist images; "
-      f"{unattributed} media records missing creator/credit (review required).")
+      f"{unattributed} media records missing creator/credit; "
+      f"{len(missing_required_credit)} CC BY/SA records missing required attribution.")
+for name, url in missing_required_credit:
+    print(f"WARNING: Attribution required but missing: {name}: {url}")
